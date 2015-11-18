@@ -1,11 +1,26 @@
 ---
 layout: page
-title: About
+title: About us
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Who we are
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+We're two professional software developers, Richard Batty and Michael Peyton Jones. We want to find out how to do as much good as possible with our software careers, and since there isn't much information already out there, we're going to create it.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## What we are doing
+
+Rather than try and discover everything ourselves, we're going to rely on existing experts and sources of information. We will:
+
+* Interview experts in ethically important fields such as international development and find out ways that software could help those fields
+* Interview experts in software fields to discover potentially beneficial technologies
+* Research software projects that have had a large positive impact on the world
+
+We'll write up all of our findings on our blog.
+
+## Our values
+
+* Evidence-based
+* Altruistic
+* Open-minded
+* High quality
