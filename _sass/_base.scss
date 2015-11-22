@@ -8,6 +8,10 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+p {
+  margin: $spacing-unit 0;
+}
+
 
 /**
  * Basic styling
@@ -38,7 +42,7 @@ h1 {
 font-size: 218%;
 font-weight: normal;
 line-height: 2 * $base-line-height;
-padding: $spacing-unit 0;
+margin: $spacing-unit 0;
 }
 
 h2 {
