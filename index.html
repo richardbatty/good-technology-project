@@ -2,19 +2,30 @@
 layout: default
 ---
 
-<div class="home">
+<div class="col-1-3">
+  &nbsp;
+</div>
+<div class="home col-2-3">
 
-  <h1>How can we do the most good with software?</h1>
+  <div class="title-block">
+    <h1>How can we do as much good as possible with software?</h1>
 
-  <p>
-    Software has a huge impact on the world and many engineers want to use that influence for good.
-  </p>
-  <p>
-    But there isn't much information out there on how to do this. We're going to try to find some answers and publish them here.
-  </p>
+    <p>
+      We don't know, but we want to find out. We'll publish what we find here, so we can all use the power of software for good.
+    </p>
+  </div>
 
-  <h2>Join our newsletter to get monthly updates on what we've found</h2>
 
-  {% include mailchimp.html %}
+
+  <div class="post-list">
+    {% for post in site.posts %}
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <h4>
+          {{ post.title }}
+        </h4>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} &#183; {{ post.author }} </span>
+      </a>
+    {% endfor %}
+  </div>
 
 </div>

@@ -9,12 +9,11 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    font-family: $body-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
@@ -32,9 +31,36 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 0;
 }
 
+h1 {
+font-size: 218%;
+font-weight: normal;
+line-height: 2 * $base-line-height;
+padding: $spacing-unit 0;
+}
+
+h2 {
+font-size: 164%;
+font-weight: normal;
+line-height: 1.5 * $base-line-height;
+
+}
+
+h3 {
+font-size: 145%;
+font-weight: normal;
+line-height: $base-line-height;
+
+}
+
+h4 {
+font-size: 118%;
+font-weight: normal;
+line-height: $base-line-height;
+
+}
 
 
 /**
@@ -80,7 +106,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    // font-weight: 300;
+    font-family: $body-font-family;
 }
 
 
@@ -89,16 +116,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
     text-decoration: none;
+    color: #333333;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: #333333;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $brand-color;
     }
 }
 
@@ -158,15 +184,11 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
     }
 }
 
