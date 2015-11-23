@@ -21,4 +21,7 @@ Take a look at our [introductory blog post](/2015/11/24/the-good-technology-proj
 
 ## Contact us
 
-Contact Richard Batty at rjlbatty@gmail.com
+Do contact us if you're interested in participating in the project, and especially if you'd be willing to give an interview about a project that you're involved with.
+
+- Richard Batty: rjlbatty@gmail.com
+- Michael Peyton Jones: michaelpj@gmail.com
