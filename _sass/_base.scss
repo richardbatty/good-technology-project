@@ -191,7 +191,7 @@ pre {
     margin-right: auto;
     margin-left: auto;
     @extend %clearfix;
-
+    padding: 0 $spacing-unit;
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
