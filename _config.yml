@@ -3,7 +3,7 @@ title: Good Technology Project
 description: > # this means to ignore newlines until "baseurl:"
   Research on how to do good with software
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://goodtechnologyproject.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
