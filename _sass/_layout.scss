@@ -137,6 +137,9 @@
     margin: $spacing-unit 0;
     list-style: none;
 
+    .post-list-title {
+      padding-left: $spacing-unit;
+    }
     .post-link {
         padding: $spacing-unit;
 
