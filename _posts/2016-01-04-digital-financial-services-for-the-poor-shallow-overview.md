@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Digital financial services for the poor shallow overview"
+title:  "Digital financial services for the poor: shallow overview"
 date:   2016-01-04 20:34:00
 author: Richard Batty
 categories:
