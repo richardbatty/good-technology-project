@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div>
+  <h1>Blog</h1>
+  <div class="post-list">
+    {% for post in site.posts %}
+      <a class="blog-page-post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <h3>
+          {{ post.title }}
+        </h3>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} &#183; {{ post.author }} </span>
+      </a>
+      <div class="post-exerpt">
+        {{ post.excerpt }}
+      </div>
+      <a class="continue-reading" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+    {% endfor %}
+  </div>
+</div>

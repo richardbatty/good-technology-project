@@ -7,11 +7,8 @@
     <nav class="site-nav col-2-3">
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <h3><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><h3>
-          {% endif %}
-        {% endfor %}
+        <h3><a class="page-link" href="/blog">Blog</a><h3>
+        <h3><a class="page-link" href="/about">About</a><h3>
       </div>
     </nav>
 

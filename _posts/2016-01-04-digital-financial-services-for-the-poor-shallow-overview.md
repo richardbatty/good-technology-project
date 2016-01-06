@@ -19,6 +19,7 @@ Digital banking and payment systems and then financial products targeted at the 
 ### Who else is working on it?
 
 Gates Foundation, World Bank, CGAP, several tech startups.
+<!--more-->
 
 ## Why did we look into this area?
 

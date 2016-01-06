@@ -28,7 +28,7 @@
     .page-link {
         line-height: $base-line-height;
         float: right;
-        margin-right: 20px;
+        margin-right: $spacing-unit;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
@@ -39,13 +39,9 @@
 }
 
 .title-block {
-  padding-left: $spacing-unit;
   padding-bottom: $spacing-unit;
 }
 
-.home {
-  margin-left: -$spacing-unit;
-}
 
 /**
  * Site footer
@@ -121,7 +117,7 @@
  * Page content
  */
 .page-content {
-    margin: $spacing-unit 0;
+    margin: 2 * $spacing-unit 0;
     .left-column {
       @include media-query($on-palm) {
         width: 0%;
@@ -137,20 +133,17 @@
     margin: $spacing-unit 0;
     list-style: none;
 
-    .post-list-title {
-      padding-left: $spacing-unit;
-    }
     .post-link {
-        padding: $spacing-unit;
-
-        &:hover {
-          background-color: $brand-color;
-          color: white;
-          a, span {
-            color: white;
-          }
-        }
+      padding: $spacing-unit 0;
     }
+}
+
+.blog-page-post-link {
+  display: block;
+  margin: $spacing-unit 0;
+  h3 {
+    margin-bottom: 0;
+  }
 }
 
 .post-meta {
@@ -163,6 +156,11 @@
     font-size: 24px;
 }
 
+.continue-reading {
+  display: block;
+  margin: $spacing-unit 0;
+  padding-bottom: $spacing-unit;
+}
 
 
 /**

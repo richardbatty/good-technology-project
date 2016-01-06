@@ -10,9 +10,7 @@ We attended the [ACM Dev](http://acmdev.org/) conference this year, which by
 good fortune was happening in London! We'll be putting up our notes
 shortly[^public], but this blog post will discuss some of the higher-level
 considerations that came up as a result of the conference.
-
-[^public]: We intend to make all of our notes and materials publically
-    available, even if they're provisional or later revised.
+<!--more-->
 
 ## A hammer seeking nails
 
@@ -43,7 +41,7 @@ there is no substitute for actually living in Africa to become acquainted with
 the needs of people who live there. Ken Banks, in particular, was even critical
 of directed surveys - people will tell you what they think you want to hear,
 and so in order to really find the problems you have to actually *observe* them
-yourself. 
+yourself.
 
 This is wise advice whenever you are starting a project - many successful
 businesses are based on the needs that their founders saw, personally. And so
@@ -53,7 +51,7 @@ But such knowledge may be transferrable. There are many people working in the
 field, and it's unlikely that they are acting upon all (or even the most
 pressing) of the problems they have observed. We should still expect to be able
 to generate fruitful communication (and collaboration) between those people and
-people who would be interested in implementing their suggestions. 
+people who would be interested in implementing their suggestions.
 
 Furthermore, by aggregating this information we can start to evaluate and
 prioritize possible courses of action. While being on the ground may be very
@@ -162,3 +160,5 @@ desirable.
 It's clear that there's a lot we can learn from the ICT4D sector. We're
 optimistic that we'll find some useful opportunities here, and we'll be writing
 more about this area, as well as the implications for our strategy going forwards.
+
+[^public]: We intend to make all of our notes and materials publically available, even if they're provisional or later revised.
