@@ -6,5 +6,15 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://goodtechnologyproject.org" # the base hostname & protocol for your site
 excerpt_separator: <!--more-->
 
+disqus_username: goodtechnologyproject
+
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      comments: true
