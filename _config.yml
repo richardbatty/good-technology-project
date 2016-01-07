@@ -6,6 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://goodtechnologyproject.org" # the base hostname & protocol for your site
 excerpt_separator: <!--more-->
 
+permalink: /blog/:year/:month/:day/:title
+
 disqus_username: goodtechnologyproject
 
 # Build settings
