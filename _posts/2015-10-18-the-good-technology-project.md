@@ -5,9 +5,11 @@ date:   2015-11-24 15:58:26
 author: Michael Peyton Jones
 categories:
 ---
+
 It's become a truism that technology is the most powerful lever that we have to change the world. As with any powerful lever, it's up to us to actually use that power to make the world a better place. Moreover, we should aim to do the [most](http://www.effectivealtruism.org) good we can, rather than just *some* good.
 
 Technology has great potential for good, both in and out of the for-profit sector. Widespread access to novel technologies can cheaply give whole populations access to capabilities that they previously did not have, or increase the efficiency of common processes.
+<!--more-->
 
 The effects can be quite significant indeed. M-pesa, a mobile banking enterprise formed by Vodafone and Safaricom, has not only been a wildly successful business, but has radically reduced corruption and waste in Kenya's banking system. M-pesa was only possible because of its use of mobile technology, and we should expect many more such opportunities as novel technologies spread.
 

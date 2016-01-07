@@ -13,10 +13,10 @@ layout: default
     </p>
   </div>
 
-
+  {% include mailchimp.html %}
 
   <div class="post-list">
-    <h3 class="post-list-title">Blog posts:</h3>
+    <h3 class="post-list-title">Blog posts</h3>
     {% for post in site.posts %}
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
         <h4>
@@ -27,5 +27,4 @@ layout: default
     {% endfor %}
   </div>
 
-   {% include mailchimp.html %}
 </div>
