@@ -10,7 +10,7 @@ We're two professional software developers, Richard Batty and Michael Peyton Jon
 
 ## What we are doing
 
-Take a look at our [introductory blog post](/2015/11/24/the-good-technology-project.html).
+Take a look at our [introductory blog post](/blog/2015/11/24/the-good-technology-project).
 
 ## Our values
 
