@@ -12,6 +12,9 @@
     a, a:visited {
       word-spacing: 9999999px;
     }
+    @include media-query($on-palm) {
+      margin-bottom: 0px;
+    }
 }
 
 .site-nav {
@@ -23,6 +26,9 @@
     }
     .trigger {
       padding: 40px 0;
+      @include media-query($on-palm) {
+        padding-top: 0px;
+      }
     }
 
     .page-link {
@@ -32,6 +38,9 @@
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
+        }
+        @include media-query($on-palm) {
+          float: left;
         }
     }
 
@@ -208,4 +217,14 @@
             font-size: 18px;
         }
     }
+}
+
+table {
+  margin-top: $spacing-unit;
+  margin-left: -10px;
+  border-spacing: 10px $spacing-unit;
+}
+
+thead {
+  text-align: left
 }
