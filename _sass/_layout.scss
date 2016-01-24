@@ -209,3 +209,13 @@
         }
     }
 }
+
+table {
+  margin-top: $spacing-unit;
+  margin-left: -10px;
+  border-spacing: 10px $spacing-unit;
+}
+
+thead {
+  text-align: left
+}
