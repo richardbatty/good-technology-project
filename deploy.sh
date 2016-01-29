@@ -15,7 +15,7 @@ jekyll build
 # should fail if checkout is not clean
 git checkout "$DEPLOYMENT_BRANCH"
 
-cp -ar _site/* . && rm -rf _site
+cp -a _site/* . && rm -rf _site
 
 touch .nojekyll
 
