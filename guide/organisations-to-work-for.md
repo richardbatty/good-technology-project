@@ -4,7 +4,7 @@ title: Organisations to consider working for
 permalink: /guide/organisations-to-work-for/
 ---
 
-These are organisations in cause areas that we think are important. We haven't evaluated them and so can't officially recommend them, but it might be worth exploring this list if you're looking to work somewhere with social impact.
+These are organisations in cause areas that we think are important. We haven't evaluated them and so can't officially recommend them, but it might be worth exploring this list if you're looking to work somewhere with social impact. There is also a useful [list of tech nonprofits](http://www.ffwd.org/tech-nonprofits/) on the website of tech nonprofit accelerator [Fast Forward](http://www.ffwd.org/).
 
 | Name        | Cause           | Description  |
 | ------------- | ------------- | ----- |
