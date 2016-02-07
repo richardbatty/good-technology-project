@@ -6,9 +6,65 @@
 </description>
     <link>http://goodtechnologyproject.org/</link>
     <atom:link href="http://goodtechnologyproject.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2016 22:17:39 +0000</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 22:17:39 +0000</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2016 10:34:28 +0000</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2016 10:34:28 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>LBRY and decentralised apps - an interview with Jeremy Kauffman</title>
+        <description>&lt;p&gt;&lt;em&gt;Jeremy Kauffman is the CEO of &lt;a href=&quot;http://lbry.io/&quot;&gt;LBRY&lt;/a&gt;, a decentralised content-publishing system. We talked to him because we want to know more about the potential of decentralised apps for doing good.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-you-doing&quot;&gt;What are you doing?&lt;/h2&gt;
+
+&lt;p&gt;We want to provide a simple search tool for movies, books, games, or any piece of content that can be published by anyone in the world. The big difference is that this network is completely decentralised - it’s powered by the computers of everyone in the network.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;whats-the-more-technical-explanation&quot;&gt;What’s the more technical explanation?&lt;/h2&gt;
+
+&lt;p&gt;The real insight of bitcoin isn’t that we can maintain account balances in a decentralised way. The big value is that there’s no one authority that has to be trusted but that you can reach still reach a consensus on &lt;em&gt;any&lt;/em&gt; state. LBRY lets us reach a consensus on what name should go to what piece of information. This is a bit like a registry of domain names except that it doesn’t of relying on a centralised name registry.&lt;/p&gt;
+
+&lt;p&gt;In LBRY people can claim a name like ‘wonderfullife’ and point it towards a piece of content and then when someone searches LBRY for it they will be able to access the content. When you register a name the name and the content it points to are broadcast out through the network and recorded on the LBRY blockchain.&lt;/p&gt;
+
+&lt;p&gt;Our system is both a unit of account and a system of storing names and metadata. When someone claims a name, they don’t own that name or have permanent control. They reserve the name using some credits. Whoever has committed the most number of credits controls the resolution of the name. So they control what title and content a name like ‘wonderfullife’ returns. They can also set a price for viewing that content.&lt;/p&gt;
+
+&lt;p&gt;One of our inspirations is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Coase_theorem&quot;&gt;Coase theorem&lt;/a&gt;. This says that assuming that the rules are clear for how property is controlled, and transaction costs are low, property will be held by the person who gets the most value out of it. We think a name holds the most value when it returns what people are looking for under that name. We also think people would far prefer to purchase content from the actual rights holder than from a pirate. Rights holders will have strong incentives to participate in the system and won’t be stuck in a bittorrent-like system where there’s nothing they can do to remove pirated content.&lt;/p&gt;
+
+&lt;p&gt;LBRY is not a good system to publish something on if it is illegal. In addition to the traditional legal remedies, people who don’t want the content on the LBRY network can take over the name to keep the content off the platform or to put the content on there themselves.  Say someone pays 5 credits to use the name ‘spiderman’ and has it return some Spider-Man movie that he doesn’t own and refuses to remove it. The owner, or the community, can pay 6 credits to take over the name ‘spiderman’ and either publish the movie there and set a price on it or just own the name to prevent anyone else from using it.&lt;/p&gt;
+
+&lt;p&gt;If the pirate and the content owner get in a bidding war for the name, there will be a price at which the content owner thinks it’s worth paying more but the pirate doesn’t. This is because the consumers will be willing to pay more to the content owner than to the pirate. The owner can either let it the piracy happen, or they can join in and profit more than they would if they let it happen. The economic incentive is to participate rather than not.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-is-this-important&quot;&gt;Why is this important?&lt;/h2&gt;
+
+&lt;p&gt;It is a more computationally efficient way to distribute static data like movies and books which currently take up about 50% of internet traffic. By having a distributed system, popular content will be available to download from nearby locations thus saving computer power and electricity that is currently spent moving static data across long distances.&lt;/p&gt;
+
+&lt;p&gt;My personal opinion is that there is another, bigger benefit. There are a lot of inefficiencies in how content and information is produced and shared today, and the incentives are set up to reward large media companies instead of creators. These media companies exist because they provide distribution but also because they leverage existing laws in a way that benefits neither the creators nor the consumers. In LBRY, the people who get squeezed are the middlemen, instead of the creators or consumers. The system at the moment inhibits us from making creative progress.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-values-are--you-trying-to-optimise-for&quot;&gt;What values are  you trying to optimise for?&lt;/h2&gt;
+
+&lt;p&gt;Speaking for myself, rather than the company, I’m motivated by the idea of human flourishing, pushing the boundaries of knowledge and of what we can accomplish as a species. I hope LBRY can make a contribution by reducing friction or making it cheaper to do that. I think working on LBRY is a chance to express and contribute towards these values.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-do-you-have-an-ethicist-on-your-staff&quot;&gt;Why do you have an ethicist on your staff?&lt;/h2&gt;
+
+&lt;p&gt;LBRY poses some difficult questions. At a certain point we’ll lose control of the system. What happens then if we release it and it doesn’t have the outcomes we expected? What are our obligations to prevent certain types of behaviour?&lt;/p&gt;
+
+&lt;h2 id=&quot;is-there-a-risk-that-lbry-could-facilitate-people-publishing-information-that-could-be-used-for-bad-purposes&quot;&gt;Is there a risk that LBRY could facilitate people publishing information that could be used for bad purposes?&lt;/h2&gt;
+
+&lt;p&gt;We’ve tried to think through the design and make it in a way that will hope will steer it in a positive direction but I’m aware that it is hard to predict what will happen. Bitcoin has had problems with illegal activity but hopefully that’s something that it will progress out of as it becomes more mainstream. LBRY could be a platform to publish dangerous information, but that is true of the internet as a whole and I don’t think it’s possible to prevent people from sharing electronic information.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-some-other-interesting-decentralised-app-projects&quot;&gt;What are some other interesting decentralised app projects?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.augur.net/&quot;&gt;Augur&lt;/a&gt; as well as &lt;a href=&quot;http://bitcoinhivemind.com/&quot;&gt;Hivemind&lt;/a&gt; - decentralised prediction markets. The nice thing about prediction markets is they incentivise people to be accurate and it would be good for humanity to have more accurate predictions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ethereum.org/&quot;&gt;Etherium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 07 Feb 2016 10:30:00 +0000</pubDate>
+        <link>http://goodtechnologyproject.org/blog/2016/02/07/lbry-and-decentralised-apps-an-interview-with-jeremy-kauffman</link>
+        <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/02/07/lbry-and-decentralised-apps-an-interview-with-jeremy-kauffman</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tech for effective charities - an interview with Ben Clifford from Good Code</title>
@@ -19,6 +75,8 @@
 &lt;h2 id=&quot;how-did-good-code-get-started-what-are-you-trying-to-do&quot;&gt;How did good code get started? What are you trying to do?&lt;/h2&gt;
 
 &lt;p&gt;I was interested in technology entrepreneurship and I wanted to do a lot of good. I thought a good potential customer for this would be poor people or charities that help them, especially as there is little incentive for other organisations to help them out. I didn’t know much about this area though, so I set up Good Code to explore what kinds of problems charities have that could be solved by tech. We approach charities that seem high impact (e.g. from &lt;a href=&quot;http://www.givewell.org/&quot;&gt;GiveWell&lt;/a&gt; recommendations) and then find out what sort of problems they have that could be solved with software. It’s been a good way to start conversations with charities because we’re offering something of use to them.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;h2 id=&quot;have-the-charities-youve-approached-wanted-the-help&quot;&gt;Have the charities you’ve approached wanted the help?&lt;/h2&gt;
 
