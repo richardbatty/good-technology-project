@@ -14,6 +14,8 @@ categories:
 
 I was interested in technology entrepreneurship and I wanted to do a lot of good. I thought a good potential customer for this would be poor people or charities that help them, especially as there is little incentive for other organisations to help them out. I didn’t know much about this area though, so I set up Good Code to explore what kinds of problems charities have that could be solved by tech. We approach charities that seem high impact (e.g. from [GiveWell](http://www.givewell.org/) recommendations) and then find out what sort of problems they have that could be solved with software. It’s been a good way to start conversations with charities because we’re offering something of use to them.
 
+<!--more-->
+
 ## Have the charities you’ve approached wanted the help?
 
 Some charities who I’ve cold emailed haven’t got back to me. But there have been some who have been enthusiastic about getting help. We’ve done the most work with [New Incentives](http://www.newincentives.org/), who have been [earmarked by GiveWell](http://www.givewell.org/international/charities/new-incentives) as having the potential to be recommended by them as a top charity in the future. They provide cash incentives to mothers who are at risk of transmitting HIV to their children to get health checks.
