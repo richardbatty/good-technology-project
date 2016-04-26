@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Persistently neglected causes"
-date:   2016-04-26 19:37:88
+date:   2016-04-26 19:37:00
 author: Michael Peyton Jones
 categories:
 ---
