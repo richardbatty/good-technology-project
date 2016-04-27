@@ -1,8 +1,14 @@
 #! /usr/bin/env bash
 
-set -e
+set -ex
 
 REMOTE=$1
+
+if [ -z "$REMOTE" ]
+then
+  echo "Must pass a remote to deploy to"
+  exit
+fi
 
 DEPLOYMENT_BRANCH="gh-pages"
 
