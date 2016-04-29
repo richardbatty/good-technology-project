@@ -71,10 +71,10 @@
     margin-left: 0;
 }
 
-.footer-col-wrapper {
+.rss-subscribe {
     font-size: 15px;
     color: $grey-color;
-    @extend %clearfix;
+    margin-top: 5px;
 }
 
 .footer-col {
@@ -227,4 +227,15 @@ table {
 
 thead {
   text-align: left
+}
+
+.fb_iframe_widget {
+  top: -7px;
+  margin-right: 5px;
+}
+
+.share-buttons {
+  padding: (($spacing-unit / 2) + 7px) 0px ($spacing-unit / 2) 0;
+  border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
 }

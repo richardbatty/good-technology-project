@@ -11,7 +11,7 @@ layout: default
       <div class="post-content">
         {{ content | abbr }}
       </div>
-
+      {% include social/post_share_buttons.html %}
       <footer>
         {% if site.disqus_username and page.comments %}
         {% include disqus.html %}

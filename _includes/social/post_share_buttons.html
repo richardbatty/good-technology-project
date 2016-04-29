@@ -1,0 +1,5 @@
+<div class="share-buttons">
+  {% assign share_url = site.url | append: page.url %}
+  {% include social/facebook_like.html url=share_url %}
+  {% include social/twitter_tweet.html url=share_url %}
+</div>
