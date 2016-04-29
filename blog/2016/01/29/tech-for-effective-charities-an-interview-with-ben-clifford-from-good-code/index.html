@@ -29,7 +29,6 @@
 
 
   <body class="grid">
-
     <header class="site-header">
 
   <div class="wrapper grid">
@@ -48,6 +47,16 @@
   </div>
 
 </header>
+
+    <!-- From https://developers.facebook.com/docs/plugins/like-button#configurator -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
     <div class="page-content">
@@ -118,6 +127,14 @@
 <p>It’s clear what the effective charities are from GiveWell’s list of giving opportunities. From that, you infer that if we ring them up and they say there’s a problem and we can solve that problem, then it seems like we have had a good amount of impact. But there are maybe other organisations that are high impact and tech constrained that aren’t on GiveWell’s list. So it would be good to have help finding these opportunities.</p>
 
       </div>
+      <div class="share-buttons">
+  
+  <div class="fb-like" data-href=http://goodtechnologyproject.org/blog/2016/01/29/tech-for-effective-charities-an-interview-with-ben-clifford-from-good-code data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+  <a href="https://twitter.com/share" class="twitter-share-button" data-url=http://goodtechnologyproject.org/blog/2016/01/29/tech-for-effective-charities-an-interview-with-ben-clifford-from-good-code>Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+</div>
 
       <footer>
         
@@ -147,10 +164,12 @@
 
   <div class="wrapper">
 
+    <div class="fb-like" data-href=https://facebook.com/goodtechnologyproject data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
-    <div class="footer-col-wrapper">
-      Subscribe <strong><a href="/feed.xml">via RSS</a></strong>
-    </div>
+    <a href="https://twitter.com/goodtechproject" class="twitter-follow-button" data-show-count="false">Follow @goodtechproject</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    <div class="rss-subscribe">Subscribe <strong><a href="/feed.xml">via RSS</a></strong></div>
 
   </div>
 

@@ -150,7 +150,7 @@ pre {
 /**
  * Clearfix
  */
-.wrapper:after, .footer-col-wrapper:after {
+.wrapper:after {
   content: "";
   display: table;
   clear: both; }
@@ -250,9 +250,10 @@ pre {
   list-style: none;
   margin-left: 0; }
 
-.footer-col-wrapper {
+.rss-subscribe {
   font-size: 15px;
-  color: #828282; }
+  color: #828282;
+  margin-top: 5px; }
 
 .footer-col {
   float: left;
@@ -364,6 +365,15 @@ table {
 
 thead {
   text-align: left; }
+
+.fb_iframe_widget {
+  top: -7px;
+  margin-right: 5px; }
+
+.share-buttons {
+  padding: 19.5px 0px 12.5px 0;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8; }
 
 .page-content #mc_embed_signup {
   margin: 25px 0; }
