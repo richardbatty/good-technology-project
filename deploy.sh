@@ -7,7 +7,7 @@ REMOTE=$1
 if [ -z "$REMOTE" ]
 then
   echo "Must pass a remote to deploy to"
-  exit
+  exit 1
 fi
 
 DEPLOYMENT_BRANCH="gh-pages"
