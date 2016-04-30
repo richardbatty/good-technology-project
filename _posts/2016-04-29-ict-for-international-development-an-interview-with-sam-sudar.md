@@ -13,6 +13,8 @@ I started in the tech for development group working on [Open Data Kit](https://o
 
 Last summer I interned at Google working in the Chrome for emerging regions group.
 
+<!--more-->
+
 A couple of weeks ago I was in Peru working with researchers who have a medical boat which goes up some of the Amazonian rivers to provide medical care for remote communities. I built an app that allows community agents in these remote communities to submit Open Data Kit forms via SMS. It turned out that they preferred WhatsApp to SMS and were talking directly to the doctors using it. That was working much better and the users were buying into it a lot more. So I was down there assessing cell signal and then this week I built a new version of the app that uses WhatsApp rather than SMS.
 
 **What do you think of the argument that it might be higher impact to use older technologies because remaining opportunities involving old technology may not get as much attention because they’re unfashionable?**

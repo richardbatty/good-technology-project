@@ -17,11 +17,13 @@ But not all neglectedness is made equal. Some causes are only neglected
 much attention now, but it's clear that that will change in the relatively near
 future. An example is mobile services for the poor. This area has been
 neglected for a long time because the infrastructure and the handset penetration
-were not there, but that that is [changing]( http://guardian.ng/technology/africas-mobile-phone-penetration-now-67/). 
+were not there, but that that is [changing]( http://guardian.ng/technology/africas-mobile-phone-penetration-now-67/).
 Hence, interest is picking up, and
 we should expect to see an increasing amount of resources directed there over
 the coming years. So it's likely that many potential projects in this
 area will happen anyway in the next couple of decades.
+
+<!--more-->
 
 If a cause is only transiently neglected then the impact of paying attention to
 it is lesser. If someone else is going to do the work eventually,
@@ -59,7 +61,7 @@ problems, such as:
   Musk had reason to believe that you could.[^secrets]
 - The benefits of the project are systematically undervalued (e.g. because they
   accrue in the far future).
-  
+
 [^secrets]: Peter Thiel in 'Zero to One' refers to these as "secrets": things
     that are hard to know, and not widely believed, but are nonetheless true.
     If you have a secret, it's likely that you have access to some unusual
@@ -78,11 +80,11 @@ proof of concept, it is only a matter of time before it is implemented.[^hyperlo
 [^investment]: Of course, by the time you've demonstrated your principle, you
     might have enough of a head start that it's worth pushing on anyway! And it
     may be a long road to convincing others of unusual beliefs.
-    
+
 [^hyperloop]: Or, for a more industrial example, Elon Musk only produced a
     white paper about his "Hyperloop" idea, and now there are several teams
     working on an implementation.
-    
+
 So the best kind of project to actually work on, all other things being equal, is one which is both
 persistently neglected and which cannot be easily made only transiently
 neglected. This might be because the features that make it possible for you to
