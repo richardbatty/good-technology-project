@@ -375,6 +375,12 @@ thead {
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8; }
 
+hr {
+  height: 1px;
+  border: none;
+  background-color: #e8e8e8;
+  margin: 25px 0; }
+
 .page-content #mc_embed_signup {
   margin: 25px 0; }
   .page-content #mc_embed_signup h3 {

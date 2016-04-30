@@ -6,9 +6,56 @@
 </description>
     <link>http://goodtechnologyproject.org/</link>
     <atom:link href="http://goodtechnologyproject.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Apr 2016 12:05:52 +0100</pubDate>
-    <lastBuildDate>Sat, 30 Apr 2016 12:05:52 +0100</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sat, 30 Apr 2016 14:16:52 +0100</pubDate>
+    <lastBuildDate>Sat, 30 Apr 2016 14:16:52 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Data science for good: an interview with Lauren Haynes of the Center for Data Science and Public Policy</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/lauren_haynes.jpg&quot; alt=&quot;Lauren Haynes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lauren Haynes is a senior project manager at the Center for Data Science and Public Policy (&lt;a href=&quot;http://dsapp.org/&quot;&gt;DSAPP&lt;/a&gt;) at the University of Chicago. We talked to her to know more about the potential of data science for doing good.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Can you tell us about your journey so far in applying technology for good?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a degree in general engineering from UIUC with a minor in computer science and human-computer interaction. While in college, I was quite involved with &lt;a href=&quot;http://dsapp.org/&quot;&gt;Alternative Spring Break&lt;/a&gt; and went on seven service trips. I then went on to work with Accenture Technology Labs where I was involved with cutting edge research projects. I always had an inclination towards social good - so when one of my colleagues invited me to join &lt;a href=&quot;http://www.theounce.org/&quot;&gt;Ounce of Prevention Fund&lt;/a&gt;, which does a lot of work in the area of early childhood education, I gladly accepted. As the IT Manager there, I revamped the IT infrastructure of the organization and also catered to its technology needs. At the Ounce, I also got a chance to gain an understanding of the internal dynamics of the working of an NGO. I then went to work as the product manager at &lt;a href=&quot;http://www.giveforward.com/&quot;&gt;GiveForward&lt;/a&gt; - a crowdfunding platform for compassionate giving. This role was unique and enjoyable since it had both a high technology component as well as a high social good component. Since last May, I have been working with the Data Science for Social Good Fellowship (&lt;a href=&quot;http://dssg.uchicago.edu/&quot;&gt;DSSG&lt;/a&gt;) wherein we get 42 undergrad and graduate students each year to do data science projects for nonprofits and government agencies. The projects topics run the gamut from education, healthcare, environment, public safety, criminal justice… you name it. Some examples of problems we tackle in our program are prediction questions e.g. which participants are likely to drop out of a program; another example would be resource allocation questions e.g. we can inspect only a 100 buildings out of a 1000 - which ones are most likely to be noncompliant. I am also serving as the board vice-chair for &lt;a href=&quot;http://alternativebreaks.org/&quot;&gt;Break Away&lt;/a&gt; wherein I provide guidance on using technology to efficiently manage their operations.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;What is the awareness level among nonprofits regarding what technology and data science can do for them?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of nonprofits I have interacted with do not have a deep understanding of what technology and data science can do for them. Through our interaction with nonprofits, we have been educating them on this aspect and what it would require of them. We have also been working on a &lt;a href=&quot;http://dsapp.org/learning/datamaturity/&quot;&gt;data maturity framework&lt;/a&gt; that talks about the different stages an organization might be in, from an organization, technology, and data perspective.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Are there any high impact cause areas that are particularly suited to apply data science?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Application of data science to social good problems is a relatively new concept and this is true for most cause areas. The sector is not incentivised to bring talented data scientists in, and even in cases where a nonprofit is interested and has the resources to hire a data scientist, it takes a special kind of person to take up that assignment, since this person might be the only data science hire and would have to run the show alone.&lt;/p&gt;
+
+&lt;p&gt;In terms of types of problems, I think early identification and early prediction problems, and resource allocation problems are particularly suited to applying data science. While on the topic of impact, it is vital that data scientists work closely with the community partners, spend time getting to know the organization and their pain points, and build solutions that are actionable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Are there any specific product or service gaps that a tech/data science startup could serve?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you individually talk to nonprofits, a lot of opportunities come up. One finds that many of the tools and processes used by nonprofits are primitive and not very user-friendly. The solutions needed are actually quite simple, provided you have the industry context. One example would be using marketing analytics for fundraising and advocacy, another would be automating day-to-day processes, and there are many other simple tools that could really help nonprofits.&lt;/p&gt;
+
+&lt;p&gt;In terms of data science, I think a consultation based model is more likely to work: The Center for Data Science and Public Policy (&lt;a href=&quot;http://dsapp.org/&quot;&gt;DSAPP&lt;/a&gt;) and &lt;a href=&quot;http://theimpactlab.co/&quot;&gt;The Impact Lab&lt;/a&gt; are two examples of such organizations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Are there any skills that are particularly important for someone wanting to work in the tech for good space?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The importance of communication and listening cannot be overstated. It is really important to first listen to and understand the problems that the organization you are working with faces, and then clearly communicate what you propose to do and why. You need to meet people where they are at and have this conversation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What you your outlook for the future of this field?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Application of data science for social good is a relatively new field, and looking into the future one can expect lots of opportunities. A challenge for nonprofits and the government would be knowing what’s possible with technology and data science, arranging the resources to hire talented individuals, and efficiently managing these individuals and projects.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The Center for Data Science and Public Policy is looking to hire a software / data engineer. Details of the opening can be found &lt;a href=&quot;http://dsapp.org/jobs-software-engineer/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Apr 2016 13:00:00 +0100</pubDate>
+        <link>http://goodtechnologyproject.org/blog/2016/04/30/data-science-for-good-an-interview-with-lauren-haynes-of-the-center-for-data-science-and-public-policy</link>
+        <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/04/30/data-science-for-good-an-interview-with-lauren-haynes-of-the-center-for-data-science-and-public-policy</guid>
+        
+        
+      </item>
     
       <item>
         <title>ICT for international development: an interview with Sam Sudar</title>
@@ -19,6 +66,8 @@
 &lt;p&gt;I started in the tech for development group working on &lt;a href=&quot;https://opendatakit.org/&quot;&gt;Open Data Kit&lt;/a&gt; - a platform to help researchers and NGOs collect and manage data. The first version, which is widely used, is a way to use Excel to specify a form in native Android that looks a bit like a web form. This makes it easy to create a form and collect data from it. It’s used in over 100 countries and the Red Cross used it extensively after the Haiti earthquake. I was involved in &lt;a href=&quot;https://opendatakit.org/use/2_0_tools/&quot;&gt;Open Data Kit 2.0&lt;/a&gt; which has the same functionality but in JavaScript and HTML to make more it more customizable. I’m not as involved in that now, but the paper on &lt;a href=&quot;https://samsudar.com/static/sudar_2015_duces.pdf&quot;&gt;simplifying mobile deployments in low resource settings&lt;/a&gt; that I presented at the &lt;a href=&quot;http://acmdev.org/&quot;&gt;London ICTD conference&lt;/a&gt; was motivated by that work. It came out of dealing with researchers who I often felt tried to overcomplicate things.&lt;/p&gt;
 
 &lt;p&gt;Last summer I interned at Google working in the Chrome for emerging regions group.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;A couple of weeks ago I was in Peru working with researchers who have a medical boat which goes up some of the Amazonian rivers to provide medical care for remote communities. I built an app that allows community agents in these remote communities to submit Open Data Kit forms via SMS. It turned out that they preferred WhatsApp to SMS and were talking directly to the doctors using it. That was working much better and the users were buying into it a lot more. So I was down there assessing cell signal and then this week I built a new version of the app that uses WhatsApp rather than SMS.&lt;/p&gt;
 
@@ -94,11 +143,13 @@ should expect there to be especially cost-effective projects still available.&lt
 much attention now, but it’s clear that that will change in the relatively near
 future. An example is mobile services for the poor. This area has been
 neglected for a long time because the infrastructure and the handset penetration
-were not there, but that that is &lt;a href=&quot;http://guardian.ng/technology/africas-mobile-phone-penetration-now-67/&quot;&gt;changing&lt;/a&gt;. 
+were not there, but that that is &lt;a href=&quot;http://guardian.ng/technology/africas-mobile-phone-penetration-now-67/&quot;&gt;changing&lt;/a&gt;.
 Hence, interest is picking up, and
 we should expect to see an increasing amount of resources directed there over
 the coming years. So it’s likely that many potential projects in this
 area will happen anyway in the next couple of decades.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;If a cause is only transiently neglected then the impact of paying attention to
 it is lesser. If someone else is going to do the work eventually,
@@ -639,7 +690,7 @@ talking to people who already know it.&lt;/p&gt;
 
 &lt;h2 id=&quot;sustainability-through-business&quot;&gt;Sustainability through business&lt;/h2&gt;
 
-&lt;p&gt;The &lt;abbr title=&quot;ICT for Development&quot;&gt;ICT4D&lt;/abbr&gt; community is very concerned with sustainability. Many of their
+&lt;p&gt;The ICT4D community is very concerned with sustainability. Many of their
 projects run with limited academic funding, and so amount to pilot projects that can
 fizzle out after their term is complete. This is criticized as a
 failure of sustainability - if the project only runs for a short time, then it
@@ -705,7 +756,7 @@ desirable.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;It’s clear that there’s a lot we can learn from the &lt;abbr title=&quot;ICT for Development&quot;&gt;ICT4D&lt;/abbr&gt; sector. We’re
+&lt;p&gt;It’s clear that there’s a lot we can learn from the ICT4D sector. We’re
 optimistic that we’ll find some useful opportunities here, and we’ll be writing
 more about this area, as well as the implications for our strategy going forwards.&lt;/p&gt;
 
