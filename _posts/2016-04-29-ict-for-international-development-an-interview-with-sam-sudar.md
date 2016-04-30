@@ -7,7 +7,7 @@ categories:
 ---
 **Tell us a bit about your how you got into ICT for Development (ICTD).**
 
-[I’m PhD student](https://samsudar.com/) at the University of Washington in Seattle. I’m doing my thesis on leveraging web tech on poorly connected regions and this is the theme throughout everything I do.
+[I’m a PhD student](https://samsudar.com/) at the University of Washington in Seattle. I’m doing my thesis on leveraging web tech on poorly connected regions and this is the theme throughout everything I do.
 
 I started in the tech for development group working on [Open Data Kit](https://opendatakit.org/) - a platform to help researchers and NGOs collect and manage data. The first version, which is widely used, is a way to use Excel to specify a form in native Android that looks a bit like a web form. This makes it easy to create a form and collect data from it. It’s used in over 100 countries and the Red Cross used it extensively after the Haiti earthquake. I was involved in [Open Data Kit 2.0](https://opendatakit.org/use/2_0_tools/) which has the same functionality but in JavaScript and HTML to make more it more customizable. I’m not as involved in that now, but the paper on [simplifying mobile deployments in low resource settings](https://samsudar.com/static/sudar_2015_duces.pdf) that I presented at the [London ICTD conference](http://acmdev.org/) was motivated by that work. It came out of dealing with researchers who I often felt tried to overcomplicate things.
 
