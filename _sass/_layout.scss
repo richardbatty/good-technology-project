@@ -239,3 +239,10 @@ thead {
   border-top: 1px solid $grey-color-light;
   border-bottom: 1px solid $grey-color-light;
 }
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: $grey-color-light;
+  margin: $spacing-unit 0;
+}
