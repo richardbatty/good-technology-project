@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ICT in social enterprise: Interview with Lucie Klarsfeld from Hystra"
+title:  "ICT in social enterprise: an interview with Lucie Klarsfeld from Hystra"
 date:   2016-05-21 12:00:00
 author: "Michael Peyton Jones"
 categories:

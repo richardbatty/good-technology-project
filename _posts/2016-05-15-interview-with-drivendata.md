@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interview with DrivenData"
+title: "Data science competitions for good: an interview with Isaac Slaviitt from DrivenData"
 date:   2016-05-15 20:20:00
 author: Mario Pinto
 categories:
