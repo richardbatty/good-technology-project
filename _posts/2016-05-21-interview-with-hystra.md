@@ -8,7 +8,7 @@ categories:
 
 ![Lucie Klarsfeld](/assets/images/lucie_klarsfeld.png)
 
-*Lucie Klarsfeld is a Senior Product Manager at Hystra, a strategy consultancy
+*Lucie Klarsfeld is a Senior Project Manager at Hystra, a strategy consultancy
 focussed on social enterprises targeting the Base of the Pyramid. We talked to her
 to learn more about the social enterprise sector as a whole, and pariticularly the
 role of technology.*
@@ -17,7 +17,7 @@ role of technology.*
 
 We’re a strategy consultancy company that specialises in social business and
 so-called Base of the Pyramid (BoP) markets. By a “social business” we include
-anyone that uses market mechanisms to address social issues. 
+anyone that uses market mechanisms to address social issues.
 
 Historically, this focus comes from our founder, Olivier Kayser, who previously
 worked for both McKinsey and Ashoka. At the end of his time there, he could see
@@ -29,7 +29,7 @@ to adapt and replicate solutions that work across countries. So the aim was to
 try and combine these two worlds, and in particular to figure out how large
 corporations could help social enterprises to scale.
 
-The first report that we did was on 
+The first report that we did was on
 [access to energy for the poorest](http://hystra.com/energy). We’ve
 kept a pretty similar methodology since then, which is to look at what worked.
 We try to go in with no preconceptions, and look at what business models there
@@ -65,7 +65,7 @@ in the sector!
 
 **You publish all your research publically, on your website?**
 
-Yes, that’s a condition for the 
+Yes, that’s a condition for the
 [research](http://hystra.com/open-source-reports/) we do. It’s also why the entrepreneurs
 that we study agree to participate, and to open their books to us. Publishing
 it to the world gives them publicity, and they have full control over the
@@ -80,7 +80,7 @@ progress.
 We have a set of criteria. We want a project that really solves the issue,
 which isn’t to be taken for granted! The project also has to have a certain
 scale. For example, when producing the agriculture report on [Smallholder
-Farmers and Businesses](http://hystra.com/smallholder), 
+Farmers and Businesses](http://hystra.com/smallholder),
 almost all the projects we picked had over 10,000
 customers. If it’s below that, we consider that it’s too new a project for us
 to be able to draw many conclusions on what works. The project also has to be
@@ -98,7 +98,7 @@ also do our own research, and in total we usually find between 150 and 300
 projects per sector.
 
 We’re also looking for patterns of similar projects that emerge, so we can pick
-representative examples as case studies. In the case of 
+representative examples as case studies. In the case of
 [ICT](http://hystra.com/leveraging-ict) it looked like the
 business models were either one-way information passing, two-way information
 passing, or crowd-sourcing/crowd-funding solutions. In each of these clusters
@@ -175,4 +175,3 @@ for farmers, or receiving quality medical information in remote communities).
 So looking at it from a general perspective, you can look for places where
 there are information asymmetries, or where there isn’t communication and there
 should be. Perhaps you can find some opportunities there.
-
