@@ -6,15 +6,137 @@
 </description>
     <link>http://goodtechnologyproject.org/</link>
     <atom:link href="http://goodtechnologyproject.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 May 2016 21:22:33 +0100</pubDate>
-    <lastBuildDate>Wed, 25 May 2016 21:22:33 +0100</lastBuildDate>
-    <generator>Jekyll v3.1.3</generator>
+    <pubDate>Mon, 30 May 2016 17:41:10 +0100</pubDate>
+    <lastBuildDate>Mon, 30 May 2016 17:41:10 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Tech consultancy for non-profits: an interview with EyeSeeTea</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/EyeSeeTea-logo.png&quot; alt=&quot;EyeSeeTea&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Adrian Quintana Pérez, José García Muñoz, and Ignacio Foche Pérez form
+&lt;a href=&quot;www.eyeseetea.com&quot;&gt;EyeSeeTea&lt;/a&gt;, a software consultancy focussed on serving the non-profit sector. We
+talked to them about how non-profits use software, and whether their approach to
+developing it is changing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What made you start EyeSeeTea?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The three of us were studying together on a Masters course in telecommunication
+for developing countries. Afterwards, we talked to see if we could do some work
+together, maybe publish something. Then a year ago we decided to start the
+company. That happened in quite an easy way - we found a client who needed us.&lt;/p&gt;
+
+&lt;p&gt;There are a lot of people trying to do telecommunications work in
+developing countries, but they are following a research approach. There aren’t
+many people working as professional software developers in this area. So we’re
+doing quite well - for a startup!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is there a lot of demand for what you have to offer?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are lots of people who could do what we do, but they need to get paid!
+There are plenty of skilled people, and people who know what’s needed in the
+field, and people who have access to money. But there aren’t often
+people who have all three, and that’s where we fit, in the junction of those
+worlds.&lt;/p&gt;
+
+&lt;p&gt;Small nonprofits don’t usually hire people like us. They are more likely to have one computer
+specialist who does everything. Bigger nonprofits are more likely to have the money to
+hire a company. Often we take public contracts to do work for a government,
+university, or large nonprofit. There is quite a bit of work in the research
+sector for implementation work.&lt;/p&gt;
+
+&lt;p&gt;Big nonprofits, on the other hand, are more and more hiring internal people to
+do this kind of job. It’s a new thing for them, they are not yet used to hiring
+software developers. They often think it should be a volunteer role.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So why do they hire you instead of their own developers?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the moment, our clients know us and we have a close relationship with them.
+We tend to know clients in advance. It will be a key challenge to go beyond
+people we know. Having a few contracts with well known nonprofits will help
+build our reputation and make it easier to get more clients.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is there room for more organizations like yours?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The space is increasing in size, it’s growing every year. Technology is becoming
+more important and people are starting to understand that sometimes you need to
+hire a professional. There is definitely a gap, but it’s not huge. There are
+only three of us, and we’re not even working full time yet.&lt;/p&gt;
+
+&lt;p&gt;Until this year, the usual way we’ve found to start a development project wasn’t
+to focus on technology first. NGOs in the past were not used to hiring a tech
+company. They might just hire one person or not think it’s important.&lt;/p&gt;
+
+&lt;p&gt;For software, nonprofits used to think that they could get a couple of
+volunteers for free. But now they are beginning to understand that if you want
+to meet a deadline and get a quality product then you need to pay.&lt;/p&gt;
+
+&lt;p&gt;All our work is &lt;a href=&quot;https://github.com/EyeSeeTea&quot;&gt;open source&lt;/a&gt;, but there is a difference between open
+source and free of charge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Are there other organizations doing this, like you are? What would happen if you didn’t do it?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes we create the need at the nonprofit, by showing them what they could
+do with our help. In other cases there is competition for a contract. We tender
+a bid, and they do the price comparison. For a university that has money for a
+project, there will usually be competition between projects as well.&lt;/p&gt;
+
+&lt;p&gt;Once you know the company - maybe you’ve done a small project for them already - 
+you have a better chance. But you have to get a foot in the door.&lt;/p&gt;
+
+&lt;p&gt;That means it’s very important to have contacts in the field. All of us have
+worked in this field as volunteers before. I think to access this kind of market
+you really have to start as a volunteer, so that you know the people and the needs. If you
+can find the need, and the people, and the budget, then maybe you can start
+something, but that’s not easy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What skillset do you wish you had? What skills are needed by your customers?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the moment we say we can do anything, because we are just starting!
+Everything is changing, new technologies all the time, so you have to be
+flexible.&lt;/p&gt;
+
+&lt;p&gt;Data mining is everywhere, analysing metadata etc. Big data is important, lots
+of organizations simply have a huge amount of data.&lt;/p&gt;
+
+&lt;p&gt;At the ACM Dev conference there were a lot of presentations about data analysis.
+That is a big trend in this world. Organizations and donors want to know what is
+happening with funds, how to improve efficiency, etc. There is a gap in
+data science for this field. Not many universities work in this kind of analysis
+in the developing world.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Did you consider working directly for a nonprofit?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ignacio used to work for one, a small NGO, working in Peru and Colombia. And he
+was a volunteer in a bigger one. But this field depends heavily on the economy.
+In Spain, for example, all the budget for development was cut suddenly. It can
+be very unstable.&lt;/p&gt;
+
+&lt;p&gt;Adrian came from the research world. His involvement in development was through
+volunteering in his free time. When he got hired by UCL he sent his CV to a
+couple of places. But it’s difficult to get hired by a nonprofit. There are a
+lot of good people applying to few positions. Nonprofits could hire more people
+if they would pay for it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What kind of work have you ended up doing so far?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ve done a variety of things: network infrastructure, mobile apps, web,
+technological audits. All of our code is open-source, so you can see it on our
+website. It is nice that we’ve been able to see many different aspects of
+telecommunications. We’d like to keep doing that!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 May 2016 13:00:00 +0100</pubDate>
+        <link>http://goodtechnologyproject.org/blog/2016/05/30/interview-with-eyeseetea</link>
+        <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/05/30/interview-with-eyeseetea</guid>
+        
+        
+      </item>
     
       <item>
         <title>ICT in social enterprise: an interview with Lucie Klarsfeld from Hystra</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/lucie_klarsfeld.png&quot; alt=&quot;Lucie Klarsfeld&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Lucie Klarsfeld is a Senior Project Manager at Hystra, a strategy consultancy
+&lt;p&gt;&lt;em&gt;Lucie Klarsfeld is a Senior Product Manager at Hystra, a strategy consultancy
 focussed on social enterprises targeting the Base of the Pyramid. We talked to her
 to learn more about the social enterprise sector as a whole, and pariticularly the
 role of technology.&lt;/em&gt;&lt;/p&gt;
@@ -35,7 +157,7 @@ to adapt and replicate solutions that work across countries. So the aim was to
 try and combine these two worlds, and in particular to figure out how large
 corporations could help social enterprises to scale.&lt;/p&gt;
 
-&lt;p&gt;The first report that we did was on
+&lt;p&gt;The first report that we did was on 
 &lt;a href=&quot;http://hystra.com/energy&quot;&gt;access to energy for the poorest&lt;/a&gt;. We’ve
 kept a pretty similar methodology since then, which is to look at what worked.
 We try to go in with no preconceptions, and look at what business models there
@@ -71,7 +193,7 @@ in the sector!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;You publish all your research publically, on your website?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Yes, that’s a condition for the
+&lt;p&gt;Yes, that’s a condition for the 
 &lt;a href=&quot;http://hystra.com/open-source-reports/&quot;&gt;research&lt;/a&gt; we do. It’s also why the entrepreneurs
 that we study agree to participate, and to open their books to us. Publishing
 it to the world gives them publicity, and they have full control over the
@@ -86,7 +208,7 @@ progress.&lt;/p&gt;
 &lt;p&gt;We have a set of criteria. We want a project that really solves the issue,
 which isn’t to be taken for granted! The project also has to have a certain
 scale. For example, when producing the agriculture report on &lt;a href=&quot;http://hystra.com/smallholder&quot;&gt;Smallholder
-Farmers and Businesses&lt;/a&gt;,
+Farmers and Businesses&lt;/a&gt;, 
 almost all the projects we picked had over 10,000
 customers. If it’s below that, we consider that it’s too new a project for us
 to be able to draw many conclusions on what works. The project also has to be
@@ -104,7 +226,7 @@ also do our own research, and in total we usually find between 150 and 300
 projects per sector.&lt;/p&gt;
 
 &lt;p&gt;We’re also looking for patterns of similar projects that emerge, so we can pick
-representative examples as case studies. In the case of
+representative examples as case studies. In the case of 
 &lt;a href=&quot;http://hystra.com/leveraging-ict&quot;&gt;ICT&lt;/a&gt; it looked like the
 business models were either one-way information passing, two-way information
 passing, or crowd-sourcing/crowd-funding solutions. In each of these clusters
@@ -181,6 +303,7 @@ for farmers, or receiving quality medical information in remote communities).&lt
 &lt;p&gt;So looking at it from a general perspective, you can look for places where
 there are information asymmetries, or where there isn’t communication and there
 should be. Perhaps you can find some opportunities there.&lt;/p&gt;
+
 </description>
         <pubDate>Sat, 21 May 2016 13:00:00 +0100</pubDate>
         <link>http://goodtechnologyproject.org/blog/2016/05/21/interview-with-hystra</link>
@@ -733,115 +856,6 @@ has a fistful of financial relationships on the go.
         <pubDate>Tue, 05 Jan 2016 20:30:00 +0000</pubDate>
         <link>http://goodtechnologyproject.org/blog/2016/01/05/what-can-a-technologist-do-about-climate-change</link>
         <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/01/05/what-can-a-technologist-do-about-climate-change</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Digital financial services for the poor: shallow overview</title>
-        <description>&lt;h2 id=&quot;in-a-nutshell&quot;&gt;In a nutshell&lt;/h2&gt;
-
-&lt;h3 id=&quot;what-is-the-problem&quot;&gt;What is the problem?&lt;/h3&gt;
-
-&lt;p&gt;The poorest people in the world (those on around $2 a day or less) mainly use cash. This is costly for them to handle and it’s costly for institutions to handle, meaning that they have less access to ways of handling shocks, exploiting opportunities, and managing risk.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-are-possible-interventions&quot;&gt;What are possible interventions?&lt;/h3&gt;
-
-&lt;p&gt;Digital banking and payment systems and then financial products targeted at the poor built on those systems.&lt;/p&gt;
-
-&lt;h3 id=&quot;who-else-is-working-on-it&quot;&gt;Who else is working on it?&lt;/h3&gt;
-
-&lt;p&gt;Gates Foundation, World Bank, CGAP, several tech startups.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;why-did-we-look-into-this-area&quot;&gt;Why did we look into this area?&lt;/h2&gt;
-
-&lt;p&gt;GiveWell recommended charity &lt;a href=&quot;https://www.givedirectly.org/&quot;&gt;GiveDirectly&lt;/a&gt; uses the M-Pesa mobile money system to do its cash transfers&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and altruistic startup &lt;a href=&quot;http://www.sendwave.com/&quot;&gt;Sendwave&lt;/a&gt; also uses M-Pesa to facilitate its no-fee remittance service. This tipped us off to the idea that a digital payments system could allow other promising projects to be built on top of it as well as the direct benefits of that payment system.&lt;/p&gt;
-
-&lt;p&gt;Also, financial systems are well suited to software solutions, as we can see in the developed world with e-banking and online payments.&lt;/p&gt;
-
-&lt;p&gt;Our investigation so far has consisted of reading introductory materials in the area, listed at the end.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-problem&quot;&gt;The problem&lt;/h2&gt;
-
-&lt;p&gt;The poor mainly use cash and usually don’t have a bank account.&lt;/p&gt;
-
-&lt;p&gt;Their use of cash is directly costly to them because it requires transportation and it is insecure. It’s indirectly costly to them because companies like banks pass on the cost of processing cash to their customers&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. The poor thus tend not to have access to the formal financial system and so are limited in how they can make payments and access loans and savings products.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;who-else-is-working-on-this&quot;&gt;Who else is working on this?&lt;/h2&gt;
-
-&lt;p&gt;The Gates Foundation has identified digitally-based financial tools for the world’s poorest as &lt;a href=&quot;http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor&quot;&gt;one if its goals&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://www.cgap.org/&quot;&gt;Consultative Group to Assist the Poor&lt;/a&gt; is “a global partnership of 34 leading organizations that seek to advance financial inclusion”.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.afi-global.org/about-us&quot;&gt;AFI Global&lt;/a&gt; is “a global network of financial policymakers from developing and emerging countries working together to increase access to appropriate financial services for the poor.”&lt;/p&gt;
-
-&lt;p&gt;There are also companies and charities developing technology to solve this problem.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-are-possible-projects&quot;&gt;What are possible projects?&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Extend mobile money systems to areas where they are less widespread. Mobile money has been widely adopted in Kenya but this level of success hasn’t been repeated elsewhere in Africa &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and there is &lt;a href=&quot;http://www.gsma.com/mobilefordevelopment/wp-content/uploads/2012/03/What-makes-a-successful-mobile-money-implementation.pdf&quot;&gt;some research&lt;/a&gt; on what is needed for a successful mobile money implementaiton.&lt;/li&gt;
-  &lt;li&gt;Create digital payment systems for specific common use cases such paying remittances, salaries, or bills.&lt;/li&gt;
-  &lt;li&gt;Build financial services such as saving, loans, and insurance on top of existing digital finance systems such as mobile money. Target these to the needs of the very poorest.&lt;/li&gt;
-  &lt;li&gt;Work to remove barriers to digital finance adoption. For example lack of electricity, mobile coverage, or internet access may be obstructing adoption in some areas.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The World Bank paper &lt;a href=&quot;http://www-wds.worldbank.org/external/default/WDSContentServer/WDSP/IB/2014/10/27/000456286_20141027124326/Rendered/PDF/903050WP0REPLACEMENT0Box385358B00PUBLIC0.pdf&quot;&gt;The Opportunities of Digitizing Payments&lt;/a&gt; has a useful list of challenges for digital payments, many of which could have technical solutions.&lt;/p&gt;
-
-&lt;h2 id=&quot;key-uncertainties&quot;&gt;Key uncertainties&lt;/h2&gt;
-
-&lt;p&gt;Neglectedness: The presence of the Gates Foundation in this field suggests that it might not be very neglected. Also, there are already private companies working in this area, suggesting that the financial incentive will attract companies to solve these problems. We don’t understand the area in enough detail to spot specific subproblems that are more or less neglected.&lt;/p&gt;
-
-&lt;p&gt;Impact: We don’t have a good idea of what works and what doesn’t work in this area. For example, how beneficial is switching from cash to digital? Which financial products are most useful for the poor?&lt;/p&gt;
-
-&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
-
-&lt;p&gt;You can investigate this area further by:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Reading the Gates Foundation’s &lt;a href=&quot;http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor&quot;&gt;strategy overview on financial services for the poor&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Reading &lt;a href=&quot;http://www.portfoliosofthepoor.com/&quot;&gt;Portfolios of the Poor&lt;/a&gt;. This book explains in depth how the poor manage their finances and the problems they face.&lt;/li&gt;
-  &lt;li&gt;Reading &lt;a href=&quot;http://www.pooreconomics.com/&quot;&gt;Poor Economics&lt;/a&gt; Chapters 6, 7, 8, and 9. This is particularly useful as it explains some of the weaknesses of existing financial services for the poor.&lt;/li&gt;
-  &lt;li&gt;Reading the World Bank’s &lt;a href=&quot;http://www-wds.worldbank.org/external/default/WDSContentServer/WDSP/IB/2014/10/27/000456286_20141027124326/Rendered/PDF/903050WP0REPLACEMENT0Box385358B00PUBLIC0.pdf&quot;&gt;The Opportunities of Digitizing Payments&lt;/a&gt; which clearly outlines the benefits of digital payments and barriers to their spread.&lt;/li&gt;
-  &lt;li&gt;Talking to someone at one of the institutions listed in the section ‘Who else is working on this?’ above.&lt;/li&gt;
-  &lt;li&gt;Going to a developing world country and talking to potential customers to understand the problems they face, perhaps following the methodology outlined in &lt;a href=&quot;http://theleanstartup.com/&quot;&gt;Lean Startup&lt;/a&gt; or &lt;a href=&quot;http://www.amazon.com/The-Startup-Owners-Manual-Step-By-Step/dp/0984999302&quot;&gt;The Startup Owners Manual&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/about&quot;&gt;Contact us&lt;/a&gt; and tell us you’re thinking of working on this problem. We’ll help you with your research and strategy and put you in contact with relevant people we know.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;additional-resources&quot;&gt;Additional Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.givewell.org/international/economic-empowerment&quot;&gt;GiveWell’s page on economic empowerment&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.gatesfoundation.org/How-We-Work/Quick-Links/Grants-Database#q/issue=Financial%20Services%20for%20the%20Poor&quot;&gt;List of Grants made by the Gates Foundation for Financial Services for the Poor&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Financial%20Services/Latest%20thinking/Payments/MoP18_Payments_and_financial_inclusion_An_interview_with_Rodger_Voorhies.ashx&quot;&gt;An Interview with Rogher Voorhies, who runs the director of the Gates Foundation’s Financial Services for the Poor initiative&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.poverty-action.org/program-area/financial-inclusion/publications&quot;&gt;Innovations for Poverty Action’s studies of interventions for financial inclusion&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.worldbank.org/en/programs/globalfindex&quot;&gt;The World Bank’s report on financial inclusion&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cgap.org/&quot;&gt;Consultative Group to Assist the Poor&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;103-120.http://repec.idate.fr/RePEc/idt/journl/CS8605/CS86_TOBBIN.pdf&quot;&gt;Tobbin, Peter. “The Adoption of ‘Transformational Mobile Banking’ by the Unbanked: An Exploratory Field Study.” &lt;em&gt;Communications &amp;amp; Strategies&lt;/em&gt; 86 (2012)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://www.givewell.org/International/top-charities/give-directly&quot;&gt;GiveWell’s review of GiveDirectly&lt;/a&gt; says “GiveDirectly told us that it chose to work in Kenya due to the robustness of M-Pesa as a mobile banking platform and the large population of people meeting its criteria who have access to mobile technology” &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor&quot;&gt;The Gates Foundation’s Financial Services for the Poor strategy overview&lt;/a&gt; “However, the existing “bricks and mortar” banking system doesn’t work for poor people, in part because most of their transactions are conducted in cash. Handling cash transactions is costly for banks, utilities companies, and other institutions, which pass along the costs associated with storing, transporting, and processing cash to their customers.” &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;“The unbanked are people without formal bank accounts who operate in a cash economy; they are limited in their ability to take loans, maintain savings, or make remote payments (MEDHI &amp;amp; RATAN, 2009)” - &lt;a href=&quot;103-120.http://repec.idate.fr/RePEc/idt/journl/CS8605/CS86_TOBBIN.pdf&quot;&gt;Tobbin, Peter. “The Adoption of ‘Transformational Mobile Banking’ by the Unbanked: An Exploratory Field Study.” &lt;em&gt;Communications &amp;amp; Strategies&lt;/em&gt; 86 (2012)&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;“So far the most successful deployment of transformational m-banking services is Safricom’s M-PESA in Kenya (MORAWCZYNSKI &amp;amp; PICKENS, 2009). Since its launch in March 2007 it has been adopted by 11.7m customers (corresponding to 54% of Kenya’s adult population and 73% of Safaricom’s subscriber base). It processes more transactions domestically than Western Union does globally (MAS &amp;amp; RADCLIFFE, 2010). However, the success story of M-Pesa in Kenya has yet to be repeated anywhere else in Africa.” - &lt;a href=&quot;103-120.http://repec.idate.fr/RePEc/idt/journl/CS8605/CS86_TOBBIN.pdf&quot;&gt;Tobbin, Peter. “The Adoption of ‘Transformational Mobile Banking’ by the Unbanked: An Exploratory Field Study.” &lt;em&gt;Communications &amp;amp; Strategies&lt;/em&gt; 86 (2012)&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 04 Jan 2016 20:34:00 +0000</pubDate>
-        <link>http://goodtechnologyproject.org/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview</link>
-        <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview</guid>
         
         
       </item>
