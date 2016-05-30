@@ -10,7 +10,7 @@ categories:
 
 *Lucie Klarsfeld is a Senior Project Manager at Hystra, a strategy consultancy
 focussed on social enterprises targeting the Base of the Pyramid. We talked to her
-to learn more about the social enterprise sector as a whole, and pariticularly the
+to learn more about the social enterprise sector as a whole, and particularly the
 role of technology.*
 
 **Could you give us a brief overview of what Hystra does?**
@@ -63,7 +63,7 @@ have any presence in that solar light business beforehand. We’re strategy
 consultants, so we can start from scratch to build a strategy for a new entrant
 in the sector!
 
-**You publish all your research publically, on your website?**
+**You publish all your research publicly, on your website?**
 
 Yes, that’s a condition for the
 [research](http://hystra.com/open-source-reports/) we do. It’s also why the entrepreneurs
