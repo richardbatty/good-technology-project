@@ -6,9 +6,9 @@
 </description>
     <link>http://goodtechnologyproject.org/</link>
     <atom:link href="http://goodtechnologyproject.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 May 2016 17:41:10 +0100</pubDate>
-    <lastBuildDate>Mon, 30 May 2016 17:41:10 +0100</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Wed, 01 Jun 2016 12:17:12 +0100</pubDate>
+    <lastBuildDate>Wed, 01 Jun 2016 12:17:12 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
     
       <item>
         <title>Tech consultancy for non-profits: an interview with EyeSeeTea</title>
@@ -136,9 +136,9 @@ telecommunications. We’d like to keep doing that!&lt;/p&gt;
         <title>ICT in social enterprise: an interview with Lucie Klarsfeld from Hystra</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/lucie_klarsfeld.png&quot; alt=&quot;Lucie Klarsfeld&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Lucie Klarsfeld is a Senior Product Manager at Hystra, a strategy consultancy
+&lt;p&gt;&lt;em&gt;Lucie Klarsfeld is a Senior Project Manager at Hystra, a strategy consultancy
 focussed on social enterprises targeting the Base of the Pyramid. We talked to her
-to learn more about the social enterprise sector as a whole, and pariticularly the
+to learn more about the social enterprise sector as a whole, and particularly the
 role of technology.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Could you give us a brief overview of what Hystra does?&lt;/strong&gt;&lt;/p&gt;
@@ -157,7 +157,7 @@ to adapt and replicate solutions that work across countries. So the aim was to
 try and combine these two worlds, and in particular to figure out how large
 corporations could help social enterprises to scale.&lt;/p&gt;
 
-&lt;p&gt;The first report that we did was on 
+&lt;p&gt;The first report that we did was on
 &lt;a href=&quot;http://hystra.com/energy&quot;&gt;access to energy for the poorest&lt;/a&gt;. We’ve
 kept a pretty similar methodology since then, which is to look at what worked.
 We try to go in with no preconceptions, and look at what business models there
@@ -191,9 +191,9 @@ have any presence in that solar light business beforehand. We’re strategy
 consultants, so we can start from scratch to build a strategy for a new entrant
 in the sector!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;You publish all your research publically, on your website?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You publish all your research publicly, on your website?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Yes, that’s a condition for the 
+&lt;p&gt;Yes, that’s a condition for the
 &lt;a href=&quot;http://hystra.com/open-source-reports/&quot;&gt;research&lt;/a&gt; we do. It’s also why the entrepreneurs
 that we study agree to participate, and to open their books to us. Publishing
 it to the world gives them publicity, and they have full control over the
@@ -208,7 +208,7 @@ progress.&lt;/p&gt;
 &lt;p&gt;We have a set of criteria. We want a project that really solves the issue,
 which isn’t to be taken for granted! The project also has to have a certain
 scale. For example, when producing the agriculture report on &lt;a href=&quot;http://hystra.com/smallholder&quot;&gt;Smallholder
-Farmers and Businesses&lt;/a&gt;, 
+Farmers and Businesses&lt;/a&gt;,
 almost all the projects we picked had over 10,000
 customers. If it’s below that, we consider that it’s too new a project for us
 to be able to draw many conclusions on what works. The project also has to be
@@ -226,7 +226,7 @@ also do our own research, and in total we usually find between 150 and 300
 projects per sector.&lt;/p&gt;
 
 &lt;p&gt;We’re also looking for patterns of similar projects that emerge, so we can pick
-representative examples as case studies. In the case of 
+representative examples as case studies. In the case of
 &lt;a href=&quot;http://hystra.com/leveraging-ict&quot;&gt;ICT&lt;/a&gt; it looked like the
 business models were either one-way information passing, two-way information
 passing, or crowd-sourcing/crowd-funding solutions. In each of these clusters
@@ -303,7 +303,6 @@ for farmers, or receiving quality medical information in remote communities).&lt
 &lt;p&gt;So looking at it from a general perspective, you can look for places where
 there are information asymmetries, or where there isn’t communication and there
 should be. Perhaps you can find some opportunities there.&lt;/p&gt;
-
 </description>
         <pubDate>Sat, 21 May 2016 13:00:00 +0100</pubDate>
         <link>http://goodtechnologyproject.org/blog/2016/05/21/interview-with-hystra</link>
