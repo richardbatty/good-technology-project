@@ -86,7 +86,7 @@ customers. If it’s below that, we consider that it’s too new a project for u
 to be able to draw many conclusions on what works. The project also has to be
 financially sustainable: we don’t want models that are purely philanthropy;
 though we don’t necessarily want models that have already broken even,
-otherwise we would not find much... But we do look for models that have the
+otherwise we would not find much. But we do look for models that have the
 ability to break even at some point, even if they have not already done so.
 
 In the first phase of our research we read reports and interview the authors,
@@ -110,9 +110,9 @@ We try to get input from a variety of sources. We try to talk to the large
 industry players; large institutions like the World Bank; other successful
 social enterprises; and some academics.
 
-The report mentions that there wasn’t much work on impact, and people weren’t
+**The report mentions that there wasn’t much work on impact, and people weren’t
 doing cost-effectiveness research. Do you do any of that work, or do you see
-others doing it?
+others doing it?**
 
 The ICT report is a few years old, but even returning to it recently there
 still isn’t much work on cost-effectiveness. ICT in development is still quite
@@ -149,8 +149,8 @@ now that social enterprises are starting to improve their ICT systems, it’s no
 easy for them to do it well, design an adequate tool and choose the right
 partner for it!
 
-What do you think the prospects are for developed world entrepreneurs trying to
-start social enterprises in the developing world?
+**What do you think the prospects are for developed world entrepreneurs trying to
+start social enterprises in the developing world?**
 
 I think it’s important to spend a good period of time exploring and learning
 about what’s already being done on the ground, rather than start from a blank
