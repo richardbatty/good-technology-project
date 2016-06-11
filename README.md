@@ -15,6 +15,14 @@ jekyll server
 
 And the site should then be running on `localhost:4000`
 
+### Alternative: setup with [Nix](http://nixos.org/nix/)
+
+```sh
+nix-shell -A env shell.nix
+```
+
+will launch a shell with all the dependencies available.
+
 ## New post or page
 
 We're using [Jekyll Compose](https://github.com/jekyll/jekyll-compose)
