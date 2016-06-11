@@ -6,9 +6,196 @@
 </description>
     <link>http://goodtechnologyproject.org/</link>
     <atom:link href="http://goodtechnologyproject.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jun 2016 12:23:10 +0100</pubDate>
-    <lastBuildDate>Wed, 01 Jun 2016 12:23:10 +0100</lastBuildDate>
-    <generator>Jekyll v3.1.3</generator>
+    <pubDate>Sat, 11 Jun 2016 13:13:25 +0100</pubDate>
+    <lastBuildDate>Sat, 11 Jun 2016 13:13:25 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Technology for detecting and managing disease outbreaks: an interview with Alex Demarsh</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/alex_demarsh.jpg&quot; alt=&quot;Alex Demarsh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alex Demarsh is a PhD student at McGill University’s &lt;a href=&quot;http://mchi.mcgill.ca/about-us/surveillance/&quot;&gt;surveillance lab&lt;/a&gt; and works as an epidemiologist at the &lt;a href=&quot;http://www.phac-aspc.gc.ca/index-eng.php&quot;&gt;Public Health Agency of Canada&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are you working on and how did you get involved?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;First I did a masters in epidemiology, and found a job in government. Then I
+got swept up in the 2008-2009 H1N1 pandemic. It was a great start to my career
+because that’s what public health infrastructure is for - worldwide
+emergencies. I had an idea about how the infrastructure should work, but the
+reality was a real surprise. People were sharing data by emailing each other
+Excel spreadsheets and getting faxes of handwritten forms. This experience got
+me interested in data issues, what software can do, and the need to improve our
+infrastructure around data sharing and managing surveillance and critical
+incidence data.&lt;/p&gt;
+
+&lt;p&gt;I had already been interested in programming and I built my skills further
+through &lt;a href=&quot;http://software-carpentry.org/&quot;&gt;software carpentry&lt;/a&gt; and a coding
+bootcamp. This taught me how to actually code and manage data properly. I
+worked for a few years but thought I had some skills missing. I looked around
+for opportunities and found the &lt;a href=&quot;http://mchi.mcgill.ca/about-us/surveillance/&quot;&gt;surveillance lab at McGill
+University&lt;/a&gt;. They do awesome
+technology development as well as good epidemiology. They build systems for
+public health practitioners for epidemic detection, often using medical records
+data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What did you learn from your epidemiology training?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We were taught lots of statistics, but not much on software or on data
+management - how to use data that is not in a form that you can run analysis on.
+The training used very clean data sets but out in the world, the data is messy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Do you see your work as more focussed on the risk from catastrophic pandemics or disease more generally?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pandemics are an obvious catastrophic risk, but I’m focussing on building good
+infrastructure that could help with any level of public health crisis. There is
+work to be done that would help with both pandemics and lower level outbreaks -
+piping data systems together and automating them, removing humans from
+error-prone steps. There’s really low hanging fruit here because things like
+emailing Excel spreadsheets are common.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is biosurveillance?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Surveillance is the ongoing and systematic collection, analysis, and
+dissemination of health data. All public health institutions do this. It
+involves going out and collecting data on incidence or prevalence of disease, or
+on risk factors or precursors to disease. Surveillance systems are useful for
+early detection of anomalies so that we can act in response. It’s also used for
+census purposes to look at the stability of disease rates over time and across
+different regions so that we can decide whether to put more resources into
+helping one set of people or another.&lt;/p&gt;
+
+&lt;p&gt;Within surveillance, biosurveillance is more focussed on computational tools
+and early detection of outbreaks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are the main parts of the infrastructure we need?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We need interoperable systems that can talk to one another. We need to be able
+to link together e.g. survey data, administrative data, environmental data, road
+networks, and maybe
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Vector_(epidemiology)&quot;&gt;vector&lt;/a&gt; populations and
+movements. One thing that makes this difficult is that data is often hard to
+move between administrative units (such as states or provinces). This data
+infrastructure would help us to predict the spread of disease and would support
+decision making on how to handle an outbreak.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Have there been any cases when better tech infrastructure for surveillance has been put to the test?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Bluedot have done work using data from mass gatherings such as [there have been
+exercises to test human component of outbreak management. These exercises
+involve many different parts of the health system, and often use actors for
+realism. Then during the exercise the people running it might call you up and
+say something like “there’s Ebola at Ottawa airport” or “the stockpile of
+personal protective equipment isn’t available” and you have to handle that
+situation. Promoting more real world simulation could be good - it’s underused.
+There’s some similarities here with military exercises, and the military do have
+some similar aims in that both they and the public health community have to do
+emergency response.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What’s the mechanism for this infrastructure helping the world? Will better data infrastructure help with early detection or is it more about better handling of the later stage of an outbreak?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A bit of both, although it’s more about the latter. Early warning is a major
+goal of surveillance, but in reality the tech improvements we’re talking about
+are more useful for managing the main body of the outbreak thus minimising the
+impact, not preventing it entirely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What kind of projects would you like to see? Where would you direct a wave of tech talent?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The first thing that comes to mind is influenza. It would be useful to link
+hospital electronic medical records systems to public health monitoring so that
+the public health people can see what’s going on more easily. The public health
+people could then quickly detect an uptick of influenza cases. I’m not sure why
+this hasn’t happened yet but it’s probably some combination of a lack of
+technical skills and it not seeming like a priority. There are a few isolated
+systems that do something similar, but not anything close to national let alone
+international scale.&lt;/p&gt;
+
+&lt;p&gt;In general, influenza is a good disease to work on as a lot of people die of it
+each year, there’s a risk of an influenza pandemic, and there’s a lot of data on
+it.&lt;/p&gt;
+
+&lt;p&gt;One thing a lot of people are looking at is point of care diagnostics - tools
+you can use to diagnose without a lab. This is especially useful in areas where
+you can’t access a lab.&lt;/p&gt;
+
+&lt;p&gt;One issue biosurveillance people think about a lot is the fact that doctors are
+told ‘When you see hoofprints think horses not zebras’. But in biosurveillance
+we’re looking for those zebras, unusual cases that could be the beginning of
+something bigger. Given the way the health system works, the main way of
+diagnosing these rare events will be through a doctor’s brain, but they’re
+trained to underweigh these kinds of rare event. With my work I’m trying to
+create computable case definitions so you can analyse them and pick up things
+that the doctors may not have. The disease I’m looking at is unusual so
+clinicians might not to pick up on it.&lt;/p&gt;
+
+&lt;p&gt;It would also be good to make it easier to communicate results of surveillance
+an analysis to non-technical and non-scientific people who have to make
+decisions. We need better tools for communicating data effectively to people in
+government who make decisions on how to respond. Often agencies have to search
+manually through data when there would be ways to make that process a lot
+quicker using better software. Decision-makers tend to have medical advisors,
+but maybe they could have technical advisors to help them with this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What kinds of data sources are promising, other than medical records?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Weather and landscape data when studying vector-borne diseases. This data
+exists because it’s collected for other purposes.&lt;/li&gt;
+  &lt;li&gt;Human movement data. For example, &lt;a href=&quot;http://bluedot.global&quot;&gt;Bluedot’s&lt;/a&gt; central
+data source is about the global air transport network.&lt;/li&gt;
+  &lt;li&gt;Data from the media. For example Canada’s Public Health Agency developed
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Global_Public_Health_Intelligence_Network&quot;&gt;GPHIN (Global Public Health Intelligence
+Network)&lt;/a&gt;
+takes feeds of media articles in seven languages, does some automatic
+translation and keyword detection, and then sends them to human analysts who
+then send them off to groups that might be interested. It’s got a lot of
+potential and it got people excited around the time of
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome&quot;&gt;SARS&lt;/a&gt;
+because they detected something was going on in China well before the Chinese
+admitted it. One of main things &lt;a href=&quot;http://epidemico.com/&quot;&gt;Epidemico&lt;/a&gt; does is
+curate and analyse media feeds to detect epidemic and outbreak information and
+pharmaceutical adverse event detection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Is there a community around using technology for public health?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a &lt;a href=&quot;http://ojphi.org/index&quot;&gt;Journal of Public Health Informatics&lt;/a&gt;, but
+there is a relatively small awareness of tech for public health as a thing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where can we look for more information on biosurveillance?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://www.amazon.com/Handbook-Biosurveillance-Michael-M-Wagner/dp/0123693780&quot;&gt;Handbook of
+Biosurveillance&lt;/a&gt;
+is the best overview and has good detail on types of data available.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ecohealthalliance.org/&quot;&gt;The EcoHealth Alliance&lt;/a&gt; looks at emerging
+infections and does some technology/data science work.&lt;/li&gt;
+  &lt;li&gt;Nathan Wolfe’s &lt;a href=&quot;http://metabiota.com/&quot;&gt;Metabiota&lt;/a&gt; and &lt;a href=&quot;http://www.globalviral.org/&quot;&gt;Global
+Viral&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;The World Health Organisation’s &lt;a href=&quot;http://www.who.int/ihr/alert_and_response/outbreak-network/en/&quot;&gt;Global Outbreak and Response
+Network&lt;/a&gt;.
+They’re involved in international coordination, connecting early detection to
+response, although it’s more focussed on human systems than technology.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.rods.pitt.edu/site/&quot;&gt;Real-Time Outbreak and Disease Surveillance&lt;/a&gt;
+at the University of Pittsburgh. They are big on outbreak detection
+technology.&lt;/li&gt;
+  &lt;li&gt;Harvard’s &lt;a href=&quot;https://dbmi.hms.harvard.edu/&quot;&gt;Department of Biomedical
+Informatics&lt;/a&gt; and especially John Brownstein who
+was the original head of Epidemico.&lt;/li&gt;
+  &lt;li&gt;McGill University’s &lt;a href=&quot;http://mchi.mcgill.ca/about-us/surveillance/&quot;&gt;surveillance
+lab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;UC Davis’ &lt;a href=&quot;http://www.vetmed.ucdavis.edu/foley_lab/&quot;&gt;Laboratory in Infectious Disease
+Ecology&lt;/a&gt; which does work on on
+veterinary and emerging disease&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bluedot.global/&quot;&gt;Bluedot&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://epidemico.com/&quot;&gt;Epidemico&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 11 Jun 2016 13:00:00 +0100</pubDate>
+        <link>http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh</link>
+        <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tech consultancy for non-profits: an interview with EyeSeeTea</title>
@@ -841,20 +1028,6 @@ has a fistful of financial relationships on the go.
         <pubDate>Tue, 12 Jan 2016 08:34:00 +0000</pubDate>
         <link>http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary</link>
         <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What can a technologist do about climate change?</title>
-        <description>&lt;p&gt;Climate change is a problem that could badly affect the future of humanity so we’d like to learn more about what technologists can do to tackle it. Fortunately, we recently came across &lt;a href=&quot;http://worrydream.com/#!/ClimateChange&quot;&gt;this extremely detailed essay&lt;/a&gt; on what technologists and specifically software engineers can do to help.&lt;/p&gt;
-
-&lt;p&gt;It’s worth reading both for its insights about tackling climate change and because it suggests technical solutions that could be applied to problems in many different cause areas. Also, we’ve taken it as inspiration for our own work at Good Technology Project - we would love to create resources as good as this for each cause area we think is promising.
-&lt;!--more--&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Jan 2016 20:30:00 +0000</pubDate>
-        <link>http://goodtechnologyproject.org/blog/2016/01/05/what-can-a-technologist-do-about-climate-change</link>
-        <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/01/05/what-can-a-technologist-do-about-climate-change</guid>
         
         
       </item>
