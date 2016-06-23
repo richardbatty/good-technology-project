@@ -1,11 +1,15 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="wrapper grid">
 
-    {% include social/facebook_like.html url="https://facebook.com/goodtechnologyproject" %}
-    {% include social/twitter_follow.html %}
-    <div class="rss-subscribe">Subscribe <strong><a href="/feed.xml">via RSS</a></strong></div>
-
+    <div class="col-1-2">
+      {% include social/facebook_like.html url="https://facebook.com/goodtechnologyproject" %}
+      {% include social/twitter_follow.html %}
+      <div class="rss-subscribe">Subscribe <strong><a href="/feed.xml">via RSS</a></strong></div>
+    </div>
+    <div class="col-1-2">
+      {% include mailchimp.html %}
+    </div>
   </div>
 
 </footer>
