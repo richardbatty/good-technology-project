@@ -1,0 +1,7 @@
+Look for gaps in the core requirements for development, then use technology to fill them in a new way.
+
+[Low income countries are that way because they lack the essential pillars of development: strong institutions, robust infrastructure, and a depth and breadth of human capital. In healthcare, for example, these gaps manifest themselves as the absence of physicians and nurses, and a dearth of equipped and functioning clinics. In high income countries, there is a doctor for every 300 people on average, whereas in sub-Saharan Africa there is 1 for every 5,000 people. Similarly, when it comes to education in lower income countries, there are significant gaps in the number of trained teachers, adequately equipped school buildings, suitable tools for instruction, and accountability to outcomes. In the face of such structural gaps, telemedicine tools can help patients in rural areas remotely consult with trained physicians, and online education videos (e.g., the Khan Academy) can provide quality instruction to those who can access them. Such examples are beginning to demonstrate the ability of ICT to compensate for structural gaps, at least partially.](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=385)
+
+See [here](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=386) for examples of these structural gaps and how they might be filled.
+
+Related ideas: leapfrogging
