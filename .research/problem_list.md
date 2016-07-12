@@ -1,3 +1,153 @@
+# List of global problems you could work on as a software technologist
+
+## Financial services for the worlds’ poorest
+
+### The problem
+The poorest people in the world (those on around $2 a day or less) mainly use cash and this is costly for them to handle. Their poverty and lack of bank accounts makes it diffiuclt for them to access financial services to handle shocks, exploit opportunities, and manage risk.
+
+### Why this is plausibly high impact
+
+Scale: [In 2012, 12.7 percent of the world’s population lived at or below $1.90 a day](http://www.worldbank.org/en/topic/poverty/overview). Because these people are so poor, helping them even a little can have a very large impact on their lives.
+Neglectedness: Global poverty is neglected compared to many developed-world causes. However, there is already a lot of work going into financial inclusion, including the Gates Foundation and many private companies.
+Tractabilty: Recently become much more tractable, because of the rise of mobile money.
+
+
+### Projects to address this
+
+* Extend mobile money systems to areas where they are less widespread.
+* Create digital payment systems for specific common use cases such paying remittances, salaries, or bills.
+* Build financial services such as saving, loans, and insurance on top of existing digital finance systems such as mobile money. Target these to the needs of the very poorest.
+
+### Skills that are helpful
+
+* Mobile app development
+* Experience building financial systems
+* UX design
+* Developing-world experience
+
+### Find out more
+
+* See our [review](http://goodtechnologyproject.org/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview/) of this area
+* [Hystra's overview](http://static1.squarespace.com/static/51bef39fe4b010d205f84a92/t/51f245abe4b0475c8b40f894/1374832043586/Hystra_Rapport_ICT_for_the_BoP.pdf#page=140)
+* Our summary of [Portfolios of the Poor](http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary/), which gives an insight into the financial lives of the world's poorest people
+
+## Infectious disease control
+
+### The problem
+Outbreaks of disease need to be detected quickly and tracked to help health services respond effectively.
+
+### Why this is plausibly high impact
+
+Scale: Natural pandemics already kill millions of people [time period]. Occasionally, they kill even more. Engineered pandemics may be even more catestrophic.
+Neglectedness: Medium. There are people working on this, including governments and academia.
+Tractability: Low. Hard to tell what impact you're having.
+
+### Projects to address this
+
+* Build a system that pulls data from hospital medical records into public health monitoring systems
+* Build better tools for communicating public health data to decision-makers during an outbreak
+* Build outbreak detection systems that use data to detect outbreaks from non-medical data (such as social media or movement data)
+
+### Skills that are helpful
+
+* Data science
+* Data visualisation
+* Expertise in public health and epidemiology
+
+### Find out more
+
+* Our interview with [Alex Demarsh](http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh), who works on this.
+* [This overview](http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf) of the field of biosurveillance.
+
+## Digital infrastructure for the developing world
+
+### The problem
+[Developing countries have gaps in essential services that could be bridged using IT solutions.](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=386) But often the tech infrastructure isn't there to enable these solutions to be built.
+
+### Why this is plausibly high impact
+
+Scale: Developing-world poverty causes a great deal of suffering. Building the underlying infrastructure to support further development could have a multiplicative effect. However, the indirectness causes uncertianty.
+Neglectedness: Medium. Some people working on this, including Facebook and Google on internet infrastructure. May be some gaps
+Tractability: Medium. Some hard problems
+
+### Projects to address this
+
+* [A new generation of wireless broadband network technologies that rapidly cut the cost of expanding coverage to rural areas](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=400)
+* [Affordable (under $50) smartphones that support full-fledged Internet services and need limited electricity to charge](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=401)
+* [Biometric ID systems, linking birth registry, land title registry, financial services, education history, medical history, and other information critical for ICT enabled services](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=401)
+* [A new generation of ‘Internet of Things’ (IoT) devices, which enable newer types of services, and compensate for gaps in infrastructure, effective institutions, and human capital ](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=404)
+
+### Skills that are helpful
+
+* Developing world experience
+* Networking technology
+* Hardware
+
+### Find out more
+
+* Read [the Institute for Globally Transformative Technology's report on this area](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=382)
+
+## Energy and climate change
+
+### The problem
+
+Climate change could cause widespread damage to future generations. There is also a [non-negligible chance](https://80000hours.org/problem-profiles/climate-change/) of extreme levels of warming that could be catestrophic.
+
+### Why this is plausibly high impact
+
+Scale: High. Climate change could have very bad or catestrophic long-term consequences for all people on Earth
+Neglectedness: Medium. A lot is spent on climate change. Need to find neglected areas.
+Tractability: Low. Hard problems.
+
+### Projects to address this
+
+Bret Victor's excellent [What can a technologist do about climate change?](http://worrydream.com/#!/ClimateChange) suggests the following software-related projects.
+
+* [Control systems for clean power generation machines](http://worrydream.com/ClimateChange/#production-stuff)
+* [Data gathering and modelling to predict optimal placement of wind and solar generators](http://worrydream.com/ClimateChange/#production-computation)
+* [Energy-networking: routing of energy through the grid, especially a future grid that has many fluctuating sources of power](http://worrydream.com/ClimateChange/#moving-networking)
+* [Autonomous vehicles](http://worrydream.com/ClimateChange/#consumption-transportation)
+* [Demand flexibility: Automatic coordination between energy consuming devices to flatten out demand](http://worrydream.com/ClimateChange/#consumption-coordination)
+* [Analytics for large consumers of energy to work out how to cut their consumption](http://worrydream.com/ClimateChange/#consumption-efficiency)
+
+### Skills that are helpful
+
+* Data science
+* Networking technology
+* Hardware
+
+## Tech for effective nonprofits
+
+### The problem
+
+Many international development and global health nonprofits don't know how to use technology effectively to help with problems they face.
+
+### Why this is plausibly high impact
+
+Scale: High. Multiplying the effectiveness of international development charities, especially those that are already highly effective, could have a large effect.
+Neglectedness: There are tech consultants working in this area, but it is widely thought that people in this area don't have a good understanding of how to use technology effectively.
+Tractability: High. This doesn't require new technology, just an understanding of how to apply existing technology.
+
+### Projects to address this
+
+* A consultancy that advises non-profits on their technology strategy
+* A website that provides step-by-step instructions on how to solve common problems in international development with technology
+
+### Skills that are helpful
+
+* Web development
+* Mobile development
+* Developing world experience
+
+### Find out more
+* Our interview with [Sam Sudar](http://goodtechnologyproject.org/blog/2016/04/29/ict-for-international-development-an-interview-with-sam-sudar/), which discusses this problem
+* Our interview with [Ben Clifford](http://goodtechnologyproject.org/blog/2016/01/29/tech-for-effective-charities-an-interview-with-ben-clifford-from-good-code/)
+* Our interview with [EyeSeeTea](http://goodtechnologyproject.org/blog/2016/05/30/interview-with-eyeseetea)
+
+
+# Rough
+
+
 ## Technology-focussed lists of problem areas that we have drawn from
 * The Institute for Globally Transformative Technologies' [50 most critical scientific and technological breakthroughs required for sustainable global development](https://ligtt.org/50-breakthroughs)
 * Y Combinator's [Request for Startups](https://www.ycombinator.com/rfs/)
@@ -22,11 +172,6 @@
 * What dominates cost? What limits adoption?
 * Why make improvements here? How would the world benefit?
 
-## Financial technology for the worlds’ poorest
-See our [review](http://goodtechnologyproject.org/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview/) and [Hystra's overview](http://static1.squarespace.com/static/51bef39fe4b010d205f84a92/t/51f245abe4b0475c8b40f894/1374832043586/Hystra_Rapport_ICT_for_the_BoP.pdf#page=140)
-
-For more details on the problem, check out our summary of [Portfolios of the Poor](http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary/)
-
 
 ## AI Safety
 Advanced artificial intelligence may pose a risk to humanity (introductions to this issue [here](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) and [here](https://intelligence.org/summary/))
@@ -37,25 +182,8 @@ The main relevant methods for technologists would be:
 * Technical research on creating safe AI
 * Improving human decision making and intelligence so that we can better deal with the problems that AI may cause
 
-## Biosurveillance
-### The problem
-> Pandemics have the potential to cause significant, and perhaps unprecedented, harm. We believe natural pandemics represent one of the biggest current risks to global welfare and stability, and the risks from engineered pandemics — whether via accidents or misuse — may grow in the future.  -- [Open Philanthropy Project](http://www.openphilanthropy.org/focus/global-catastrophic-risks/biosecurity)
 
-80,000 Hours has a [profile](https://80000hours.org/problem-profiles/biosecurity/) on how to work on this cause area.
 
-See our [interview with Alex Demarsh](http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh) for information on building biosurveillance systems to tackle disease outbreaks.
-
-## Autonomous vehicles
-
-## Digital infrastructure for the developing world
-[Developing countries have gaps in services that could be bridged with IT solutions.](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=386)
-
-But infrastructural work needs to be done before these services can be built.
-
-* [A new generation of wireless broadband network technologies that rapidly cut the cost of expanding coverage to rural areas](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=400)
-* [Affordable (under $50) smartphones that support full-fledged Internet services and need limited electricity to charge](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=401)
-* [Biometric ID systems, linking birth registry, land title registry, financial services, education history, medical history, and other information critical for ICT enabled services](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=401)
-* [A new generation of ‘Internet of Things’ (IoT) devices, which enable newer types of services, and compensate for gaps in infrastructure, effective institutions, and human capital ](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=404)
 
 ## Developing world education
 [‘Smart’ electronic textbooks, customized for various age groups and educational levels, with curated and up-to-date content, ‘wiki’ interfaces for vernacular and other locally relevant and gender-inclusive material, visual and dynamic learning tools for students, interfaces and tools for teachers, student-teacher interaction and peer-to-peer collaboration. These smart e-textbooks can be delivered on tablet devices or on smartphones, the prices of which are steadily falling.](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=379)
@@ -93,15 +221,7 @@ But infrastructural work needs to be done before these services can be built.
 
 [Low cost aerial vehicles to capture high resolution imagery for use by civil society groups, to document large-scale human rights violations.](https://www.ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=342)
 
-## Energy and climate change
-All suggested projects in this section come from Bret Victor's [What can a technologist do about climate change?](http://worrydream.com/#!/ClimateChange). I've picked out the more software-intensive parts.
 
-* [Control systems for clean power generation machines](http://worrydream.com/ClimateChange/#production-stuff)
-* [Data gathering and modelling to predict optimal placement of wind and solar generators](http://worrydream.com/ClimateChange/#production-computation)
-* [Energy-networking: routing of energy through the grid, especially a future grid that has many fluctuating sources of power](http://worrydream.com/ClimateChange/#moving-networking)
-* [Autonomous vehicles](http://worrydream.com/ClimateChange/#consumption-transportation)
-* [Demand flexibility: Automatic coordination between energy consuming devices to flatten out demand](http://worrydream.com/ClimateChange/#consumption-coordination)
-* [Analytics for large consumers of energy to work out how to cut their consumption](http://worrydream.com/ClimateChange/#consumption-efficiency)
 
 ## Computer tools to help people working on important cause areas
 From Bret Victor's [What can a technologist do about climate change?](http://worrydream.com/#!/ClimateChange)
