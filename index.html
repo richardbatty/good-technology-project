@@ -29,16 +29,4 @@ layout: default
     </ul>
   </div>
 
-  <div class="post-list">
-    <h3 class="post-list-title">Blog posts</h3>
-    {% for post in site.posts %}
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <h4>
-          {{ post.title }}
-        </h4>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} &#183; {{ post.author }} </span>
-      </a>
-    {% endfor %}
-  </div>
-
 </div>
