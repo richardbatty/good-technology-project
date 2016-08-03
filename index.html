@@ -15,4 +15,11 @@ layout: default
 
   <a class="primary-button" href="https://calendly.com/rjlbatty">Book an advice session</a>
 
+  <div class="problem-list-container">
+    <h1>Some problems to solve</h2>
+
+    {% capture problems %}{% include problems.md %}{% endcapture %}
+    {{ problems | markdownify }}
+  <div>
+
 </div>
