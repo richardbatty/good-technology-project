@@ -29,4 +29,11 @@ layout: default
     </ul>
   </div>
 
+  <div class="problem-list-container">
+    <h1>Some problems to solve</h2>
+
+    {% capture problems %}{% include problems.md %}{% endcapture %}
+    {{ problems | markdownify }}
+  <div>
+
 </div>
