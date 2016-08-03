@@ -3,13 +3,13 @@
 ## Financial services for the worlds’ poorest
 
 ### The problem
-The poorest people in the world (those on around $2 a day or less) mainly use cash and this is costly for them to handle. Their poverty and lack of bank accounts makes it diffiuclt for them to access financial services to handle shocks, exploit opportunities, and manage risk.
+The poorest people in the world (those on around $2 a day or less) mainly use cash and this is costly for them to handle. Their poverty and lack of bank accounts makes it difficult for them to access financial services to help them handle shocks, exploit opportunities, and manage risk.
 
 ### Why this is plausibly high impact
 
-Scale: [In 2012, 12.7 percent of the world’s population lived at or below $1.90 a day](http://www.worldbank.org/en/topic/poverty/overview). Because these people are so poor, helping them even a little can have a very large impact on their lives.
-Neglectedness: Global poverty is neglected compared to many developed-world causes. However, there is already a lot of work going into financial inclusion, including the Gates Foundation and many private companies.
-Tractabilty: Recently become much more tractable, because of the rise of mobile money.
+* Scale: [In 2012, 12.7 percent of the world’s population lived at or below $1.90 a day](http://www.worldbank.org/en/topic/poverty/overview). Because these people are so poor, helping them achieve even a small boost to their ability to buy what they need can have a very large impact on their lives.
+* Neglectedness: Global poverty is neglected compared to many developed-world causes. However, there is already a lot of work going into financial inclusion, including the [funding from the Gates Foundation](http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor) and [many](https://www.sendwave.com) [private](https://branch.co/) [companies](http://www.safaricom.co.ke/personal/m-pesa/do-more-with-m-pesa/m-shwari).
+* Tractabilty: Because of the rise of mobile money this has become more tractable.
 
 
 ### Projects to address this
@@ -27,7 +27,7 @@ Tractabilty: Recently become much more tractable, because of the rise of mobile 
 
 ### Find out more
 
-* See our [review](http://goodtechnologyproject.org/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview/) of this area
+* Our [review](http://goodtechnologyproject.org/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview/) of this area
 * [Hystra's overview](http://static1.squarespace.com/static/51bef39fe4b010d205f84a92/t/51f245abe4b0475c8b40f894/1374832043586/Hystra_Rapport_ICT_for_the_BoP.pdf#page=140)
 * Our summary of [Portfolios of the Poor](http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary/), which gives an insight into the financial lives of the world's poorest people
 
@@ -38,20 +38,21 @@ Outbreaks of disease need to be detected quickly and tracked to help health serv
 
 ### Why this is plausibly high impact
 
-Scale: Natural pandemics already kill millions of people [time period]. Occasionally, they kill even more. Engineered pandemics may be even more catestrophic.
-Neglectedness: Medium. There are people working on this, including governments and academia.
-Tractability: Low. Hard to tell what impact you're having.
+* Scale: Epidemics and pandemics already [kill millions of people](https://en.wikipedia.org/wiki/List_of_epidemics). Accedentally or deliberately engineered epidemics [may be a threat in the future](http://www.openphilanthropy.org/research/cause-reports/biosecurity).
+* Neglectedness: There are people working on this, including governments and academia.
+* Tractability: It's difficult to know what interventions will work best and difficult to get feedback on whether you are successfully helping prevent outbreaks.
 
 ### Projects to address this
 
 * Build a system that pulls data from hospital medical records into public health monitoring systems
 * Build better tools for communicating public health data to decision-makers during an outbreak
-* Build outbreak detection systems that use data to detect outbreaks from non-medical data (such as social media or movement data)
+* Build outbreak detection systems that use data to detect outbreaks from non-medical data such as social media or movement data
 
 ### Skills that are helpful
 
 * Data science
 * Data visualisation
+* Web development
 * Expertise in public health and epidemiology
 
 ### Find out more
@@ -66,9 +67,9 @@ Tractability: Low. Hard to tell what impact you're having.
 
 ### Why this is plausibly high impact
 
-Scale: Developing-world poverty causes a great deal of suffering. Building the underlying infrastructure to support further development could have a multiplicative effect. However, the indirectness causes uncertianty.
-Neglectedness: Medium. Some people working on this, including Facebook and Google on internet infrastructure. May be some gaps
-Tractability: Medium. Some hard problems
+* Scale: Developing-world poverty causes a great deal of suffering. Building the underlying infrastructure to support further development could multiply the effectiveness of future work. However, this indirect mechanism makes measuring impact hard.
+* Neglectedness: Some people working on this, including Facebook and Google on internet infrastructure. But it's neglected compared to developed-world IT infrastructure.
+* Tractability: Researchers and companies are already making progress, suggesting this is tractable.
 
 ### Projects to address this
 
@@ -91,13 +92,13 @@ Tractability: Medium. Some hard problems
 
 ### The problem
 
-Climate change could cause widespread damage to future generations. There is also a [non-negligible chance](https://80000hours.org/problem-profiles/climate-change/) of extreme levels of warming that could be catestrophic.
+Climate change could cause widespread damage to future generations. There is also a [non-negligible chance](https://80000hours.org/problem-profiles/climate-change/) of extreme levels of warming that could be catastrophic.
 
 ### Why this is plausibly high impact
 
-Scale: High. Climate change could have very bad or catestrophic long-term consequences for all people on Earth
-Neglectedness: Medium. A lot is spent on climate change. Need to find neglected areas.
-Tractability: Low. Hard problems.
+* Scale: Climate change could have very bad or catastrophic long-term consequences for all people on Earth.
+* Neglectedness: A lot is already spent on climate change, so you'd need to find an unusually neglected sub-problem.
+* Tractability: Novel technology is often required but there are companies already succeeding in this area.
 
 ### Projects to address this
 
@@ -124,9 +125,9 @@ Many international development and global health nonprofits don't know how to us
 
 ### Why this is plausibly high impact
 
-Scale: High. Multiplying the effectiveness of international development charities, especially those that are already highly effective, could have a large effect.
-Neglectedness: There are tech consultants working in this area, but it is widely thought that people in this area don't have a good understanding of how to use technology effectively.
-Tractability: High. This doesn't require new technology, just an understanding of how to apply existing technology.
+* Scale: Multiplying the effectiveness of international development charities, especially those that are already highly effective, could have a large effect.
+* Neglectedness: There are tech consultants working in this area, but it is widely thought that people in this area don't have a good understanding of how to use technology effectively.
+* Tractability: This doesn't require new technology, just an understanding of how to apply existing technology.
 
 ### Projects to address this
 

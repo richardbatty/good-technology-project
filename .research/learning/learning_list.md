@@ -1,0 +1,9 @@
+- [ ] What a probability distribution is
+- [ ] Geometric mean
+- [ ] Logarithms
+- [ ] Exponentials
+- [ ] What processes produce logarithms and exponentials
+- [ ] Power law
+- [ ] How the internet works
+- [ ] How markets work
+- [ ] Why you can't get mean utility by getting the mean wealth and then getting the utility
