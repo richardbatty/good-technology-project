@@ -32,6 +32,8 @@ Identifying disease outbreaks quickly can vastly reduce the harm that they do an
 * Our [interview with Alex Demarsh](http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh), who works on this.
 * [This overview](http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf) of the field of biosurveillance.
 
+**Sign up to [our mailing list](http://eepurl.com/b7sqvP) to receive occasional updates to this list of problems to work on.**
+
 ## <a name="financial_services_for_the_poor"></a> Financial services for the world’s poorest
 
 ### The problem
@@ -60,6 +62,8 @@ Because conventional banks don’t want to have the world’s poorest people as 
 * [Hystra's overview](http://static1.squarespace.com/static/51bef39fe4b010d205f84a92/t/51f245abe4b0475c8b40f894/1374832043586/Hystra_Rapport_ICT_for_the_BoP.pdf#page=140)
 * Our summary of [Portfolios of the Poor](http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary/), which gives an insight into the financial lives of the world's poorest people
 
+**Sign up to [our mailing list](http://eepurl.com/b7sqvP) to receive occasional updates to this list of problems to work on.**
+
 ## <a name="clean_power_generation"></a> Clean power generation
 
 ### The problem
@@ -85,3 +89,5 @@ Bret Victor's excellent [What can a technologist do about climate change?](http:
 * Scale: Climate change could have very bad or catastrophic long-term consequences for all people on Earth.
 * Tractability: Novel technology is often required but there are companies already succeeding in this area.
 * Neglectedness: A lot is already spent on climate change, so you'd need to find an unusually neglected sub-problem.
+
+**Sign up to [our mailing list](http://eepurl.com/b7sqvP) to receive occasional updates to this list of problems to work on.**
