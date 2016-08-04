@@ -1,4 +1,10 @@
-## Epidemic control
+---
+layout: page
+title: Important problems to work on
+permalink: /problems/
+---
+
+## <a name="epidemic_control"></a> Epidemic control
 
 ### The problem
 Identifying disease outbreaks quickly can vastly reduce the harm that they do and tracking can aid efforts to tackle them.
@@ -26,7 +32,7 @@ Identifying disease outbreaks quickly can vastly reduce the harm that they do an
 * Our [interview with Alex Demarsh](http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh), who works on this.
 * [This overview](http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf) of the field of biosurveillance.
 
-## Financial services for the world’s poorest
+## <a name="financial_services_for_the_poor"></a> Financial services for the world’s poorest
 
 ### The problem
 Because conventional banks don’t want to have the world’s poorest people as customers, it is difficult for them to access financial services to help them handle shocks, exploit opportunities, and manage risk.
@@ -54,7 +60,7 @@ Because conventional banks don’t want to have the world’s poorest people as 
 * [Hystra's overview](http://static1.squarespace.com/static/51bef39fe4b010d205f84a92/t/51f245abe4b0475c8b40f894/1374832043586/Hystra_Rapport_ICT_for_the_BoP.pdf#page=140)
 * Our summary of [Portfolios of the Poor](http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary/), which gives an insight into the financial lives of the world's poorest people
 
-## Clean power generation
+## <a name="clean_power_generation"></a> Clean power generation
 
 ### The problem
 

@@ -30,10 +30,60 @@ layout: default
   </div>
 
   <div class="problem-list-container">
-    <h1>Some problems to solve</h2>
+    <h1>Important problems to work on</h2>
+    <article class="problem-box grid">
+      <div class="col-1-3">
+        <img src="/assets/images/snow_cholera_map.jpg"/>
+        <a class="image-source" href="https://commons.wikimedia.org/wiki/File:Snow-cholera-map.jpg">Image source</a>
+      </div>
+      <div class="col-2-3">
+        <h1 class="problem-box-header">Epidemic control</h1>
+        <p>Identifying disease outbreaks quickly can vastly reduce the harm that they do and tracking can aid efforts to tackle them</p>
+        <ul class="problem-box-skill-list">
+          <li class="problem-box-skill">Data science</li>
+          <li class="problem-box-skill">Data visualisation</li>
+          <li class="problem-box-skill">Web development</li>
+          <li class="problem-box-skill">Public health</li>
+          <li class="problem-box-skill">Epidemiology</li>
+        </li>
+        <a class="problem-box-read-more-link" href="/problems#epidemic_control">Read more</a>
+      </div>
+    </article>
 
-    {% capture problems %}{% include problems.md %}{% endcapture %}
-    {{ problems | markdownify }}
+    <article class="problem-box grid">
+      <div class="col-1-3">
+        <img src="/assets/images/m-pesa_kiosk.jpg"/>
+        <a class="image-source" href="https://commons.wikimedia.org/wiki/File:M-Pesa_Kenyan_Kiosk.JPG">Image source</a>
+      </div>
+      <div class="col-2-3">
+        <h1 class="problem-box-header">Financial services for the world’s poorest</h1>
+        <p>Because conventional banks don’t want to have the world’s poorest people as customers, it is difficult for them to access financial services to help them handle shocks, exploit opportunities, and manage risk</p>
+        <ul class="problem-box-skill-list">
+          <li class="problem-box-skill">Mobile development</li>
+          <li class="problem-box-skill">Financial systems expertise</li>
+          <li class="problem-box-skill">UX design</li>
+        </li>
+        <a class="problem-box-read-more-link" href="/problems#financial_services_for_the_poor">Read more</a>
+      </div>
+    </article>
+
+    <article class="problem-box grid">
+      <div class="col-1-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Power_cables_of_National_Power_Grid_in_Brahmanbaria.jpg"/>
+        <a class="image-source" href="https://commons.wikimedia.org/wiki/File:Power_cables_of_National_Power_Grid_in_Brahmanbaria.jpg">Image source</a>
+      </div>
+      <div class="col-2-3">
+        <h1 class="problem-box-header">Clean power generation</h1>
+        <p>Climate change could cause widespread damage to future generations. There is also a non-negligible chance of catastrophic harm. Part of the solution to this is to develop cleaner ways to produce energy.</p>
+        <ul class="problem-box-skill-list">
+          <li class="problem-box-skill">Data science</li>
+          <li class="problem-box-skill">Networking technology</li>
+          <li class="problem-box-skill">Mechanical engineering</li>
+          <li class="problem-box-skill">Electrical engineering</li>
+        </li>
+        <a class="problem-box-read-more-link" href="/problems#clean_power_generation">Read more</a>
+      </div>
+    </article>
   <div>
 
 </div>
