@@ -1,3 +1,32 @@
 .problem-list-container {
   margin: (2 * $spacing-unit) 0;
 }
+
+.problem-box {
+  margin: $spacing-unit 0;
+}
+
+.problem-box-header {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 1.5 * $base-line-height;
+  margin: 0;
+}
+
+.problem-box-skill-list {
+  margin: $spacing-unit 0;
+}
+
+.problem-box-skill {
+  font-size: 12px;
+  display: inline-block;
+  background-color: #ddd;
+  padding: 0px 5px;
+  margin: 2px 0;
+  border-radius: 3px;
+}
+
+.problem-box-read-more-link {
+  margin: $spacing-unit 0;
+  display: block;
+}
