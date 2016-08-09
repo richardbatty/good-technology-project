@@ -3,7 +3,7 @@
 }
 
 .problem-box {
-  margin: $spacing-unit 0;
+  margin: (2 * $spacing-unit) 0;
 }
 
 .problem-box-header {
@@ -28,5 +28,10 @@
 
 .problem-box-read-more-link {
   margin: $spacing-unit 0;
+  cursor: pointer;
   display: block;
+}
+
+.problem-box-image {
+  margin-top: 8px;
 }
