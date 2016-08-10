@@ -26,161 +26,33 @@ layout: default
     <li>A friendly sounding-board for ideas.</li>
   </ul>
 
-
-
   <div class="problem-list-container">
     <h1>Important problems to work on</h2>
     <p>Our initial research suggests these problems are promising. However, this is an early draft so we can't yet explicitly recommend working in one of these areas.<p>
-    <article class="problem-box grid">
-      <div class="col-1-3">
-        <img class="problem-box-image" src="/assets/images/snow_cholera_map.jpg"/>
-        <a class="image-source" href="https://commons.wikimedia.org/wiki/File:Snow-cholera-map.jpg">Image source</a>
-      </div>
-      <div class="col-2-3">
-        <h1 class="problem-box-header">Epidemic control</h1>
-        <p>Identifying disease outbreaks quickly can vastly reduce the harm that they do and tracking can aid efforts to tackle them</p>
-        <ul class="problem-box-skill-list">
-          <li class="problem-box-skill">Data science</li>
-          <li class="problem-box-skill">Data visualisation</li>
-          <li class="problem-box-skill">Web development</li>
-          <li class="problem-box-skill">Public health</li>
-          <li class="problem-box-skill">Epidemiology</li>
-        </ul>
-        <a class="problem-box-read-more-link" onClick="ProblemList.readMore(this, 'epidemicControl')">Read more</a>
-      </div>
 
-      <div class="problem-box-extra-info hidden">
-        <h3 id="projects-to-address-this">Projects to address this</h3>
+    {% for problem in site.problems %}
+      <article class="problem-box grid">
+        <div class="col-1-3">
+          <img class="problem-box-image" src={{problem.image}}/>
+          <a class="image-source" href={{problem.image_source}}>Image source</a>
+        </div>
+        <div class="col-2-3">
+          <h1 class="problem-box-header">{{problem.name}}</h1>
+          <p>{{problem.description}}</p>
+          <ul class="problem-box-skill-list">
+            {% for skill in problem.skills %}
+              <li class="problem-box-skill">{{skill}}</li>
+            {% endfor %}
+          </ul>
+          {% capture onClick %}ProblemList.readMore(this,'{{problem.tracking_name}}'){% endcapture %}
+          <a class="problem-box-read-more-link" onClick={{onClick}}>Read more</a>
+        </div>
 
-        <ul>
-          <li>Build outbreak detection systems that use data to detect outbreaks from non-medical data such as social media or movement data</li>
-          <li>Build better tools for communicating public health data to decision-makers during an outbreak</li>
-          <li>Build a system that pulls data from hospital medical records into public health monitoring systems</li>
-        </ul>
-
-        <h3 id="skills-you-might-want-on-your-team">Skills you might want on your team</h3>
-
-        <ul>
-          <li>Data science, processing, or visualisation</li>
-          <li>Web development</li>
-          <li>Expertise in public health and epidemiology</li>
-        </ul>
-
-        <h3 id="why-this-might-have-exceptional-impact">Why this might have exceptional impact</h3>
-
-        <ul>
-          <li>Scale: Epidemics already kill millions of people. Recent biotechnology progress makes accedental or deliberate epidemics <a href="http://www.openphilanthropy.org/research/cause-reports/biosecurity">a serious threat</a>.</li>
-          <li>Tractability: There are <a href="http://bluedot.global/">operating</a> <a href="http://www.epidemico.com/">businesses</a> in this area. However, it’s difficult to know what interventions will work best and difficult to get feedback on whether you are successfully helping prevent outbreaks.</li>
-          <li>Neglectedness: Government departments, such as the US CDC, international organisations, such as WHO, and academics are also working on this.</li>
-        </ul>
-
-        <h3 id="find-out-more">Find out more</h3>
-
-        <ul>
-          <li>Our <a href="http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh">interview with Alex Demarsh</a>, who works on this.</li>
-          <li><a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf">This overview</a> of the field of biosurveillance.</li>
-        </ul>
-
-      </div>
-    </article>
-
-    <article class="problem-box grid">
-      <div class="col-1-3">
-        <img class="problem-box-image" src="/assets/images/m-pesa_kiosk.jpg"/>
-        <a class="image-source" href="https://commons.wikimedia.org/wiki/File:M-Pesa_Kenyan_Kiosk.JPG">Image source</a>
-      </div>
-      <div class="col-2-3">
-        <h1 class="problem-box-header">Financial services for the world’s poorest</h1>
-        <p>Because conventional banks don’t want to have the world’s poorest people as customers, it is difficult for them to access financial services to help them handle shocks, exploit opportunities, and manage risk</p>
-        <ul class="problem-box-skill-list">
-          <li class="problem-box-skill">Mobile development</li>
-          <li class="problem-box-skill">Financial systems expertise</li>
-          <li class="problem-box-skill">UX design</li>
-        </ul>
-        <a class="problem-box-read-more-link" onClick="ProblemList.readMore(this, 'financialServicesForPoor')">Read more</a>
-      </div>
-
-      <div class="problem-box-extra-info hidden">
-        <h3 id="projects-to-address-this-1">Projects to address this</h3>
-
-        <ul>
-          <li>Create digital payment systems for specific common use cases such as remittances, salaries, and bills.</li>
-          <li>Build financial services such as saving, loans, and insurance on top of existing digital finance systems such as mobile money. Target these to the needs of the very poorest.</li>
-        </ul>
-
-        <h3 id="skills-you-might-want-on-your-team-1">Skills you might want on your team</h3>
-
-        <ul>
-          <li>Mobile app development</li>
-          <li>Financial systems expertise</li>
-          <li>UX design, especially given cultural differences</li>
-        </ul>
-
-        <h3 id="why-this-might-have-exceptional-impact-1">Why this might have exceptional impact</h3>
-
-        <ul>
-          <li>Scale: <a href="http://www.worldbank.org/en/topic/poverty/overview">In 2012, 12.7 percent of the world’s population lived at or below $1.90 a day</a>. Helping these people achieve even a small boost to their ability to buy what they need can have a very large impact on their lives.</li>
-          <li>Tractability: Because of the rise of mobile money it’s now possible for startups to build financial business to serve many poor people even when they don’t have a bank account.</li>
-          <li>Neglectedness: There is huge inequality of access to financial services. However, there is already a lot of work currently trying to fix this, including <a href="http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor">funding from the Gates Foundation</a> and <a href="https://www.sendwave.com">many</a> <a href="https://branch.co/">private</a> <a href="http://www.safaricom.co.ke/personal/m-pesa/do-more-with-m-pesa/m-shwari">companies</a>.</li>
-        </ul>
-
-        <h3 id="find-out-more-1">Find out more</h3>
-
-        <ul>
-          <li>Our <a href="http://goodtechnologyproject.org/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview/">review</a> of this area</li>
-          <li><a href="http://static1.squarespace.com/static/51bef39fe4b010d205f84a92/t/51f245abe4b0475c8b40f894/1374832043586/Hystra_Rapport_ICT_for_the_BoP.pdf#page=140">Hystra’s overview</a></li>
-          <li>Our summary of <a href="http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary/">Portfolios of the Poor</a>, which gives an insight into the financial lives of the world’s poorest people</li>
-        </ul>
-
-      </div>
-    </article>
-
-    <article class="problem-box grid">
-      <div class="col-1-3">
-        <img class="problem-box-image" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Power_cables_of_National_Power_Grid_in_Brahmanbaria.jpg"/>
-        <a class="image-source" href="https://commons.wikimedia.org/wiki/File:Power_cables_of_National_Power_Grid_in_Brahmanbaria.jpg">Image source</a>
-      </div>
-      <div class="col-2-3">
-        <h1 class="problem-box-header">Clean power generation</h1>
-        <p>Climate change could cause widespread damage to future generations. There is also a non-negligible chance of catastrophic harm. Part of the solution to this is to develop cleaner ways to produce energy.</p>
-        <ul class="problem-box-skill-list">
-          <li class="problem-box-skill">Data science</li>
-          <li class="problem-box-skill">Networking technology</li>
-          <li class="problem-box-skill">Mechanical engineering</li>
-          <li class="problem-box-skill">Electrical engineering</li>
-        </ul>
-        <a class="problem-box-read-more-link" onClick="ProblemList.readMore(this, 'cleanPowerGeneration')">Read more</a>
-      </div>
-
-      <div class="problem-box-extra-info hidden">
-
-        <h3 id="projects-to-address-this-2">Projects to address this</h3>
-
-        <p>Bret Victor’s excellent <a href="http://worrydream.com/#!/ClimateChange">What can a technologist do about climate change?</a> suggests the following software-related projects:</p>
-
-        <ul>
-          <li><a href="http://worrydream.com/ClimateChange/#production-stuff">Control systems for clean power generation machines</a></li>
-          <li><a href="http://worrydream.com/ClimateChange/#production-computation">Data gathering and modelling to predict optimal placement of wind and solar generators</a></li>
-          <li><a href="http://worrydream.com/ClimateChange/#moving-networking">Energy-networking: routing of energy through the grid, especially a future grid that has many fluctuating sources of power</a></li>
-        </ul>
-
-        <h3 id="skills-you-might-want-on-your-team-2">Skills you might want on your team</h3>
-
-        <ul>
-          <li>Data science</li>
-          <li>Networking technology</li>
-          <li>Mechanical and electrical engineering</li>
-        </ul>
-
-        <h3 id="why-this-might-have-exceptional-impact-2">Why this might have exceptional impact</h3>
-
-        <ul>
-          <li>Scale: Climate change could have very bad or catastrophic long-term consequences for all people on Earth.</li>
-          <li>Tractability: Novel technology is often required but there are companies already succeeding in this area.</li>
-          <li>Neglectedness: A lot is already spent on climate change, so you’d need to find an unusually neglected sub-problem.</li>
-        </ul>
-
-      </div>
+        <div class="problem-box-extra-info hidden">
+          {{problem}}
+        </div>
+      </article>
+    {% endfor %}
     </article>
   <div>
 
