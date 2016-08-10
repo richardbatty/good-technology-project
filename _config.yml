@@ -15,8 +15,11 @@ markdown: kramdown
 
 defaults:
   -
-    scope: 
+    scope:
       path: ""
       type: "posts"
     values:
       comments: true
+
+collections:
+- problems
