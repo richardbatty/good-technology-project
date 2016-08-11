@@ -74,7 +74,8 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 25px; }
+  margin-bottom: 25px;
+  margin-top: 25px; }
 
 li > ul,
 li > ol {
@@ -164,6 +165,15 @@ pre {
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
+
+.image-source {
+  font-size: 12px; }
+
+.hidden {
+  display: none; }
+
+.advice-session-button {
+  text-align: center; }
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -411,6 +421,37 @@ hr {
     font-family: "Open Sans", sans-serif; }
     .page-content #mc_embed_signup .button:hover {
       background-color: #ba1820; }
+
+.problem-list-container {
+  margin: 50px 0; }
+
+.problem-box {
+  margin: 50px 0; }
+
+.problem-box-header {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 37.5px;
+  margin: 0; }
+
+.problem-box-skill-list {
+  margin: 25px 0; }
+
+.problem-box-skill {
+  font-size: 12px;
+  display: inline-block;
+  background-color: #ddd;
+  padding: 0px 5px;
+  margin: 2px 0;
+  border-radius: 3px; }
+
+.problem-box-read-more-link {
+  margin: 25px 0;
+  cursor: pointer;
+  display: block; }
+
+.problem-box-image {
+  margin-top: 8px; }
 
 /**
  * Syntax highlighting styles

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Biosurveillance shallow overview</title>
+  <meta name="description" content="The problemNatural pandemics have historically killed millions of people and caused widespread suffering [REF]. And they’re on the rise [^infectious disease ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://goodtechnologyproject.org/blog/2016/08/05/biosurveillance-review">
+  <link rel="alternate" type="application/rss+xml" title="Good Technology Project" href="http://goodtechnologyproject.org/feed.xml" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70402967-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta name="google-site-verification" content="UKN7In4lFqg_MRdpUyhSBkDNr6PAA_0DYgUZt0PQQo8" />
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/problem_list.js"></script>
+</head>
+
+
+  <body class="grid">
+    <header class="site-header">
+
+  <div class="wrapper grid">
+
+    <h3 class="col-1-3 site-title"><a href="/">Good Technology Project</a></h3>
+
+    <nav class="site-nav col-2-3">
+
+      <div class="trigger">
+        <h3><a class="page-link" href="/blog">Blog</a><h3>
+        <h3><a class="page-link" href="/guide">Guide</a><h3>
+        <h3><a class="page-link" href="/about">About</a><h3>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+    <!-- From https://developers.facebook.com/docs/plugins/like-button#configurator -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <div class="page-content">
+      <div class="wrapper grid">
+        <div>
+          <div class="post">
+  <div>
+    <article>
+      <header class="post-header">
+        <h1 class="post-title">Biosurveillance shallow overview</h1>
+        <p class="post-meta">Aug 5, 2016 • Richard Batty</p>
+      </header>
+      <div class="post-content">
+        <h2 id="the-problem">The problem</h2>
+<p>Natural pandemics have historically killed millions of people and caused widespread suffering [REF]. And they’re on the rise [^infectious disease rise][MORE REF].</p>
+
+<p>“Infectious disease events, especially those resulting from novel emerging pathogens, have significantly increased over the past few decades, possibly as a result of alterations in various environmental, biological, socioeconomic, and political factors (1–4). Trends in globalization, including expansion in international travel and trade, have also extended the reach and increased the pace at which infectious diseases spread (5, 6), prompting the need for more rapid outbreak detection and reporting along with improved transparency to minimise the burden on global health and the economy”</p>
+
+<p>As well as the risk of natural pandemics, advances in biotechnology[^advances in biotechnology] have opened up the possibility of novel diseases being accidentally or deliberately released, and these could cause more harm[^more harm] than natural diseases.</p>
+
+<h2 id="a-solution-technology-to-detect-and-monitor-disease-outbreaks">A solution: Technology to detect and monitor disease outbreaks</h2>
+<p>If outbreaks can be detected earlier, preventive action can have more effect [REF]. And once an epidemic is underway, data about its spread can help with further efforts [REF]</p>
+
+<p>The field of biosurveillance aims to help this with technology[^what is biosurveillance]. It has two aims[^two aims of biosurveillance]:
+Early event detection - detect as early as possible events that suggest a public health emergency
+Situational awareness - to help response to outbreak and monitor it’s progress</p>
+
+<p>“Homeland Security Presidential Directive 21 (HSPD-21) defines biosurveillance as “the process
+of active data-gathering with appropriate analysis and interpretation of biosphere data that
+might relate to disease activity and threats to human or animal health — whether infectious,
+toxic, metabolic, or otherwise, and regardless of intentional or natural origin — in order to
+achieve early warning of health threats, early detection of health events, and overall situational
+awareness of disease activity” (U.S. Government, 2007).”</p>
+
+<p>http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh
+“Surveillance is the ongoing and systematic collection, analysis, and dissemination of health data. All public health institutions do this. It involves going out and collecting data on incidence or prevalence of disease, or on risk factors or precursors to disease. Surveillance systems are useful for early detection of anomalies so that we can act in response. It’s also used for census purposes to look at the stability of disease rates over time and across different regions so that we can decide whether to put more resources into helping one set of people or another.</p>
+
+<p>Within surveillance, biosurveillance is more focussed on computational tools and early detection of outbreaks.”</p>
+
+<h2 id="what-you-could-build">What you could build</h2>
+<p>### The parts of a typical biosurveillance system<sup id="fnref:parts"><a href="#fn:parts" class="footnote">1</a></sup></p>
+
+<h3 id="data-collection">Data collection</h3>
+<p>#### Syndromic surveillance</p>
+
+<p>Syndromic surveillance[^syndromic surveillance] systems look for leading indicators of a disease outbreak. Unlike traditional health surveillance, which relies on confirmed cases of a disease, such a system may look for an increase in individuals presenting with sore-throats in a particular area.[^syndromic vs traditional] In theory, this can help spot an outbreak before the traditional methods do.</p>
+
+<p>#### Participatory surveillance
+It’s possible to gather data from individuals about health around them. Flu near you is an example of this.
+#### Web-scraping
+Scraping data from online news sites and social media could catch outbreaks before traditional methods. For example, HealthMap noted a “mystery hemorrhagic fever” spreading in Guinea nine days before the WHO issued its first statement on the outbreak. This was found from an online news source.</p>
+
+<h3 id="data-management">Data management</h3>
+
+<h3 id="analysis">Analysis</h3>
+<p>Detecting an outbreak of disease is not enough. You also need to be able to judge whether this outbreak is likely to be important or not. While HealthMap did log early cases of Ebola, they don’t seem to have predicted the scale of the epidemic any earlier than anyone else. Historically, predicting the importance of an outbreak has been very difficult.[^failed disease prediction]</p>
+
+<h3 id="reporting">Reporting</h3>
+<p>Reporting reporting reporting
+## Others working on this</p>
+
+<h2 id="evaluation-of-project-impact">Evaluation of project impact</h2>
+<p>### Current system performance
+#### Detection
+WHO’s outbreak detection speed has improved. Median time from outbreak start to outbreak discovery and has decreased over time, from 29.5 days in 1996 to 13.5 days in 2009.[^WHO discovery times]</p>
+
+<p>“Looking at our milestones of interest, median time from outbreak start to outbreak discovery and to public communication about the outbreak generally decreased over time, from 29.5 d [95% CI (13.5; 59.0)] in 1996 to 13.5 d [95% CI (3.5; 44.5)] in 2009 for outbreak discovery, and from 40 d [95% CI (23.5; 80)] in 1996 to 19 d [95% CI (11.5; 56.5)] in 2009 for public communication (Fig. 3). With respect to when the revised IHR went into force in 2007, median time from outbreak start to outbreak discovery was 28 d [95% CI (20; 32)] before their implementation and 7 d [95% CI (4; 14)] after implementation, whereas for public communication, it was 33 d [95% CI (29; 40)] and 23 d [95% CI (17; 43)], respectively.
+These lags from outbreak start also varied by geographic region, with the longest delays, on average, in Africa [30 d, 95% CI (24; 41), and 43 d, 95% CI (31; 51), for outbreak discovery and public communication, respectively] and the Eastern Mediterranean [29 d, 95% CI (10; 44), and 39 d, 95% CI (20; 54)], and the shortest delays in South-East Asia [16.5 d, 95% CI (6; 34), and 15 d, 95% CI (11; 38)] and the Western Pacific [4 d, 95% CI (3; 7), and 18.5 d, 95% CI (12.5; 30.5)] (Fig. 4)”</p>
+
+<p>The existing system uses [UNKNOWN]</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:parts">
+      <p>http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=7 <a href="#fnref:parts" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+      </div>
+      <div class="share-buttons">
+  
+  <div class="fb-like" data-href=http://goodtechnologyproject.org/blog/2016/08/05/biosurveillance-review data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+  <a href="https://twitter.com/share" class="twitter-share-button" data-url=http://goodtechnologyproject.org/blog/2016/08/05/biosurveillance-review>Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+</div>
+
+      <footer>
+        
+        <div id="disqus_thread"></div>
+<script>
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        s.src = '//goodtechnologyproject.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        
+      </footer>
+    </article>
+  </div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+
+  <div class="wrapper grid">
+
+    <div class="col-1-2">
+      <div class="fb-like" data-href=https://facebook.com/goodtechnologyproject data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+      <a href="https://twitter.com/goodtechproject" class="twitter-follow-button" data-show-count="false">Follow @goodtechproject</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+      <div class="rss-subscribe">Subscribe <strong><a href="/feed.xml">via RSS</a></strong></div>
+    </div>
+    <div class="col-1-2">
+      <!-- Begin MailChimp Signup Form -->
+<style type="text/css">
+#mc_embed_signup form {
+  padding-left: 0;
+}
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+
+<form action="//github.us12.list-manage.com/subscribe/post?u=cd2b3d939a0d9853e2599a5c9&amp;id=c64b41f21f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <div id="mc_embed_signup_scroll">
+
+<div class="mc-field-group">
+<input type="email" value="" name="EMAIL" class="required email mailchimp-subscribe-input" placeholder="Email Address" id="mce-EMAIL">
+</div>
+<div id="mce-responses" class="clear">
+  <div class="response" id="mce-error-response" style="display:none"></div>
+  <div class="response" id="mce-success-response" style="display:none"></div>
+</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cd2b3d939a0d9853e2599a5c9_c64b41f21f" tabindex="-1" value=""></div>
+  <div class="clear mailchimp-subscribe-button"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+  </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+    </div>
+  </div>
+
+</footer>
+
+  </body>
+
+</html>

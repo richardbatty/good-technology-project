@@ -6,9 +6,83 @@
 </description>
     <link>http://goodtechnologyproject.org/</link>
     <atom:link href="http://goodtechnologyproject.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Jun 2016 13:10:34 +0100</pubDate>
-    <lastBuildDate>Sat, 25 Jun 2016 13:10:34 +0100</lastBuildDate>
+    <pubDate>Thu, 11 Aug 2016 16:51:18 +0100</pubDate>
+    <lastBuildDate>Thu, 11 Aug 2016 16:51:18 +0100</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Biosurveillance shallow overview</title>
+        <description>&lt;h2 id=&quot;the-problem&quot;&gt;The problem&lt;/h2&gt;
+&lt;p&gt;Natural pandemics have historically killed millions of people and caused widespread suffering [REF]. And they’re on the rise [^infectious disease rise][MORE REF].&lt;/p&gt;
+
+&lt;p&gt;“Infectious disease events, especially those resulting from novel emerging pathogens, have significantly increased over the past few decades, possibly as a result of alterations in various environmental, biological, socioeconomic, and political factors (1–4). Trends in globalization, including expansion in international travel and trade, have also extended the reach and increased the pace at which infectious diseases spread (5, 6), prompting the need for more rapid outbreak detection and reporting along with improved transparency to minimise the burden on global health and the economy”&lt;/p&gt;
+
+&lt;p&gt;As well as the risk of natural pandemics, advances in biotechnology[^advances in biotechnology] have opened up the possibility of novel diseases being accidentally or deliberately released, and these could cause more harm[^more harm] than natural diseases.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-solution-technology-to-detect-and-monitor-disease-outbreaks&quot;&gt;A solution: Technology to detect and monitor disease outbreaks&lt;/h2&gt;
+&lt;p&gt;If outbreaks can be detected earlier, preventive action can have more effect [REF]. And once an epidemic is underway, data about its spread can help with further efforts [REF]&lt;/p&gt;
+
+&lt;p&gt;The field of biosurveillance aims to help this with technology[^what is biosurveillance]. It has two aims[^two aims of biosurveillance]:
+Early event detection - detect as early as possible events that suggest a public health emergency
+Situational awareness - to help response to outbreak and monitor it’s progress&lt;/p&gt;
+
+&lt;p&gt;“Homeland Security Presidential Directive 21 (HSPD-21) defines biosurveillance as “the process
+of active data-gathering with appropriate analysis and interpretation of biosphere data that
+might relate to disease activity and threats to human or animal health — whether infectious,
+toxic, metabolic, or otherwise, and regardless of intentional or natural origin — in order to
+achieve early warning of health threats, early detection of health events, and overall situational
+awareness of disease activity” (U.S. Government, 2007).”&lt;/p&gt;
+
+&lt;p&gt;http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh
+“Surveillance is the ongoing and systematic collection, analysis, and dissemination of health data. All public health institutions do this. It involves going out and collecting data on incidence or prevalence of disease, or on risk factors or precursors to disease. Surveillance systems are useful for early detection of anomalies so that we can act in response. It’s also used for census purposes to look at the stability of disease rates over time and across different regions so that we can decide whether to put more resources into helping one set of people or another.&lt;/p&gt;
+
+&lt;p&gt;Within surveillance, biosurveillance is more focussed on computational tools and early detection of outbreaks.”&lt;/p&gt;
+
+&lt;h2 id=&quot;what-you-could-build&quot;&gt;What you could build&lt;/h2&gt;
+&lt;p&gt;### The parts of a typical biosurveillance system&lt;sup id=&quot;fnref:parts&quot;&gt;&lt;a href=&quot;#fn:parts&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;data-collection&quot;&gt;Data collection&lt;/h3&gt;
+&lt;p&gt;#### Syndromic surveillance&lt;/p&gt;
+
+&lt;p&gt;Syndromic surveillance[^syndromic surveillance] systems look for leading indicators of a disease outbreak. Unlike traditional health surveillance, which relies on confirmed cases of a disease, such a system may look for an increase in individuals presenting with sore-throats in a particular area.[^syndromic vs traditional] In theory, this can help spot an outbreak before the traditional methods do.&lt;/p&gt;
+
+&lt;p&gt;#### Participatory surveillance
+It’s possible to gather data from individuals about health around them. Flu near you is an example of this.
+#### Web-scraping
+Scraping data from online news sites and social media could catch outbreaks before traditional methods. For example, HealthMap noted a “mystery hemorrhagic fever” spreading in Guinea nine days before the WHO issued its first statement on the outbreak. This was found from an online news source.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-management&quot;&gt;Data management&lt;/h3&gt;
+
+&lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
+&lt;p&gt;Detecting an outbreak of disease is not enough. You also need to be able to judge whether this outbreak is likely to be important or not. While HealthMap did log early cases of Ebola, they don’t seem to have predicted the scale of the epidemic any earlier than anyone else. Historically, predicting the importance of an outbreak has been very difficult.[^failed disease prediction]&lt;/p&gt;
+
+&lt;h3 id=&quot;reporting&quot;&gt;Reporting&lt;/h3&gt;
+&lt;p&gt;Reporting reporting reporting
+## Others working on this&lt;/p&gt;
+
+&lt;h2 id=&quot;evaluation-of-project-impact&quot;&gt;Evaluation of project impact&lt;/h2&gt;
+&lt;p&gt;### Current system performance
+#### Detection
+WHO’s outbreak detection speed has improved. Median time from outbreak start to outbreak discovery and has decreased over time, from 29.5 days in 1996 to 13.5 days in 2009.[^WHO discovery times]&lt;/p&gt;
+
+&lt;p&gt;“Looking at our milestones of interest, median time from outbreak start to outbreak discovery and to public communication about the outbreak generally decreased over time, from 29.5 d [95% CI (13.5; 59.0)] in 1996 to 13.5 d [95% CI (3.5; 44.5)] in 2009 for outbreak discovery, and from 40 d [95% CI (23.5; 80)] in 1996 to 19 d [95% CI (11.5; 56.5)] in 2009 for public communication (Fig. 3). With respect to when the revised IHR went into force in 2007, median time from outbreak start to outbreak discovery was 28 d [95% CI (20; 32)] before their implementation and 7 d [95% CI (4; 14)] after implementation, whereas for public communication, it was 33 d [95% CI (29; 40)] and 23 d [95% CI (17; 43)], respectively.
+These lags from outbreak start also varied by geographic region, with the longest delays, on average, in Africa [30 d, 95% CI (24; 41), and 43 d, 95% CI (31; 51), for outbreak discovery and public communication, respectively] and the Eastern Mediterranean [29 d, 95% CI (10; 44), and 39 d, 95% CI (20; 54)], and the shortest delays in South-East Asia [16.5 d, 95% CI (6; 34), and 15 d, 95% CI (11; 38)] and the Western Pacific [4 d, 95% CI (3; 7), and 18.5 d, 95% CI (12.5; 30.5)] (Fig. 4)”&lt;/p&gt;
+
+&lt;p&gt;The existing system uses [UNKNOWN]&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:parts&quot;&gt;
+      &lt;p&gt;http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=7 &lt;a href=&quot;#fnref:parts&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 05 Aug 2016 15:34:00 +0100</pubDate>
+        <link>http://goodtechnologyproject.org/blog/2016/08/05/biosurveillance-review</link>
+        <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/08/05/biosurveillance-review</guid>
+        
+        
+      </item>
     
       <item>
         <title>High-level impact considerations</title>
@@ -926,71 +1000,6 @@ working on an implementation. &lt;a href=&quot;#fnref:hyperloop&quot; class=&quo
         <pubDate>Sun, 07 Feb 2016 10:30:00 +0000</pubDate>
         <link>http://goodtechnologyproject.org/blog/2016/02/07/lbry-and-decentralised-apps-an-interview-with-jeremy-kauffman</link>
         <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/02/07/lbry-and-decentralised-apps-an-interview-with-jeremy-kauffman</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tech for effective charities - an interview with Ben Clifford from Good Code</title>
-        <description>&lt;h2 id=&quot;what-is-good-code&quot;&gt;What is Good Code?&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://tinyletter.com/goodcode&quot;&gt;Good code&lt;/a&gt; is a meetup in London of software developers who work on projects for effective charities.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-did-good-code-get-started-what-are-you-trying-to-do&quot;&gt;How did good code get started? What are you trying to do?&lt;/h2&gt;
-
-&lt;p&gt;I was interested in technology entrepreneurship and I wanted to do a lot of good. I thought a good potential customer for this would be poor people or charities that help them, especially as there is little incentive for other organisations to help them out. I didn’t know much about this area though, so I set up Good Code to explore what kinds of problems charities have that could be solved by tech. We approach charities that seem high impact (e.g. from &lt;a href=&quot;http://www.givewell.org/&quot;&gt;GiveWell&lt;/a&gt; recommendations) and then find out what sort of problems they have that could be solved with software. It’s been a good way to start conversations with charities because we’re offering something of use to them.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;have-the-charities-youve-approached-wanted-the-help&quot;&gt;Have the charities you’ve approached wanted the help?&lt;/h2&gt;
-
-&lt;p&gt;Some charities who I’ve cold emailed haven’t got back to me. But there have been some who have been enthusiastic about getting help. We’ve done the most work with &lt;a href=&quot;http://www.newincentives.org/&quot;&gt;New Incentives&lt;/a&gt;, who have been &lt;a href=&quot;http://www.givewell.org/international/charities/new-incentives&quot;&gt;earmarked by GiveWell&lt;/a&gt; as having the potential to be recommended by them as a top charity in the future. They provide cash incentives to mothers who are at risk of transmitting HIV to their children to get health checks.&lt;/p&gt;
-
-&lt;p&gt;The projects we’ve done with them have helped improve the efficiency of operations they already do. One project was to automate the process of generating mobile money tokens from their bank account so that they can transfer money to the mothers. This used to be a really laborious manual process, so we helped them save time with that. Another example is that they use google spreadsheets for handling their data, and we’ve helped them out by making some google app scripts for that. It’s been really good that New Incentives have a good understanding of where technology could help out with what they’re doing. This helps a lot with working with them because they can provide good project specifications.&lt;/p&gt;
-
-&lt;p&gt;Because we’ve wanted to get stuck in quickly and build relationships with charities we’ve tried to go for easy wins where we don’t have to build everything from scratch or maintain it in the long run. It’s been a balancing act between getting the volunteers to commit the time and for the charities to commit the time. So we’ve been testing both sides with smaller projects.&lt;/p&gt;
-
-&lt;p&gt;A more ambitious project with New Incentives is a mobile app for field workers for randomising beneficiaries (if demand increases supply limits) and to conduct verification checks including HIV and pregnancy retests.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-do-you-find-volunteers-who-will-do-things&quot;&gt;How do you find volunteers who will do things?&lt;/h2&gt;
-
-&lt;p&gt;Some software developers are just addicted to coding and want to do more, so they can be more committed than other volunteers. But also I’ve tried to put as little time investment into new volunteers as possible and then if they’re keen enough they’ll keep coming back. So it’s more about selecting the right people than motivating people to be productive. Apart from myself, there’s 2 or 3 awesome people committed to doing Good Code projects.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-dont-the-charities-do-this-work-themselves&quot;&gt;Why don’t the charities do this work themselves?&lt;/h2&gt;
-
-&lt;p&gt;Both &lt;a href=&quot;https://www.givedirectly.org/&quot;&gt;GiveDirectly&lt;/a&gt; and &lt;a href=&quot;https://www.againstmalaria.com/&quot;&gt;Against Malaria Foundation&lt;/a&gt; have in-house technical staff, so I don’t know what their reaction would be if we offered to help, although I know GiveDirectly sometimes take on technical volunteers.&lt;/p&gt;
-
-&lt;p&gt;My impression is that most of the charities don’t have technical staff because it’s not their core activity and they don’t feel it would be worth their while hiring a whole technical staff member to do the kind of small projects we’ve been doing. However, it would be would be worth asking the people at New Incentives whether it would be worth them hiring a software developer in the future. They do have a lot of problems they could solve with tech especially around their mobile money system and their data analysis.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-anyone-else-doing-tech-for-high-impact-charities&quot;&gt;Is anyone else doing tech for high impact charities?&lt;/h2&gt;
-
-&lt;p&gt;There are a handful of organisations doing similar work, but not focussed on helping the highest impact charities.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-do-you-select-charities&quot;&gt;How do you select charities?&lt;/h2&gt;
-
-&lt;p&gt;We want to help GiveWell recommended charities, but there also could be promising opportunities elsewhere. There may be charities that don’t need funding so much, but would be able to increase their impact a lot if they had tech help.&lt;/p&gt;
-
-&lt;p&gt;It’s also really important to think about scale. For example, if you could improve the productivity across the whole of Oxfam the organisation it’s so big that you could have a large impact.&lt;/p&gt;
-
-&lt;p&gt;An interesting example is &lt;a href=&quot;http://www.thesegovia.com/&quot;&gt;Segovia&lt;/a&gt;. GiveDirectly thought that cash transfer technology wasn’t moving fast enough for them so they set up Segovia to work on this and then sell the technology to other organisations.&lt;/p&gt;
-
-&lt;p&gt;With the charities we’ve worked with, the solutions to their problems are out there, they just need help implementing them. So the model is closer to IT consulting than to software product development.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-are-you-going-to-do-with-good-code-in-the-medium-term&quot;&gt;What are you going to do with Good Code in the medium term?&lt;/h2&gt;
-
-&lt;p&gt;I’ve thought if we have the right set of people working on it and enough demand for it, we could set up an agency. And ideally we might be able to develop a product that would be useful for many charities and then scaling that up to have a big impact.&lt;/p&gt;
-
-&lt;p&gt;The meetup is also good because it brings together technologists who are interested in Effective Altruism. It’s a good recipe for finding a startup cofounder. I’ve met some really cool people through it and I’m excited about continuing this community.&lt;/p&gt;
-
-&lt;p&gt;It’s also great to understand these charities on a more intimate level, which normally wouldn’t be possible.&lt;/p&gt;
-
-&lt;h2 id=&quot;do-you-have-any-needs-what-would-you-like-from-the-good-technology-project&quot;&gt;Do you have any needs? What would you like from the Good Technology Project?&lt;/h2&gt;
-
-&lt;p&gt;It’s clear what the effective charities are from GiveWell’s list of giving opportunities. From that, you infer that if we ring them up and they say there’s a problem and we can solve that problem, then it seems like we have had a good amount of impact. But there are maybe other organisations that are high impact and tech constrained that aren’t on GiveWell’s list. So it would be good to have help finding these opportunities.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 29 Jan 2016 21:50:00 +0000</pubDate>
-        <link>http://goodtechnologyproject.org/blog/2016/01/29/tech-for-effective-charities-an-interview-with-ben-clifford-from-good-code</link>
-        <guid isPermaLink="true">http://goodtechnologyproject.org/blog/2016/01/29/tech-for-effective-charities-an-interview-with-ben-clifford-from-good-code</guid>
         
         
       </item>
