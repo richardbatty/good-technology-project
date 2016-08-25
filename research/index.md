@@ -35,3 +35,5 @@ We are aiming to be as transparent as we can in our research, and so we have mad
 ## Other resources
 
 We use Zotero for managing our sources, and you can access our shared library [here](https://www.zotero.org/groups/goodtechnologyproject/items).
+
+[Other useful resources](/research/resources).

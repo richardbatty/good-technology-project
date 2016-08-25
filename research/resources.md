@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-permalink: /guide/resources/
+permalink: /research/resources/
 ---
 
 ## Career advice
