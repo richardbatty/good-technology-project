@@ -27,5 +27,5 @@ image_source: https://commons.wikimedia.org/wiki/File:Snow-cholera-map.jpg
 
 ### Find out more
 
-* Our [interview with Alex Demarsh](http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh), who works on this.
+* Our [interview with Alex Demarsh](/blog/2016/06/11/interview-with-alex-demarsh), who works on this.
 * [This overview](http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf) of the field of biosurveillance.

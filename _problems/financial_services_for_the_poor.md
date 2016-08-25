@@ -26,6 +26,6 @@ image_source: https://commons.wikimedia.org/wiki/File:M-Pesa_Kenyan_Kiosk.JPG
 
 ### Find out more
 
-* Our [review](http://goodtechnologyproject.org/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview/) of this area
+* Our [review](/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview/) of this area
 * [Hystra’s overview](http://static1.squarespace.com/static/51bef39fe4b010d205f84a92/t/51f245abe4b0475c8b40f894/1374832043586/Hystra_Rapport_ICT_for_the_BoP.pdf#page=140)
-* Our summary of [Portfolios of the Poor](http://goodtechnologyproject.org/blog/2016/01/12/portfolios-of-the-poor-book-summary/), which gives an insight into the financial lives of the world’s poorest people
+* Our summary of [Portfolios of the Poor](/blog/2016/01/12/portfolios-of-the-poor-book-summary/), which gives an insight into the financial lives of the world’s poorest people
