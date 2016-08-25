@@ -6,11 +6,20 @@ permalink: /research/
 
 ## Our research 
 
-Our goal is to help carve up the global problem space in to important sub-problems that are amenable to technological solutions. For that reason, some of the first material that we are producing is shallow reviews of promising problem areas.
-
 ### Shallow reviews
 
+Our goal is to help carve up the global problem space in to important sub-problems that are amenable to technological solutions. For that reason, some of the first material that we are producing is shallow reviews of promising problem areas.
+
 - [Digital financial services for the poor](/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview).
+
+### Interviews
+
+We have used interviews with experts as a tool to learn more about an area.
+
+- [Alex Demarsh from McGill](/blog/2016/06/11/interview-with-alex-demarsh)
+- [Lucie Klarsfeld from Hystra](/blog/2016/05/21/interview-with-hystra)
+- [EyeSeeTea](/blog/2016/05/30/interview-with-eyeseetea)
+- [Isaac Slavitt from DrivenData](/blog/2016/05/15/interview-with-drivendata)
 
 ## Our process
 
