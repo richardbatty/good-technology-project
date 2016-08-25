@@ -8,7 +8,7 @@ This page contains links to all the research that we've done since starting the 
 
 ## Shallow reviews
 
-Our goal is to help carve up the global problem space in to important sub-problems that are amenable to technological solutions. For that reason, some of the first material that we are producing is shallow reviews of promising problem areas.
+One of our research goals is to carve up the global problem space in to important sub-problems that are amenable to technological solutions. For that reason, some of the first material that we are producing is shallow reviews of promising problem areas.
 
 - [Digital financial services for the poor](/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview).
 
@@ -40,4 +40,4 @@ We are aiming to be as transparent as we can in our research, and so we have mad
 
 We use Zotero for managing our sources, and you can access our shared library [here](https://www.zotero.org/groups/goodtechnologyproject/items).
 
-[Other useful resources](/research/resources).
+We have a collection of [other useful resources](/research/resources).
