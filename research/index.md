@@ -28,6 +28,10 @@ We're still trying to work out what we should be doing and how we should be doin
 - [Persistent neglectedness](/blog/2016/04/03/persistent-neglectedness)
 - [High-level considerations](/blog/2016/06/25/high-level-considerations)
 
+## List of promising tech organizations
+
+We're gradually coming across a variety of tech organizations that seem plausibly high impact. This is relevant both for founders who might want to learn from them, and for others who might want to consider working for them. We're keeping a list [here](https://docs.google.com/spreadsheets/d/1ecr4NikKJBqtMjaLThGZ5srHzzDYU85DWEC_RnaqJgc/edit?usp=sharing).
+
 ## Notes and works in progress
 
 We are aiming to be as transparent as we can in our research, and so we have made our research notes [publically available](https://drive.google.com/drive/u/0/folders/0B6jJhbNzdSRccExYV2xSZ2h3bUU). Please note that the material in this folder may be old, incomplete, or just plain wrong!
