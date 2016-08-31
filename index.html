@@ -33,8 +33,8 @@ layout: default
     {% for problem in site.problems %}
       <article class="problem-box grid">
         <div class="col-1-3">
-          <img class="problem-box-image" src={{problem.image}} />
-          <a class="image-source" href={{problem.image_source}}>Image source</a>
+          <img class="problem-box-image" src="{{problem.image}}" />
+          <a class="image-source" href="{{problem.image_source}}">Image source</a>
         </div>
         <div class="col-2-3">
           <h1 class="problem-box-header">{{problem.name}}</h1>
@@ -45,7 +45,7 @@ layout: default
             {% endfor %}
           </ul>
           {% capture onClick %}ProblemList.readMore(this,'{{problem.tracking_name}}'){% endcapture %}
-          <a class="problem-box-read-more-link" onClick={{onClick}}>Read more</a>
+          <a class="problem-box-read-more-link" onClick="{{onClick}}">Read more</a>
         </div>
 
         <div class="problem-box-extra-info hidden">
