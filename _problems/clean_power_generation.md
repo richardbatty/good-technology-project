@@ -1,5 +1,6 @@
 ---
-name: Clean power generation
+layout: page
+title: Clean power generation
 tracking_name: clean_power_generation
 description: Climate change could cause widespread damage to future generations. There is also a non-negligible chance of catastrophic harm. Part of the solution to this is to develop cleaner ways to produce energy.
 skills: [Data science, Networking technology, Mechanical engineering, Electrical engineering]

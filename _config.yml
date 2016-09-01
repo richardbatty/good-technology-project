@@ -22,4 +22,5 @@ defaults:
       comments: true
 
 collections:
-- problems
+  problems:
+    output: true

@@ -1,5 +1,6 @@
 ---
-name: Epidemic control
+layout: page
+title: Epidemic control
 tracking_name: epidemic_control
 description: Identifying disease outbreaks quickly can vastly reduce the harm that they do and tracking can aid efforts to tackle them
 skills: [Data science, Data visualisation, Web development, Public health, Epidemiology]

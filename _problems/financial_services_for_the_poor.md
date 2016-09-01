@@ -1,5 +1,6 @@
 ---
-name: Financial services for the world's poorest
+layout: page
+title: Financial services for the world's poorest
 tracking_name: financial_services_for_the_poor
 description: Because conventional banks don’t want to have the world’s poorest people as customers, it is difficult for them to access financial services to help them handle shocks, exploit opportunities, and manage risk
 skills: [Mobile development, Financial systems expertise, UX design]

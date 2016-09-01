@@ -37,15 +37,14 @@ layout: default
           <a class="image-source" href="{{problem.image_source}}">Image source</a>
         </div>
         <div class="col-2-3">
-          <h1 class="problem-box-header">{{problem.name}}</h1>
+          <h1 class="problem-box-header">{{problem.title}}</h1>
           <p>{{problem.description}}</p>
           <ul class="problem-box-skill-list">
             {% for skill in problem.skills %}
               <li class="problem-box-skill">{{skill}}</li>
             {% endfor %}
           </ul>
-          {% capture onClick %}ProblemList.readMore(this,'{{problem.tracking_name}}'){% endcapture %}
-          <a class="problem-box-read-more-link" onClick="{{onClick}}">Read more</a>
+          <a href="{{problem.url}}" class="problem-box-read-more-link">Read more</a>
         </div>
 
         <div class="problem-box-extra-info hidden">
