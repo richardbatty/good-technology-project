@@ -102,11 +102,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
-  padding-left: 12.5px;
-  font-size: 18px;
-  letter-spacing: -1px;
+  padding-left: 25px;
   font-style: italic;
   margin-bottom: 25px; }
   blockquote > :last-child {
@@ -368,7 +364,8 @@ pre {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
-    font-size: 20px; }
+    font-size: 20px;
+    margin-top: 25px; }
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }

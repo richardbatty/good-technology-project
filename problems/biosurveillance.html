@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Biosurveillance</title>
+  <meta name="description" content="The problemNatural pandemics have historically killed millions of people and caused widespread suffering.Advances in biotechnology1 have opened up the possib...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://goodtechnologyproject.org/problems/biosurveillance">
+  <link rel="alternate" type="application/rss+xml" title="Good Technology Project" href="http://goodtechnologyproject.org/feed.xml" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70402967-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta name="google-site-verification" content="UKN7In4lFqg_MRdpUyhSBkDNr6PAA_0DYgUZt0PQQo8" />
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/problem_list.js"></script>
+</head>
+
+
+  <body class="grid">
+    <header class="site-header">
+
+  <div class="wrapper grid">
+
+    <h3 class="col-1-3 site-title"><a href="/">Good Technology Project</a></h3>
+
+    <nav class="site-nav col-2-3">
+
+      <div class="trigger">
+        <h3><a class="page-link" href="/blog">Blog</a><h3>
+        <h3><a class="page-link" href="/research">Research</a><h3>
+        <h3><a class="page-link" href="/about">About</a><h3>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+    <!-- From https://developers.facebook.com/docs/plugins/like-button#configurator -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <div class="page-content">
+      <div class="wrapper grid">
+        <div>
+          <div class="post">
+  <div>
+    <header class="post-header">
+      <h1 class="post-title">Biosurveillance</h1>
+    </header>
+
+    <article class="post-content">
+      <h2 id="the-problem">The problem</h2>
+
+<p>Natural pandemics have historically killed millions of people and caused widespread suffering.</p>
+
+<p>Advances in biotechnology<sup id="fnref:advances_in_biotechnology"><a href="#fn:advances_in_biotechnology" class="footnote">1</a></sup> have opened up the possibility of novel diseases being accidentally or deliberately released, and these could cause more harm<sup id="fnref:more_harm"><a href="#fn:more_harm" class="footnote">2</a></sup> than natural diseases.</p>
+
+<h2 id="biosurveillance-as-a-possible-solution">Biosurveillance as a possible solution</h2>
+
+<p>The field of biosurveillance aims to help with detecting and tracking outbreaks of disease<sup id="fnref:what_is_biosurveillance"><a href="#fn:what_is_biosurveillance" class="footnote">3</a></sup> and is one component of improving biosecurity<sup id="fnref:biosurveillance_for_biosecurity"><a href="#fn:biosurveillance_for_biosecurity" class="footnote">4</a></sup>. It has two aims:<sup id="fnref:two_aims_of_biosurveillance"><a href="#fn:two_aims_of_biosurveillance" class="footnote">5</a></sup></p>
+
+<ul>
+  <li>Early event detection - detect as early as possible events that suggest a public health emergency</li>
+  <li>Situational awareness - to help response to outbreak and monitor it’s progress</li>
+</ul>
+
+<h2 id="what-you-could-build">What you could build</h2>
+
+<h3 id="the-parts-of-a-typical-biosurveillance-system">The parts of a typical biosurveillance system</h3>
+
+<p>To work out what you might build, it’s helpful to see the parts of a typical biosurveillance system:<sup id="fnref:parts"><a href="#fn:parts" class="footnote">6</a></sup></p>
+
+<p><img src="/assets/images/parts_of_biosurveillance_system.png" alt="image alt text" /></p>
+
+<p>We’ll explore what you could build for each part.</p>
+
+<h3 id="data-collection">Data collection</h3>
+
+<h4 id="syndromic-surveillance">Syndromic surveillance</h4>
+
+<p>Syndromic surveillance<sup id="fnref:syndromic_surveillance"><a href="#fn:syndromic_surveillance" class="footnote">7</a></sup> systems look for leading indicators of a disease outbreak. Unlike traditional health surveillance, which relies on confirmed cases of a disease, such a system may, for example, look for an increase in individuals presenting with sore-throats in a particular area.<sup id="fnref:syndromic_vs_traditional"><a href="#fn:syndromic_vs_traditional" class="footnote">8</a></sup> In theory, this can help spot an outbreak before the traditional methods do.</p>
+
+<h4 id="data-from-medical-records">Data from medical records</h4>
+
+<p>Data from hospital medical records could be pulled into a more centralised public health monitoring system at local, national, or international levels. This could be used to detect changes in patterns of diseases that are diagnosed in the records. Alternatively, the symptoms mentioned in the records could be analysed to detect misdiagnoses of rare diseases that could have a big impact on public health. As <a href="http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh">Alex Demarsh says</a> “One issue biosurveillance people think about a lot is the fact that doctors are told ‘When you see hoofprints think horses not zebras’. But in biosurveillance we’re looking for those zebras, unusual cases that could be the beginning of something bigger.”</p>
+
+<p>However, it could be very difficult to access this data both because of regulations for patient privacy and because the IT systems that hospitals use may be very difficult to work with.</p>
+
+<h4 id="participatory-surveillance">Participatory surveillance</h4>
+
+<p>It’s possible to gather data from individuals about health around them. <a href="https://flunearyou.org/">Flu near you</a> is an example of this. If you build a system that can consistently get good data in different regions, you could then use it to enhance surveillance in high-risk areas or during an emergency. For example, <a href="http://www.irinnews.org/report/95878/philippines-texting-help-and-health-disaster-response">the WHO helped set up</a> an SMS-based surveillance system for use during and after typhoons.</p>
+
+<h4 id="web-scraping">Web-scraping</h4>
+
+<p>Scraping data from online news sites and social media can catch outbreaks before traditional methods. An example of this is the <a href="http://www.who.int/csr/alertresponse/epidemicintelligence/en/">GPHIN system</a>, which proved useful during the <a href="https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome?oldformat=true">SARS</a> outbreak. According to <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2687026/">this paper</a> “GPHIN’s information was ≈2–3 days ahead of the official WHO report of confirmed and probable cases worldwide.”</p>
+
+<h4 id="data-on-factors-that-can-affect-spread">Data on factors that can affect spread</h4>
+
+<p>For example, human movement data can help with predicting the spread of many diseases; weather and landscape data can help when studying vector-borne diseases. <sup id="fnref:context_data"><a href="#fn:context_data" class="footnote">9</a></sup> For example, <a href="https://www.researchgate.net/profile/Seth_Britch2/publication/221495666_Environmental_Biosurveillance_for_Epidemic_Prediction_Experience_with_Rift_Valley_Fever/links/554a3a3c0cf21ed21358e0c8.pdf">this paper</a> describes a system designed to warn of climate conditions favourable for an outbreak of the mosquito-born Rift Valley fever. As another example, much of <a href="http://bluedot.global/work">Bluedot’s work</a> is on the spread of diseases (such as flu, ebola, and dengue) via global airline transport.</p>
+
+<h3 id="data-management">Data management</h3>
+
+<h4 id="connect-together-multiple-data-sources">Connect together multiple data sources</h4>
+
+<p><a href="http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh">Alex Demarsh says</a> “We need interoperable systems that can talk to one another. We need to be able to link together e.g. survey data, administrative data, environmental data, road networks, and maybe vector populations and movements. One thing that makes this difficult is that data is often hard to move between administrative units (such as states or provinces). This data infrastructure would help us to predict the spread of disease and would support decision making on how to handle an outbreak.”</p>
+
+<h3 id="analysis">Analysis</h3>
+
+<p>Detecting an initial outbreak of disease is not enough. You also need to be able to judge whether a report indicates an outbreak, and if there’s an outbreak whether it’s likely to be important. Historically, predicting the importance of an outbreak has been very difficult.<sup id="fnref:failed_disease_prediction"><a href="#fn:failed_disease_prediction" class="footnote">10</a></sup></p>
+
+<h3 id="reporting">Reporting</h3>
+
+<h4 id="better-tools-for-communicating-to-decision-makers">Better tools for communicating to decision-makers</h4>
+
+<p><a href="http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh">Alex Demarsh mentions</a> that “It would also be good to make it easier to communicate results of surveillance an analysis to non-technical and non-scientific people who have to make decisions. We need better tools for communicating data effectively to people in government who make decisions on how to respond. Often agencies have to search manually through data when there would be ways to make that process a lot quicker using better software”</p>
+
+<h2 id="which-diseases-should-you-concentrate-on">Which diseases should you concentrate on?</h2>
+
+<p>To make progress, you’ll need to start by working on a disease that has outbreaks often enough that you can test your system. Ideally you’d also work with a disease that is globally important, which will often mean diseases that are most prevalent in the developing world. See <a href="http://www.pnas.org/content/107/50/21701.full.pdf">Chan et al. 2010</a> for data on outbreak frequency in different regions.</p>
+
+<p>One good option would be flu. <a href="http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh">According to Alex Demarsh</a>  “In general, influenza is a good disease to work on as a lot of people die of it each year, there’s a risk of an influenza pandemic, and there’s a lot of data on it.”</p>
+
+<p>Alternatively, instead of working on detecting outbreaks of currently important diseases, you could work on detecting new diseases. According to <a href="http://cid.oxfordjournals.org/content/50/12/1636.full">this paper</a> “The majority of all human infectious diseases and pandemics have originated through the cross-species transmission of microorganisms from animals to humans, overwhelmingly in the Old World.” An example of this is HIV - according to the same paper “It is now generally accepted that the hunting and butchering of wild nonhuman primates in the early 20th century led to the introduction of simian immunodeficiency virus into the human population, giving rise to our modern day HIV pandemic.” If we had detected the early spread of HIV or the even earlier transmission of simian immunodeficiency virus into humans we would have been decades earlier than the <a href="https://www.aids.gov/hiv-aids-basics/hiv-aids-101/aids-timeline/">discovery of AIDS in the 80s</a>. <a href="https://www.ted.com/talks/nathan_wolfe_hunts_for_the_next_aids?language=en">This TED talk</a> is a useful introduction to this issue.</p>
+
+<h2 id="commercial-viability">Commercial viability</h2>
+
+<p>We’re not sure how easy it is to build a viable business in this area. There are existing companies such as <a href="http://www.epidemico.com/">Epidemico</a>, <a href="http://bluedot.global/">BlueDot</a>, and <a href="http://metabiota.com/">Metabiota</a> but it’s unclear from reading their websites how their business model works. A good next step would be to reach out to these companies and talk to them about their businesses and where they think there are gaps.</p>
+
+<h2 id="evaluation-of-potential-impact">Evaluation of potential impact</h2>
+
+<p>Based on the Open Philanthropy Project’s <a href="http://www.openphilanthropy.org/focus/global-catastrophic-risks/biosecurity">research on the topic</a>, we think that the biosecurity and pandemic preparedness is an important cause area. However, we’re unsure of how effective biosurveillance is at tackling this and have not looked into this question in depth. A discussion of the effectiveness of biosurveillance can be found <a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=7">here</a>.</p>
+
+<p>As well as looking at empirical work on the impact of biosurveillance, you could look at existing modelling of interventions to prevent disease spread to see if biosurveillance systems could affect some of the model parameters.</p>
+
+<h2 id="others-working-on-this">Others working on this</h2>
+
+<ul>
+  <li>Governmental and intergovernmental organisations such as the <a href="http://who.int/en/">WHO</a>, <a href="http://www.cdc.gov/">CDC</a>, and the <a href="http://www.phac-aspc.gc.ca/">Public Health Agency of Canada</a></li>
+  <li>Companies such as <a href="http://www.epidemico.com/">Epidemico</a>, <a href="http://bluedot.global/">BlueDot</a>, and <a href="http://metabiota.com/">Metabiota</a></li>
+  <li>Academics such as in <a href="https://dbmi.hms.harvard.edu/">Harvard’s Department of Biomedical Informatics</a>, <a href="http://mchi.mcgill.ca/about-us/surveillance/">McGill’s Surveillance lab</a>, <a href="http://www.vetmed.ucdavis.edu/foley_lab/">UC Davis’ Infectious Disease Ecology lab</a>, and the <a href="https://www.rods.pitt.edu/site/">University of Pittsburgh’s Real-Time Outbreak and Disease Surveillance system</a></li>
+  <li>Nonprofits such as <a href="http://www.globalviral.org/">Global Viral</a> and <a href="http://www.ecohealthalliance.org/">EcoHealth Alliance</a></li>
+</ul>
+
+<h2 id="other-resources">Other resources</h2>
+
+<ul>
+  <li>
+    <p>Open Philanthropy Project’s <a href="http://www.openphilanthropy.org/research/cause-reports/biosecurity">cause report on biosecurity</a>, including the conversation notes linked to in the <a href="http://www.openphilanthropy.org/research/cause-reports/biosecurity#sources">sources section</a></p>
+  </li>
+  <li>80,000 Hours problem <a href="https://80000hours.org/problem-profiles/biosecurity/">profile on biosecurity</a></li>
+  <li>Our interview with <a href="http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh">Alex Demarsh</a></li>
+  <li>This <a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=7">encyclopedia article</a> on biosurveillance</li>
+  <li>The <a href="http://www.amazon.co.uk/Handbook-Biosurveillance-Michael-M-Wagner/dp/0123693780/">Handbook of Biosurveillance</a></li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<p>Beckstead, Nick, Niel Bowerman, Owen Cotton-Barratt, William MacAskill, Seán Ó hÉigeartaigh, and Toby Ord. “Unprecedented Technological Risks” Global Priorities Project, 2014. Accessed August 17, 2016. <a href="http://globalprioritiesproject.org/wp-content/uploads/2015/04/Unprecedented-Technological-Risks.pdf">http://globalprioritiesproject.org/wp-content/uploads/2015/04/Unprecedented-Technological-Risks.pdf</a></p>
+
+<p>Chan, Emily H., Timothy F. Brewer, Lawrence C. Madoff, Marjorie P. Pollack, Amy L. Sonricker, Mikaela Keller, Clark C. Freifeld, Michael Blench, Abla Mawudeku, and John S. Brownstein. “<a href="http://www.pnas.org/content/107/50/21701.full">Global Capacity for Emerging Infectious Disease Detection</a>.” <em>Proceedings of the National Academy of Sciences</em> 107, no. 50 (December 14, 2010): 21701–6. doi:10.1073/pnas.1006219107.</p>
+
+<p>Fricker, Ronald D. “<a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf">Biosurveillance: detecting, tracking, and mitigating the effects of natural disease and bioterrorism.</a>” Wiley Encyclopedia of Operations Research and Management Science (2011).</p>
+
+<p>Keller, Mikaela, Michael Blench, Herman Tolentino, Clark C. Freifeld, Kenneth D. Mandl, Abla Mawudeku, Gunther Eysenbach, and John S. Brownstein. “<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2687026/">Use of Unstructured Event-Based Reports for Global Infectious Disease Surveillance</a>.” <em>Emerging Infectious Diseases</em> 15, no. 5 (May 2009): 689–95. doi:10.3201/eid1505.081114.</p>
+
+<p>Nouri, Ali, and Christopher F. Chyba. “Biotechnology and biosecurity.” Global catastrophic risks 1 (2008): 444.</p>
+
+<p>Pike, Brian L., Karen E. Saylors, Joseph N. Fair, Matthew LeBreton, Ubald Tamoufe, Cyrille F. Djoko, Anne W. Rimoin, and Nathan D. Wolfe. “<a href="http://cid.oxfordjournals.org/content/50/12/1636.full">The Origin and Prevention of Pandemics</a>.” <em>Clinical Infectious Diseases</em> 50, no. 12 (June 15, 2010): 1636–40. doi:10.1086/652860.</p>
+
+<p>Silver, Nate. The signal and the noise: Why so many predictions fail-but some don’t. Penguin, 2012.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:advances_in_biotechnology">
+
+      <p>Nouri and Chyba, 2008:</p>
+
+      <blockquote>
+        <p>Biotechnological power is increasing exponentially, reminiscent of the increase in computing power since the invention of electronic computers. The co­ founder of Intel Corporation, Gordon Moore, pointed out in 1965 that the number of transistors per computer chip - a measure of how much computation can be done in a given volume - has doubled roughly every 18 months (Moore, 1965). This exponential increase in computing power, now called ‘Moore’s Law’, has continued to hold in the decades since then (Lundstrom, 2003) and is the reason that individuals now have more computing power available in their personal computers than that was available only to the most advanced nations only decades ago. Although biotechnology’s exponential lift off began decades after that of computing, its rate of increase, as measured, for example, by the time needed to synthesize a given DNA sequence, is as fast or faster than that of Moore’s Law (Carlson, 2003). Just as Moore’s Law led to a world of personal computing and home appliance microprocessors, so biotechnological innovation is moving us into a world where the synthesis of DNA, as well as other biological manipulations, will be increasingly available to small groups of technically competent and even individual users.</p>
+      </blockquote>
+
+      <blockquote>
+        <p>There is already a list of well-known experiments - and many others that have received less public attention - that illustrates the potential dangers intrinsic to modern biological research and development. We review several examples of these in some detail below, including: genetic manipulations that have rendered certain viruses far more deadly to their animal hosts (Jackson et al., 2001); the synthesis of polio virus from readily purchased chemical supplies (Cello et al., 2002) - so that even if the World Health Organization (WHO) succeeds in its important task for eradicating polio worldwide, the virus can be reconstituted in laboratories around the world; the reduction in the time needed to synthesize a virus genome comparable in size to the polio virus from years to weeks; the laboratory re-synthesis of the 1918 human influenza virus that killed tens of millions of people worldwide (Tumpey et al., 2005); the discovery of ‘RNA interference’, which allows researchers to turn off certain genes in humans or other organisms (Sen et al., 2006); and the new field of ‘synthetic biology’, whose goal is to allow practitioners to fabricate small ‘biological devices’ and ultimately new types of microbes (Fu, 2006).</p>
+      </blockquote>
+      <p><a href="#fnref:advances_in_biotechnology" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:more_harm">
+
+      <p><a href="http://globalprioritiesproject.org/wp-content/uploads/2015/04/Unprecedented-Technological-Risks.pdf#page=6">Beckstead et al. 2014</a>:</p>
+
+      <blockquote>
+        <p>pressures from natural selection limit the destructive potential of pathogens. Synthetic biology can overcome these natural limits, allowing pandemics of unprecedented scale. Particularly worrying is a combination of high lethality, high infectiousness, and long incubation periods: properties that can occur individually in nature, but would cause a global catastrophe if combined.”</p>
+      </blockquote>
+
+      <p>Also see (Nouri and Chyba, 2008) <a href="#fnref:more_harm" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:what_is_biosurveillance">
+
+      <p><a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=2">Fricker 2011</a>:</p>
+
+      <blockquote>
+        <p>Homeland Security Presidential Directive 21 (HSPD-21) defines biosurveillance as “the process of active data-gathering with appropriate analysis and interpretation of biosphere data that might relate to disease activity and threats to human or animal health — whether infectious, toxic, metabolic, or otherwise, and regardless of intentional or natural origin — in order to achieve early warning of health threats, early detection of health events, and overall situational awareness of disease activity” (U.S. Government, 2007).</p>
+      </blockquote>
+
+      <p><a href="http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh">Interview with Alex Demarsh</a>:</p>
+
+      <blockquote>
+        <p>Surveillance is the ongoing and systematic collection, analysis, and dissemination of health data. All public health institutions do this. It involves going out and collecting data on incidence or prevalence of disease, or on risk factors or precursors to disease. Surveillance systems are useful for early detection of anomalies so that we can act in response. It’s also used for census purposes to look at the stability of disease rates over time and across different regions so that we can decide whether to put more resources into helping one set of people or another.</p>
+      </blockquote>
+
+      <blockquote>
+        <p>Within surveillance, biosurveillance is more focussed on computational tools and early detection of outbreaks.</p>
+      </blockquote>
+      <p><a href="#fnref:what_is_biosurveillance" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:biosurveillance_for_biosecurity">
+
+      <p>During <a href="http://files.givewell.org/files/conversations/Inglesby%2010-2-13%20(public).pdf">a conversation</a> on biosecurity with Open Philanthropy Project, Tom Inglesby, M.D., Chief Executive Officer and Director, University of Pittsburgh Medical Center (UPMC) Center for Health Security mentions the following two areas as needing future work:</p>
+
+      <blockquote>
+        <p>Stronger international disease surveillance systems with better interconnection and more	updated technologies.</p>
+      </blockquote>
+
+      <blockquote>
+        <p>Public health systems that can use electronic medical records to detect patterns in	 disease and to manage outbreaks.</p>
+      </blockquote>
+      <p><a href="#fnref:biosurveillance_for_biosecurity" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:two_aims_of_biosurveillance">
+      <p><a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=4">Fricker 2011</a> <a href="#fnref:two_aims_of_biosurveillance" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:parts">
+      <p><a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=7">Fricker 2011</a> <a href="#fnref:parts" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:syndromic_surveillance">
+
+      <p><a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=2">Fricker 2011</a>:</p>
+
+      <blockquote>
+        <p>“the ongoing, systematic collection, analysis, interpretation, and application of real-time (or near-real-time) indicators of diseases and outbreaks that allow for their detection before public health authorities would otherwise note them” (Sosin, 2003). Thus, syndromic surveillance is epidemiologic surveillance restricted to using leading indicators of disease. In particular, syndromic surveillance is based on the notion of a syndrome which is a set of non-specific pre-diagnosis medical and other information that may indicate the release of a bioterrorism agent or natural disease outbreak.</p>
+      </blockquote>
+      <p><a href="#fnref:syndromic_surveillance" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:syndromic_vs_traditional">
+      <p><a href="http://faculty.nps.edu/rdfricke/docs/Encyclopedia%20Article.pdf#page=2">Fricker 2011</a> <a href="#fnref:syndromic_vs_traditional" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:context_data">
+      <p><a href="http://goodtechnologyproject.org/blog/2016/06/11/interview-with-alex-demarsh">Interview with Alex Demarsh</a> <a href="#fnref:context_data" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:failed_disease_prediction">
+      <p>Nate Silver’s book <em>The Signal and the Noise</em> describes several failed_disease_predictions such as overestimating the importance of the 1976 Fort Dix H1N1 flu outbreak and the 2009 H1N1 outbreak; and underestimating the growth of the US HIV epidemic in the 80s and 90s. <a href="#fnref:failed_disease_prediction" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    </article>
+    <footer>
+      
+      <div id="disqus_thread"></div>
+<script>
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        s.src = '//goodtechnologyproject.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+      
+    </footer>
+  </div>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+
+  <div class="wrapper grid">
+
+    <div class="col-1-2">
+      <div class="fb-like" data-href=https://facebook.com/goodtechnologyproject data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+      <a href="https://twitter.com/goodtechproject" class="twitter-follow-button" data-show-count="false">Follow @goodtechproject</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+      <div class="rss-subscribe">Subscribe <strong><a href="/feed.xml">via RSS</a></strong></div>
+    </div>
+    <div class="col-1-2">
+      <!-- Begin MailChimp Signup Form -->
+<style type="text/css">
+#mc_embed_signup form {
+  padding-left: 0;
+}
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+
+<form action="//github.us12.list-manage.com/subscribe/post?u=cd2b3d939a0d9853e2599a5c9&amp;id=c64b41f21f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <div id="mc_embed_signup_scroll">
+
+<div class="mc-field-group">
+<input type="email" value="" name="EMAIL" class="required email mailchimp-subscribe-input" placeholder="Email Address" id="mce-EMAIL">
+</div>
+<div id="mce-responses" class="clear">
+  <div class="response" id="mce-error-response" style="display:none"></div>
+  <div class="response" id="mce-success-response" style="display:none"></div>
+</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cd2b3d939a0d9853e2599a5c9_c64b41f21f" tabindex="-1" value=""></div>
+  <div class="clear mailchimp-subscribe-button"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+  </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+    </div>
+  </div>
+
+</footer>
+
+  </body>
+
+</html>

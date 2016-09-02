@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Diagnostics for the developing world</title>
+  <meta name="description" content="The problemThe 50 Breakthroughs report summarises the problem:  Accurate and timely diagnosis increases the likelihood of successful treatment. Diagnostics p...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://goodtechnologyproject.org/problems/diagnostics_for_the_developing_world">
+  <link rel="alternate" type="application/rss+xml" title="Good Technology Project" href="http://goodtechnologyproject.org/feed.xml" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70402967-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta name="google-site-verification" content="UKN7In4lFqg_MRdpUyhSBkDNr6PAA_0DYgUZt0PQQo8" />
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/problem_list.js"></script>
+</head>
+
+
+  <body class="grid">
+    <header class="site-header">
+
+  <div class="wrapper grid">
+
+    <h3 class="col-1-3 site-title"><a href="/">Good Technology Project</a></h3>
+
+    <nav class="site-nav col-2-3">
+
+      <div class="trigger">
+        <h3><a class="page-link" href="/blog">Blog</a><h3>
+        <h3><a class="page-link" href="/research">Research</a><h3>
+        <h3><a class="page-link" href="/about">About</a><h3>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+    <!-- From https://developers.facebook.com/docs/plugins/like-button#configurator -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <div class="page-content">
+      <div class="wrapper grid">
+        <div>
+          <div class="post">
+  <div>
+    <header class="post-header">
+      <h1 class="post-title">Diagnostics for the developing world</h1>
+    </header>
+
+    <article class="post-content">
+      <h2 id="the-problem">The problem</h2>
+
+<p>The 50 Breakthroughs report <a href="https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=163">summarises the problem</a>:</p>
+
+<blockquote>
+  <p>Accurate and timely diagnosis increases the likelihood of successful treatment. Diagnostics play a particularly vital role in clinical scenarios where patients present with non-specific symptoms that are common to multiple diseases, or in situations where the specific strain of the disease must be identified to determine the correct treatment regimen. Since many infectious diseases are asymptomatic, diagnostics are necessary for screening asymptomatic patients. This helps prevent long term complications from untreated infections and decreases the rate of disease transmission within communities. Diagnostics are also essential for monitoring treatment effectiveness for chronic diseases like diabetes. Indeed, diagnostics inform and influence 60-70% of healthcare decisions.</p>
+</blockquote>
+
+<blockquote>
+  <p>Unfortunately, the diagnostics currently on the global market have a number of serious shortcomings for use in resource-poor settings. Most reliable diagnostics require clinical infrastructure, and need to be administered by highly trained healthcare workers; as such, they are not suitable for point-of-care use. Most of the simpler diagnostics that have been deployed on a large scale are proving to be inadequate due to low sensitivity or specificity, and the inability to determine the drug susceptibility of the infecting pathogen. Today, 60% of people in developing countries have access to only poorly equipped, peripheral health clinics. This means that their diagnoses are often unreliable, or they have to incur high out-of-pocket expenses at distant facilities with better equipment and more trained staff.</p>
+</blockquote>
+
+<blockquote>
+  <p>To meet the needs of these patients, a new generation of innovative diagnostics need to be developed. These tests must be portable and lightweight, capable of operating without grid electricity, be tolerant to high ambient temperature and humidity, be able to withstand physical shock while being transported, and be simple enough to be used by minimally trained healthcare workers at the point-of-care. There are 4 technological breakthroughs which can make that possible.</p>
+</blockquote>
+
+<p>The pages after this quote have some more detail about the parts of the problem and weaknesses of current methods.</p>
+
+<h2 id="what-you-could-build">What you could build</h2>
+
+<h3 id="tests-for-specific-diseases">Tests for specific diseases</h3>
+
+<p>A test for a globally important disease such as HIV or malaria could have huge impact (see the impact section below). Choosing which one to focus on will depend in large part on your skills and the tractability of the problem.</p>
+
+<p>There are different needs and challenges for each major disease (table from <a href="https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=167">here</a>):</p>
+
+<p><img src="/assets/images/diagnostics_specific_diseases_0.png" alt="image alt text" />
+<img src="/assets/images/diagnostics_specific_diseases_1.png" alt="image alt text" />
+<img src="/assets/images/diagnostics_specific_diseases_2.png" alt="image alt text" />
+<img src="/assets/images/diagnostics_specific_diseases_3.png" alt="image alt text" />
+<img src="/assets/images/diagnostics_specific_diseases_4.png" alt="image alt text" />
+<img src="/assets/images/diagnostics_specific_diseases_5.png" alt="image alt text" />
+<img src="/assets/images/diagnostics_specific_diseases_6.png" alt="image alt text" /></p>
+
+<h3 id="components-or-tools-common-to-many-tests">Components or tools common to many tests</h3>
+
+<p>It may be possible to accelerate progress on diagnostic tests for important diseases by creating better technology for use in many of them.</p>
+
+<h4 id="improve-a-diagnostic-method">Improve a diagnostic method</h4>
+
+<p>There are <a href="https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=166">several types of diagnostics</a>:</p>
+
+<ul>
+  <li><strong>Cell-based assays</strong>, which detect whole cells. An example would be tests that count white blood cells for monitoring HIV/AIDS. There are now handheld devices using this method.</li>
+  <li><strong>Immunoassays</strong>, which use antibodies to detect protein markers of a disease. There has been good progress on developing low cost versions of these tests for use in the developing world.</li>
+  <li><strong>Nucleic acid testing</strong>, which detects pathogen DNA or RNA. These tests are usually complex and expensive, which limits use in the developing world.</li>
+  <li><strong>Clinical chemistry assays</strong>, which measure a variety of blood chemistry parameters. There is very little use in the developing world at the point-of-care. It would be useful to develop point-of-care tests because test accuracy reduces when samples are transported to central laboratories.</li>
+  <li><strong>Hematology tests</strong>, which measure hemoglobin and hematocrit to test for anemia and measure blood coagulation. There are several point-of-care technologies for this.</li>
+</ul>
+
+<p>Making one of these more accessible could help fight several diseases.</p>
+
+<h4 id="make-other-generally-applicable-improvements">Make other generally-applicable improvements</h4>
+
+<p>The following are requirements for diagnostics in minimal infrastructure settings from <a href="http://www.bvgh.org/Portals/0/Reports/2010_the_diagnostics_innovation_map.pdf#page=22">this report</a>. You could work on making progression one of these for one or many diagnostic tests.</p>
+
+<p><img src="/assets/images/requirements_in_minimal_infrastructure_settings.png" alt="image alt text" /></p>
+
+<p>One additional idea would be to improve sample collection. For example, <a href="http://www.orphidia.com/">Orphidia</a> is a company that makes diagnoses from a drop of blood, meaning that a trained phlebotomist is not required.</p>
+
+<h3 id="more-advice-on-what-to-build">More advice on what to build</h3>
+
+<ul>
+  <li>The 50 Breakthroughs Report’s <a href="https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=163">section on diagnostics</a></li>
+  <li>FIND’s <a href="http://www.finddx.org/target-product-profiles/">Target Product Profiles</a></li>
+  <li>BVGH’s <a href="http://www.bvgh.org/Portals/0/Reports/2010_the_diagnostics_innovation_map.pdf">Diagnostics innovation map</a></li>
+</ul>
+
+<h2 id="impact">Impact</h2>
+
+<h3 id="scale-of-potential-impact">Scale of potential impact</h3>
+
+<p><a href="http://ajcp.oxfordjournals.org/content/ajcpath/141/1/17.full.pdf">Tayoun et al. (2014)</a> summarise the findings of a Gates Foundation and RAND Corporation study that brought together experts in specific diseases, technology development, and disease modelling to estimate the impact of affordable diagnostics for specific diseases. Their estimates were measured in DALYs, a metric used by the World Health Organisation that can be thought of as one lost year of healthy life (more explanation on this metric can be found <a href="https://www.givingwhatwecan.org/post/2014/03/measuring-benefits/">here</a> and <a href="http://www.who.int/healthinfo/global_burden_disease/metrics_daly/en/">here</a>). Their results are summarised in the following graph, which shows the estimated disability adjusted life years that would be saved per year by the introduction of accessible diagnostics.</p>
+
+<p><img src="/assets/images/diagnostics_dalys_saved.png" alt="image alt text" /></p>
+
+<p>We haven’t looked closely yet at the methodology behind this estimates, but given the source we think it would be difficult to do better than these estimates without a great deal of domain-relevant expertise.</p>
+
+<p>These potential impacts are huge. However, it’s important to remember that your project’s expected impact will likely be significantly lower for several reasons:</p>
+
+<ul>
+  <li>You may only solve a part of the problem or only get distribution in a small geographic area</li>
+  <li>There is a chance of failure, as in any startup or R&amp;D venture</li>
+  <li>If you didn’t do your project, accessible diagnostic tools would eventually get developed. The difference you make is in bringing forward this date.</li>
+</ul>
+
+<p>These estimates also help with choosing what to build - judging purely by these estimates it looks like STDs would be the most important diseases to develop diagnostics for. However, which disease you choose will also depend on other factors such as your skills and the business model for your project.</p>
+
+<h3 id="tractability">Tractability</h3>
+
+<h4 id="technical-tractability">Technical tractability</h4>
+
+<p>Our guess is that the technical challenge required in developing accessible diagnostic tests is significant because there are <a href="http://ajcp.oxfordjournals.org/content/ajcpath/141/1/17.full.pdf#page=4">multiple barriers</a> to developing accessible diagnostic technology such as temperature control, access to clean water, difficulty of obtaining some types of samples, and the cost and weight of diagnostic hardware.</p>
+
+<h4 id="deployment-tractability">Deployment tractability</h4>
+
+<p>The 50 breakthroughs report rates the difficulty of deployment for three of their <a href="https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=176">suggested diagnostics breakthroughs</a> as ‘extremely challenging’ and the remaining one as ‘complex’. These include difficulties such as regulation, training users, a fragmented market, low existing demand, and a lack of clear business model.</p>
+
+<h3 id="neglectedness">Neglectedness</h3>
+
+<p>We don’t have a good idea of how neglected the specific area of accessible diagnostics is, but it isn’t completely neglected. The Gates Foundation are making <a href="https://www.google.com/search?q=gates+foundation+diagnostics">grants</a> in this area and there are some companies and nonprofits working on it (see the list at the end of this overview).</p>
+
+<p>In general though, work on developing world problems is very neglected compared to work on developed world problems.</p>
+
+<h3 id="whats-the-bottleneck">What’s the bottleneck?</h3>
+
+<p>It only makes sense to start a project if the bottleneck on impact is a lack of good projects and the tech they develop, rather than, for example, a lack of available funding. We don’t know how much this field is constrained by lack of entrepreneurial projects.</p>
+
+<h2 id="next-steps-for-if-youre-interested">Next steps for if you’re interested</h2>
+
+<p>Read the reports linked to in the ‘further reading’ section below to get an idea of the parts of the problem. As you get deeper into this, talk to experts in the field for more information.</p>
+
+<p>As you’re learning about the problem and possible solutions, focus on areas where you think you and your founders’ technical skills give you a particular <a href="https://medium.com/entrepreneur-first/finding-your-edge-41d3950b4506">edge</a>. An example of this would be John Lewandowski, who was a PhD student in mechanical engineering and invented a <a href="http://money.cnn.com/2016/06/03/technology/malaria-blood-test-device/">mechanical device to diagnose malaria</a>. It makes more sense for him to exploit his knowledge of mechanical engineering than for him to try to do develop a more biotech-based diagnostic test.</p>
+
+<h2 id="further-reading">Further reading</h2>
+
+<ul>
+  <li>The 50 Breakthroughs Report’s <a href="https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=163">section on diagnostics</a></li>
+  <li>FIND’s <a href="http://www.finddx.org/target-product-profiles/">Target Product Profiles</a></li>
+  <li><a href="http://ajcp.oxfordjournals.org/content/ajcpath/141/1/17.full.pdf">Democratizing molecular diagnostics for the developing world</a></li>
+  <li>The Gates Foundation and RAND Corporation’s <a href="http://www.nature.com/nature/journal/v444/n1s/">report</a> on improved diagnostic technologies for the developing world, including models of impact for several important diseases</li>
+  <li><a href="http://www.bvgh.org/Portals/0/Reports/2010_the_diagnostics_innovation_map.pdf">The Diagnostics Innovation Map</a></li>
+  <li>The Gates Foundation’s <a href="https://www.google.com/search?q=gates+foundation+diagnostics">grants</a> for diagnostic test development</li>
+</ul>
+
+<h2 id="organisations-in-point-of-care-diagnostics">Organisations in point of care diagnostics</h2>
+
+<ul>
+  <li><a href="http://www.spartanbio.com/">Spartan Bio</a> - DNA testing in a 10cm^3 cube</li>
+  <li><a href="http://www.biomeme.com/">Biomeme</a>  - Smartphone-based DNA detection</li>
+  <li><a href="http://www.orphidia.com/">Orphidia</a> - Test results from single drop of blood</li>
+  <li><a href="http://7sbio.com/">Seventh Sense Biosystems</a> - blood collection without venipuncture</li>
+  <li><a href="http://www.diseasediagnostic.com/">Diseased Diagnostic Group</a> - Malaria diagnosis</li>
+  <li><a href="https://www.abaxis.com/">Abaxis</a> - point of care blood analysers</li>
+  <li><a href="http://www.axela.com/">Axela</a> - protein, DNA, and RNA analysis</li>
+  <li><a href="http://www.biohelix.com/">BioHelix</a> - nucleic acid diagnostics</li>
+  <li><a href="http://www.cellabs.com.au/">Cellabs</a> - tropical disease diagnostics</li>
+  <li><a href="http://daktaridx.com/">Daktari Diagnostics</a> - testing for various viruses, including Hepatitis C and HIV in both developing and developed world</li>
+  <li><a href="http://dfa.org/">Diagnostics for All</a> - diagnostic devices for the developing world</li>
+  <li><a href="http://www.gsshealth.com/">Global Scientific Solutions for Health</a> - consultancy for disease detection and testing networks</li>
+  <li><a href="http://www.biofiredx.com/">BioFire</a> - symptom-driven diagnostics</li>
+  <li><a href="http://www.inbios.com/">InBios</a> - immunodiagnostics for infectious diseases</li>
+  <li><a href="http://www.alere.com/">Alere</a> - point of care molecular diagnostics, including HIV</li>
+  <li><a href="http://microsensbp.com/">Microsens Biotechnologies</a> - extraction of pathogens from various samples</li>
+  <li><a href="http://www.omegadiagnostics.com/">Omega Diagnostics Group</a> - various point of care diagnostics</li>
+  <li><a href="http://www.quanterix.com/">Quanterix</a> - immunodiagnostics</li>
+  <li><a href="https://www.quidel.com/">Quidel</a> - various diagnostics</li>
+  <li><a href="https://www.healthcare.siemens.com/laboratory-diagnostics">Siemens Healthcare Diagnostics</a> - various diagnostics</li>
+  <li><a href="http://sierramolecular.com/">Sierra Molecular</a> - sample preservatives to avoid need for refrigeration</li>
+  <li><a href="http://www.somalogic.com/">SomaLogic</a> - protein based diagnostics</li>
+</ul>
+
+    </article>
+    <footer>
+      
+      <div id="disqus_thread"></div>
+<script>
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        s.src = '//goodtechnologyproject.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+      
+    </footer>
+  </div>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+
+  <div class="wrapper grid">
+
+    <div class="col-1-2">
+      <div class="fb-like" data-href=https://facebook.com/goodtechnologyproject data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+      <a href="https://twitter.com/goodtechproject" class="twitter-follow-button" data-show-count="false">Follow @goodtechproject</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+      <div class="rss-subscribe">Subscribe <strong><a href="/feed.xml">via RSS</a></strong></div>
+    </div>
+    <div class="col-1-2">
+      <!-- Begin MailChimp Signup Form -->
+<style type="text/css">
+#mc_embed_signup form {
+  padding-left: 0;
+}
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+
+<form action="//github.us12.list-manage.com/subscribe/post?u=cd2b3d939a0d9853e2599a5c9&amp;id=c64b41f21f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <div id="mc_embed_signup_scroll">
+
+<div class="mc-field-group">
+<input type="email" value="" name="EMAIL" class="required email mailchimp-subscribe-input" placeholder="Email Address" id="mce-EMAIL">
+</div>
+<div id="mce-responses" class="clear">
+  <div class="response" id="mce-error-response" style="display:none"></div>
+  <div class="response" id="mce-success-response" style="display:none"></div>
+</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cd2b3d939a0d9853e2599a5c9_c64b41f21f" tabindex="-1" value=""></div>
+  <div class="clear mailchimp-subscribe-button"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+  </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+    </div>
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
