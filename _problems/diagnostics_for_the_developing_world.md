@@ -18,7 +18,7 @@ The 50 Breakthroughs report [summarises the problem](https://ligtt.org/sites/all
 
   > To meet the needs of these patients, a new generation of innovative diagnostics need to be developed. These tests must be portable and lightweight, capable of operating without grid electricity, be tolerant to high ambient temperature and humidity, be able to withstand physical shock while being transported, and be simple enough to be used by minimally trained healthcare workers at the point-of-care. There are 4 technological breakthroughs which can make that possible.
 
-See the pages after this quote for more detail about the parts of the problem and weaknesses of current methods.
+The pages after this quote have some more detail about the parts of the problem and weaknesses of current methods.
 
 ## What you could build
 
@@ -26,7 +26,7 @@ See the pages after this quote for more detail about the parts of the problem an
 
 A test for a globally important disease such as HIV or malaria could have huge impact (see the impact section below). Choosing which one to focus on will depend in large part on your skills and the tractability of the problem.
 
-There are different needs and challenges for each major disease (table copied from [here](https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=167)):
+There are different needs and challenges for each major disease (table from [here](https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=167)):
 
 ![image alt text](/assets/images/diagnostics_specific_diseases_0.png)
 ![image alt text](/assets/images/diagnostics_specific_diseases_1.png)
@@ -44,10 +44,10 @@ It may be possible to accelerate progress on diagnostic tests for important dise
 
 There are [several types of diagnostics](https://ligtt.org/sites/all/files/page/50BTs-Consolidated.pdf#page=166):
 
-* **Cell-based assays**, which detect whole cells such as those that count white blood cells for monitoring HIV/AIDS. There are now handheld devices using this method.
+* **Cell-based assays**, which detect whole cells. An example would be tests that count white blood cells for monitoring HIV/AIDS. There are now handheld devices using this method.
 * **Immunoassays**, which use antibodies to detect protein markers of a disease. There has been good progress on developing low cost versions of these tests for use in the developing world.
-* **Nucleic acid testing**, detect pathogen DNA or RNA. These tests are usually complex and expensive, which limits use in the developing world.
-* **Clinical chemistry assays**, which measure a variety of blood chemistry parameters. There is very little use in developing world point of care, although it would be useful because test accuracy reduces when you transport samples to central laboratories.
+* **Nucleic acid testing**, which detects pathogen DNA or RNA. These tests are usually complex and expensive, which limits use in the developing world.
+* **Clinical chemistry assays**, which measure a variety of blood chemistry parameters. There is very little use in the developing world at the point-of-care. It would be useful to develop point-of-care tests because test accuracy reduces when samples are transported to central laboratories.
 * **Hematology tests**, which measure hemoglobin and hematocrit to test for anemia and measure blood coagulation. There are several point-of-care technologies for this.
 
 Making one of these more accessible could help fight several diseases.
@@ -58,7 +58,7 @@ The following are requirements for diagnostics in minimal infrastructure setting
 
 ![image alt text](/assets/images/requirements_in_minimal_infrastructure_settings.png)
 
-One additional idea would be to Improve sample collection. For example, [Orphidia](http://www.orphidia.com/) is a company that makes diagnoses from a drop of blood, meaning that a trained phlebotomist is not required.
+One additional idea would be to improve sample collection. For example, [Orphidia](http://www.orphidia.com/) is a company that makes diagnoses from a drop of blood, meaning that a trained phlebotomist is not required.
 
 ### More advice on what to build
 
@@ -74,7 +74,7 @@ One additional idea would be to Improve sample collection. For example, [Orphidi
 
 ![image alt text](/assets/images/diagnostics_dalys_saved.png)
 
-We haven’t looked closely yet at the methodology behind this estimates, although given the source, we think it would be difficult to do better than these estimates without a great deal of domain-relevant expertise.
+We haven’t looked closely yet at the methodology behind this estimates, but given the source we think it would be difficult to do better than these estimates without a great deal of domain-relevant expertise.
 
 These potential impacts are huge. However, it’s important to remember that your project’s expected impact will likely be significantly lower for several reasons:
 
