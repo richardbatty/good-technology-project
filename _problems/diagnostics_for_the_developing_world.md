@@ -79,9 +79,7 @@ We haven’t looked closely yet at the methodology behind this estimates, althou
 These potential impacts are huge. However, it’s important to remember that your project’s expected impact will likely be significantly lower for several reasons:
 
 * You may only solve a part of the problem or only get distribution in a small geographic area
-
 * There is a chance of failure, as in any startup or R&D venture
-
 * If you didn’t do your project, accessible diagnostic tools would eventually get developed. The difference you make is in bringing forward this date.
 
 These estimates also help with choosing what to build - judging purely by these estimates it looks like STDs would be the most important diseases to develop diagnostics for. However, which disease you choose will also depend on other factors such as your skills and the business model for your project.
