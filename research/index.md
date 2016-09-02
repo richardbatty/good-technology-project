@@ -10,7 +10,9 @@ This page contains links to all the research that we've done since starting the 
 
 One of our research goals is to carve up the global problem space in to important sub-problems that are amenable to technological solutions. For that reason, some of the first material that we are producing is shallow reviews of promising problem areas.
 
-- [Digital financial services for the poor](/blog/2016/01/04/digital-financial-services-for-the-poor-shallow-overview).
+- [Digital financial services for the poor](/problems/financial_services_for_the_poor)
+- [Biosurveillance](/problems/biosurveillance)
+- [Diagnostics for the developing world](/problems/diagnostics_for_the_developing_world)
 
 ## Interviews
 
