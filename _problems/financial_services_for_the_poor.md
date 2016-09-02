@@ -6,6 +6,7 @@ description: The poorest people in the world mainly use cash. This is costly for
 skills: [Mobile development, Financial systems expertise, UX design]
 image: /assets/images/m-pesa_kiosk.jpg
 image_source: https://commons.wikimedia.org/wiki/File:M-Pesa_Kenyan_Kiosk.JPG
+comments: true
 ---
 
 ## In a nutshell

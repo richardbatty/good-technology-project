@@ -6,6 +6,7 @@ description: Climate change could cause widespread damage to future generations.
 skills: [Data science, Networking technology, Mechanical engineering, Electrical engineering]
 image: /assets/images/power_lines.jpg
 image_source: https://commons.wikimedia.org/wiki/File:Power_cables_of_National_Power_Grid_in_Brahmanbaria.jpg
+comments: true
 ---
 
 ### Projects to address this

@@ -6,6 +6,7 @@ description: Diagnostics are important for successful treatment, but are often u
 skills: [Biotechnology, Electrical engineering, Embedded software]
 image: /assets/images/malaria_rapid_diagnostic_test.jpg
 image_source: https://commons.wikimedia.org/wiki/File:Malaria_rapid_diagnostic_test_3.jpg
+comments: true
 ---
 
 ## The problem

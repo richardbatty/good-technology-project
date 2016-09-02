@@ -10,6 +10,11 @@ layout: default
     <article class="post-content">
       {{ content | abbr }}
     </article>
+    <footer>
+      {% if site.disqus_username and page.comments %}
+      {% include disqus.html %}
+      {% endif %}
+    </footer>
   </div>
 
 

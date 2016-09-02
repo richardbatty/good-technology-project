@@ -6,6 +6,7 @@ description: Identifying disease outbreaks quickly can vastly reduce the harm th
 skills: [Data science, Data visualisation, Web development, Public health, Epidemiology]
 image: /assets/images/snow_cholera_map.jpg
 image_source: https://commons.wikimedia.org/wiki/File:Snow-cholera-map.jpg
+comments: true
 ---
 
 ## The problem
