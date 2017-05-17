@@ -6,39 +6,28 @@ layout: default
 <div class="home">
 
   <div class="title-block">
-    <h1>Build a tech startup that solves important problems</h1>
+    <h1>Solving important problems through technology entrepreneurship</h1>
 
     <p>
-      We provide research-backed advice to early-stage tech entrepreneurs on how to find a startup idea that does as much good as possible.
+      We're a research project and consultancy focussed on social impact in technology and entrepreneurship. We offer:
+      <ul>
+          <li>Help finding important problems to work on</li>
+          <li>Impact strategy and measurement</li>
+          <li>Evaluation of ideas, companies, and founders</li>
+          <li>Connections to experts and other resources</li>
+          <li>Career strategy</li>
+      </ul>
+    </p>
+    <p>
+      We're particularly interested in working with entrepreneurs who are looking for important problems to work on, and
+      entrepreneurship institutions, such as accelerators, who are aiming to have as much impact as possible.
     </p>
   </div>
 
-  <div class="problem-list-container">
-    <h1>Important problems to work on</h2>
-    <p>Our initial research suggests these problems are promising. However, this is an early draft so we can't yet explicitly recommend working in one of these areas.<p>
-
-    {% for problem in site.problems %}
-      <article class="problem-box grid">
-        <div class="col-1-3">
-          <img class="problem-box-image" src="{{problem.image}}" />
-          <a class="image-source" href="{{problem.image_source}}">Image source</a>
-        </div>
-        <div class="col-2-3">
-          <h1 class="problem-box-header">{{problem.title}}</h1>
-          <p>{{problem.description}}</p>
-          <ul class="problem-box-skill-list">
-            {% for skill in problem.skills %}
-              <li class="problem-box-skill">{{skill}}</li>
-            {% endfor %}
-          </ul>
-          <a href="{{problem.url}}" class="problem-box-read-more-link">Read more</a>
-        </div>
-
-        <div class="problem-box-extra-info hidden">
-          {{problem}}
-        </div>
-      </article>
-    {% endfor %}
-    </article>
   <div>
+      <h2>Contact</h2>
+      <p>
+          Get in touch via <a href="mailto:richard@goodtechnologyproject.org">richard@goodtechnologyproject.org</a> if you're interested.
+      </p>
+  </div>
 </div>
